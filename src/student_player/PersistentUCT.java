@@ -15,7 +15,7 @@ import pentago_swap.PentagoMove;
  * @author Le Nhat Hung
  *
  */
-public class PersistentUct {
+public class PersistentUCT {
 	
 	public static final int
 		REWARD = 100,
@@ -26,7 +26,7 @@ public class PersistentUct {
 	private MCTS mcts;
 	private int numSims;
 	
-	public PersistentUct (PentagoBoardState state, int playerTurn, int numSims) {
+	public PersistentUCT (PentagoBoardState state, int playerTurn, int numSims) {
 		mcts = new MCTS(new Node(state));
 		this.playerTurn = playerTurn;
 		this.numSims = numSims;
@@ -215,10 +215,10 @@ public class PersistentUct {
 		}
 		
 		public void updateQsa (int winner) {
-			if (winner == PersistentUct.playerTurn)
-				moveValue += (PersistentUct.REWARD  - qsa()) / nsa();
+			if (winner == PersistentUCT.playerTurn)
+				moveValue += (PersistentUCT.REWARD  - qsa()) / nsa();
 			else
-				moveValue += (PersistentUct.PENALTY - qsa()) / nsa();
+				moveValue += (PersistentUCT.PENALTY - qsa()) / nsa();
 		}
 		
 		public double qsa () { return moveValue; }

@@ -11,7 +11,7 @@ public class StudentPlayer extends PentagoPlayer {
 	private static String
 		studentNumber = "260793376";
 	
-	private PersistentUct alphaPentago;
+	private PersistentUCT alphaPentago;
 	private final int NUM_SIMS = 5000;
 	
     /**
@@ -36,7 +36,7 @@ public class StudentPlayer extends PentagoPlayer {
     	Move myMove;
     	
     	if (alphaPentago == null) {
-    		alphaPentago = new PersistentUct(
+    		alphaPentago = new PersistentUCT(
         			boardState,
         			boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
         			NUM_SIMS
