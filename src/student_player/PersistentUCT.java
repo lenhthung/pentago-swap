@@ -1,4 +1,4 @@
-// File name: AlphaPentago
+// File name: PersistentUCT
 
 package student_player;
 
