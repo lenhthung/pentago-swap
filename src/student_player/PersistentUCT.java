@@ -72,8 +72,8 @@ public class PersistentUCT {
 				}
 			}
 			
-			//for (int i = 0; i < numSims; i++) {
-			while (System.currentTimeMillis() < timeLimit) {
+			for (int i = 0; i < numSims; i++) {
+			//while (System.currentTimeMillis() < timeLimit) {
 				node = treePolicy();
 				winner = node.rollout();
 				node.backpropagate(winner);

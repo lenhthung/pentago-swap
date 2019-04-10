@@ -12,7 +12,7 @@ public class StudentPlayer2 extends PentagoPlayer {
 		studentNumber = "persistent";
 	
 	private PersistentUCT ai;
-	private final int NUM_SIMS = 5000;
+	private final int NUM_SIMS = 10000;
 	
     /**
      * You must modify this constructor to return your student number. This is
@@ -33,15 +33,25 @@ public class StudentPlayer2 extends PentagoPlayer {
         // For example, maybe you'll need to load some pre-processed best opening
         // strategies...
  
-    	if (ai == null)
+    	Move myMove;
+    	
+    	if (ai == null) {
     		ai = new PersistentUCT(
-    			boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
-    			NUM_SIMS
-    		); 
-		
-    	Move myMove = ai.chooseMove(boardState);
-		
-        // Return your move to be processed by the server.
+        			boardState,
+        			boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
+        			NUM_SIMS
+        	);
+    		myMove = ai.chooseMove(boardState, 25000);
+    	
+    	} else {
+    		//Utils.print("cur board state");
+    		//boardState.printBoard();
+    		
+            //Move myMove = boardState.getRandomMove();
+    		myMove = ai.chooseMove(boardState, 1700);
+    	}
+    	
+    	// Return your move to be processed by the server.
         return myMove;
     }
 }
