@@ -11,7 +11,7 @@ public class StudentPlayer extends PentagoPlayer {
 	private static String
 		studentNumber = "260793376";
 	
-	private AlphaPentago alphaPentago;
+	private PersistentUct alphaPentago;
 	private final int NUM_SIMS = 5000;
 	
     /**
@@ -33,20 +33,25 @@ public class StudentPlayer extends PentagoPlayer {
         // For example, maybe you'll need to load some pre-processed best opening
         // strategies...
  
-    	if (alphaPentago == null)
-    		alphaPentago = new AlphaPentago(
-    			boardState,
-    			boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
-    			NUM_SIMS
-    		); 
+    	Move myMove;
     	
-    	//Utils.print("cur board state");
-		//boardState.printBoard();
-		
-        //Move myMove = boardState.getRandomMove();
-		Move myMove = alphaPentago.chooseMove(boardState);
-		
-        // Return your move to be processed by the server.
+    	if (alphaPentago == null) {
+    		alphaPentago = new PersistentUct(
+        			boardState,
+        			boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
+        			NUM_SIMS
+        	);
+    		myMove = alphaPentago.chooseMove(boardState, 25000);
+    	
+    	} else {
+    		//Utils.print("cur board state");
+    		//boardState.printBoard();
+    		
+            //Move myMove = boardState.getRandomMove();
+    		myMove = alphaPentago.chooseMove(boardState, 1700);
+    	}
+    	
+    	// Return your move to be processed by the server.
         return myMove;
     }
 }

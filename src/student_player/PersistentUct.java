@@ -15,7 +15,7 @@ import pentago_swap.PentagoMove;
  * @author Le Nhat Hung
  *
  */
-public class AlphaPentago {
+public class PersistentUct {
 	
 	public static final int
 		REWARD = 100,
@@ -26,14 +26,14 @@ public class AlphaPentago {
 	private MCTS mcts;
 	private int numSims;
 	
-	public AlphaPentago (PentagoBoardState state, int playerTurn, int numSims) {
+	public PersistentUct (PentagoBoardState state, int playerTurn, int numSims) {
 		mcts = new MCTS(new Node(state));
 		this.playerTurn = playerTurn;
 		this.numSims = numSims;
 	}
 	
-	public PentagoMove chooseMove (PentagoBoardState state) {
-		return mcts.chooseMove(state, numSims);
+	public PentagoMove chooseMove (PentagoBoardState state, long simTime) {
+		return mcts.chooseMove(state, numSims, simTime);
 	}
 	
 	/**
@@ -48,17 +48,19 @@ public class AlphaPentago {
 		
 		public MCTS (Node root) { this.root = root; }
 		
-		public PentagoMove chooseMove (PentagoBoardState state, int numSims) {
+		public PentagoMove chooseMove (PentagoBoardState state, int numSims, long simTime) {
 			Node node, bestChild;
 			int winner;
+			long startTime = System.nanoTime();
+			long timeLimit = System.currentTimeMillis() + simTime;
 			
-			if (! root.children.isEmpty()) {
+			if ( root.hasChildren() ) {
 				boolean stateFound = false;
 				
 				Utils.print("root children not empty");
 				for (Node c : root.children) {
 					if (Utils.areSameState(c.state, state)) {
-						root = c;
+						setRoot(c);
 						stateFound = true;
 						Utils.print("Same state found!");
 						break;
@@ -70,7 +72,8 @@ public class AlphaPentago {
 				}
 			}
 			
-			for (int i = 0; i < numSims; i++) {
+			//for (int i = 0; i < numSims; i++) {
+			while (System.currentTimeMillis() < timeLimit) {
 				node = treePolicy();
 				winner = node.rollout();
 				node.backpropagate(winner);
@@ -78,6 +81,13 @@ public class AlphaPentago {
 			
 			bestChild = root.bestChild(.0);
 			setRoot(bestChild);
+			
+			long endTime = System.nanoTime();
+			long timeElapsed = endTime - startTime;
+			
+			Utils.print("Elapsed time (ms):");
+			Utils.print(timeElapsed / 1000000);
+			
 			return bestChild.a();
 		}
 		
@@ -205,10 +215,10 @@ public class AlphaPentago {
 		}
 		
 		public void updateQsa (int winner) {
-			if (winner == AlphaPentago.playerTurn)
-				moveValue += (AlphaPentago.REWARD  - qsa()) / nsa();
+			if (winner == PersistentUct.playerTurn)
+				moveValue += (PersistentUct.REWARD  - qsa()) / nsa();
 			else
-				moveValue += (AlphaPentago.PENALTY - qsa()) / nsa();
+				moveValue += (PersistentUct.PENALTY - qsa()) / nsa();
 		}
 		
 		public double qsa () { return moveValue; }
@@ -226,5 +236,9 @@ public class AlphaPentago {
 		public boolean hasParent () { return parent != null; }
 		
 		public void addChild (Node child) { children.add(child); }
+		
+		public boolean hasChildren () {
+			return !( children.isEmpty() || children == null );
+		}
 	}
 }
