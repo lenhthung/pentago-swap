@@ -23,14 +23,14 @@ public class AlphaPentago {
 	private MCTS mcts;
 	private int numSims;
 	
-	public AlphaPentago (PentagoBoardState state, int playerTurn, int numSims) {
-		//mcts = new MCTS(new Node(state));
+	public AlphaPentago (int playerTurn, int numSims) {
 		this.playerTurn = playerTurn;
 		this.numSims = numSims;
 	}
 	
 	public PentagoMove chooseMove (PentagoBoardState state) {
 		mcts = new MCTS(new Node(state));
+		
 		return mcts.chooseMove(state, numSims);
 	}
 	
@@ -49,44 +49,27 @@ public class AlphaPentago {
 		}
 		
 		public PentagoMove chooseMove (PentagoBoardState state, int numSims) {
-			Node node, bestChild;
+			Node node;
 			int winner;
 			
 			for (int i = 0; i < numSims; i++) {
 				node = treePolicy();
 				winner = node.rollout();
-				Utils.print("simulated");
 				node.backpropagate(winner);
-				Utils.print("root qsa:");
-				Utils.print(root.qsa()); // maybe check qsa() in backpropagate() too
-				Utils.print(i);
 			}
 			
-			//setRoot(node);
-			//return node.a();
-			bestChild = root.bestChild(.0);
-			//setRoot(bestChild);
-			return bestChild.a();
+			return root.bestChild(.0).a();
 		}
 		
 		public Node treePolicy () {
-			Node curNode = root; // maybe get rid of curNode and use just root
-			Node bestChild;
+			Node curNode = root;
 			
 			while (! curNode.isTerminalNode()) {
-				if (! curNode.isFullyExpanded()) {
+				if (! curNode.isFullyExpanded())
 					return curNode.expand();
 				
-				} else {
-					Utils.print("node fully expanded, choosing best child");
-					bestChild = curNode.bestChild(1.4);
-					
-					Utils.print(curNode.children.contains(bestChild));
-					Utils.print(bestChild.isTerminalNode());
-					Utils.print(bestChild.isFullyExpanded());
-					
-					curNode = bestChild;
-				}
+				else
+					curNode = curNode.bestChild(1.4);
 			}
 			return curNode;
 		}
@@ -112,9 +95,7 @@ public class AlphaPentago {
 		
 		ArrayList<PentagoMove> untriedMoves;
 		
-		double
-			prior, // Psa
-			moveValue; // Qsa
+		double moveValue; // Qsa
 		
 		int visitCount; // Nsa
 		
@@ -125,45 +106,39 @@ public class AlphaPentago {
 		}
 
 		public Node (Node parent, PentagoBoardState state, PentagoMove move) {
-			this.parent = parent;
 			this.children = new ArrayList<Node>();
+			this.parent = parent;
+			
 			this.state = state;
 			this.move = move;
 			this.visitCount = 0;
 		}
 		
 		public Node expand () {
-			Utils.print("num untried moves");
-			Utils.print(untriedMoves().size());
 			PentagoMove move = untriedMoves().remove(0);
-			PentagoBoardState curStateClone = (PentagoBoardState) state.clone();
+			PentagoBoardState curStateClone = s();
 			
 			curStateClone.processMove(move);
-			curStateClone.printBoard();
 			
 			Node childNode = new Node(
 				this, // Parent node
 				curStateClone, // State
 				move // Move/action
 			);
-			children.add(childNode);
 			
+			children.add(childNode);
 			return childNode;
 		}
 		
 		public int rollout () {
-			PentagoBoardState curRolloutState = (PentagoBoardState) state.clone();
-			//PentagoBoardState curRolloutState = state;
-			//ArrayList<PentagoMove> legalMoves;
+			PentagoBoardState curRolloutState = s();
 			PentagoMove move;
 			
-			//Utils.print("called rollout");
-			
-			while (! curRolloutState.gameOver() ) {
-				//legalMoves = curRolloutState.getAllLegalMoves();
+			while (! curRolloutState.gameOver()) {
 				move = rolloutPolicy(curRolloutState);
 				curRolloutState.processMove(move);
 			}
+			
 			return curRolloutState.getWinner();
 		}
 		
@@ -230,6 +205,10 @@ public class AlphaPentago {
 		
 		public double qsa () {
 			return moveValue;
+		}
+		
+		public PentagoBoardState s () {
+			return (PentagoBoardState) state.clone();
 		}
 		
 		public PentagoMove a () {
