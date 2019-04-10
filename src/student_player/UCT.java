@@ -32,11 +32,11 @@ public class UCT {
 		this.numSims = numSims;
 	}
 	
-	public PentagoMove chooseMove (PentagoBoardState state) {
+	public PentagoMove chooseMove (PentagoBoardState state, long simTime) {
 		
 		mcts = new MCTS(new Node(state));
 		
-		return mcts.chooseMove(state, numSims);
+		return mcts.chooseMove(state, numSims, simTime);
 	}
 	
 	/**
@@ -51,15 +51,24 @@ public class UCT {
 		
 		public MCTS (Node root) { this.root = root; }
 		
-		public PentagoMove chooseMove (PentagoBoardState state, int numSims) {
+		public PentagoMove chooseMove (PentagoBoardState state, int numSims, long simTime) {
 			Node node;
 			int winner;
-			
-			for (int i = 0; i < numSims; i++) {
+			long startTime = System.nanoTime();
+			long timeLimit = System.currentTimeMillis() + simTime;
+
+			//for (int i = 0; i < numSims; i++) {
+			while (System.currentTimeMillis() < timeLimit) {
 				node = treePolicy();
 				winner = node.rollout();
 				node.backpropagate(winner);
 			}
+			
+			long endTime = System.nanoTime();
+			long timeElapsed = endTime - startTime;
+			
+			Utils.print("Elapsed time (ms):");
+			Utils.print(timeElapsed / 1000000);
 			
 			return root.bestChild(.0).a();
 		}

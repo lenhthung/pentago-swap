@@ -37,9 +37,9 @@ public class StudentPlayer2 extends PentagoPlayer {
     	
     	if (ai == null) {
     		ai = new PersistentUCT(
-        			boardState,
-        			boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
-        			NUM_SIMS
+        		boardState,
+        		boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
+        		NUM_SIMS
         	);
     		myMove = ai.chooseMove(boardState, 25000);
     	
