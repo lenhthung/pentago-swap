@@ -11,6 +11,8 @@ import java.util.Random;
 
 import java.util.Scanner;
 
+import student_player.Utils;
+
 /**
  *
  * Note: First player white, second player black!!
@@ -178,6 +180,15 @@ public class PentagoBoardState extends BoardState {
         PentagoCoord c = m.getMoveCoord();
         if (c.getX() >= BOARD_SIZE || c.getX() < 0 || c.getY() < 0 || c.getY() >= BOARD_SIZE) { return false; }
         if (turnPlayer != m.getPlayerID() || m.getPlayerID() == ILLEGAL) { return false; } //Check right player
+        
+        if (board[c.getX()][c.getY()] != Piece.EMPTY) {
+        	Utils.print("illegal move");
+        	if (board[c.getX()][c.getY()] == Piece.WHITE)
+        		Utils.print("piece white");
+        	else if (board[c.getX()][c.getY()] == Piece.BLACK)
+        		Utils.print("piece black");
+        }
+        	
         return board[c.getX()][c.getY()] == Piece.EMPTY;
     }
 

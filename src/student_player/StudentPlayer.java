@@ -10,7 +10,10 @@ public class StudentPlayer extends PentagoPlayer {
 
 	private static String
 		studentNumber = "260793376";
-
+	
+	private AlphaPentago alphaPentago;
+	private final int NUM_SIMS = 1000;
+	
     /**
      * You must modify this constructor to return your student number. This is
      * important, because this is what the code that runs the competition uses to
@@ -29,18 +32,21 @@ public class StudentPlayer extends PentagoPlayer {
         // You probably will make separate functions in MyTools.
         // For example, maybe you'll need to load some pre-processed best opening
         // strategies...
-        //MyTools.getSomething();
-
+ 
+    	if (alphaPentago == null)
+    		alphaPentago = new AlphaPentago(
+    			boardState,
+    			boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
+    			NUM_SIMS
+    		); 
+    	
+    	Utils.print("cur board state");
+		boardState.printBoard();
+		
         //Move myMove = boardState.getRandomMove();
-		Move myMove = alphaPentago(boardState);
-
+		Move myMove = alphaPentago.chooseMove(boardState);
+		
         // Return your move to be processed by the server.
         return myMove;
     }
-
-	public Move alphaPentago (PentagoBoardState boardState) {
-		return boardState.getRandomMove(); // delete later
-
-		// interface w python here
-	}
 }

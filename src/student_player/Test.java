@@ -7,6 +7,7 @@ public class Test {
 		Node child = new Node(parent);
 		print(parent);
 		print(child.getParent());
+		print((float)1/2);
 	}
 
 	public static void print (Object o) {

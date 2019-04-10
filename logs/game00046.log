@@ -1,0 +1,17 @@
+# Server version 0.08 running on XPS15:8123
+# Game ID: 46
+# Board class: pentago_swap.PentagoBoard
+# Timeout: 300000
+# First Move Timeout: 30000
+# Date: Wed Apr 10 04:16:25 ICT 2019
+# Player 1: Player-0, 'RandomPlayer', running on localhost
+# Player 2: Player-1, '260793376', running on localhost
+START Player-0 RandomPlayer
+START Player-1 260793376
+5 2 TR BR 0
+4 2 TR BL 1
+0 3 TL TR 0
+4 4 TR BL 1
+4 0 BL BR 0
+GAMEOVER ILLEGAL MOVE: Player 1, Move: (4, 3), Swap: (TR, BL) WINNER 0
+# Game ended: Wed Apr 10 04:16:26 ICT 2019
