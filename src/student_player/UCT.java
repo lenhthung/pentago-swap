@@ -15,7 +15,7 @@ import pentago_swap.PentagoMove;
  * @author Le Nhat Hung
  *
  */
-public class AlphaPentago {
+public class UCT {
 	
 	public static final int 
 		REWARD = 100,
@@ -26,7 +26,7 @@ public class AlphaPentago {
 	private MCTS mcts;
 	private int numSims;
 	
-	public AlphaPentago (int playerTurn, int numSims) {
+	public UCT (int playerTurn, int numSims) {
 		
 		this.playerTurn = playerTurn;
 		this.numSims = numSims;
@@ -190,11 +190,11 @@ public class AlphaPentago {
 		}
 		
 		public void updateQsa (int winner) {
-			if (winner == AlphaPentago.playerTurn)
-				moveValue += (AlphaPentago.REWARD  - qsa()) / nsa();
+			if (winner == UCT.playerTurn)
+				moveValue += (UCT.REWARD  - qsa()) / nsa();
 			
 			else
-				moveValue += (AlphaPentago.PENALTY - qsa()) / nsa();
+				moveValue += (UCT.PENALTY - qsa()) / nsa();
 		}
 		
 		public double qsa () { return moveValue; }

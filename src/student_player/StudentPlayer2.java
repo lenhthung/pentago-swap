@@ -6,12 +6,12 @@ import pentago_swap.PentagoPlayer;
 import pentago_swap.PentagoBoardState;
 
 /** A player file submitted by a student. */
-public class StudentPlayer extends PentagoPlayer {
+public class StudentPlayer2 extends PentagoPlayer {
 
 	private static String
-		studentNumber = "260793376";
+		studentNumber = "persistent";
 	
-	private UCT ai;
+	private PersistentUCT ai;
 	private final int NUM_SIMS = 5000;
 	
     /**
@@ -19,7 +19,7 @@ public class StudentPlayer extends PentagoPlayer {
      * important, because this is what the code that runs the competition uses to
      * associate you with your agent. The constructor should do nothing else.
      */
-    public StudentPlayer() {
+    public StudentPlayer2() {
         super(studentNumber);
     }
 
@@ -34,7 +34,7 @@ public class StudentPlayer extends PentagoPlayer {
         // strategies...
  
     	if (ai == null)
-    		ai = new UCT(
+    		ai = new PersistentUCT(
     			boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
     			NUM_SIMS
     		); 
