@@ -149,3 +149,8 @@
 154,260793376,persistent,0,260793376,6,game00154.log,
 155,persistent,260793376,0,persistent,8,game00155.log,
 156,260793376,persistent,0,260793376,6,game00156.log,
+158,260793376,persistent,1,persistent,7,game00158.log,
+159,persistent,260793376,0,persistent,6,game00159.log,
+160,260793376,persistent,0,260793376,7,game00160.log,
+161,persistent,260793376,0,persistent,5,game00161.log,
+162,260793376,persistent,1,persistent,6,game00162.log,
