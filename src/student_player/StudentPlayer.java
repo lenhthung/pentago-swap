@@ -12,7 +12,7 @@ public class StudentPlayer extends PentagoPlayer {
 		studentNumber = "260793376";
 	
 	private AlphaPentago alphaPentago;
-	private final int NUM_SIMS = 1000;
+	private final int NUM_SIMS = 1600;
 	
     /**
      * You must modify this constructor to return your student number. This is
