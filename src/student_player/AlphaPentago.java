@@ -17,18 +17,23 @@ import pentago_swap.PentagoMove;
  */
 public class AlphaPentago {
 	
-	public static final int WIN_REWARD = 100;
+	public static final int 
+		REWARD = 100,
+		PENALTY = -100;
+	
 	private static int playerTurn;
 	
 	private MCTS mcts;
 	private int numSims;
 	
 	public AlphaPentago (int playerTurn, int numSims) {
+		
 		this.playerTurn = playerTurn;
 		this.numSims = numSims;
 	}
 	
 	public PentagoMove chooseMove (PentagoBoardState state) {
+		
 		mcts = new MCTS(new Node(state));
 		
 		return mcts.chooseMove(state, numSims);
@@ -44,9 +49,7 @@ public class AlphaPentago {
 		
 		private Node root;
 		
-		public MCTS (Node root) {
-			this.root = root;
-		}
+		public MCTS (Node root) { this.root = root; }
 		
 		public PentagoMove chooseMove (PentagoBoardState state, int numSims) {
 			Node node;
@@ -74,9 +77,7 @@ public class AlphaPentago {
 			return curNode;
 		}
 		
-		public void setRoot (Node node) {
-			root = node;
-		}
+		public void setRoot (Node node) { root = node; }
 	}
 	
 	/**
@@ -105,10 +106,8 @@ public class AlphaPentago {
 			this.visitCount = 0;
 		}
 
-		public Node (Node parent, PentagoBoardState state, PentagoMove move) {
+		public Node (PentagoBoardState state, PentagoMove move) {
 			this.children = new ArrayList<Node>();
-			this.parent = parent;
-			
 			this.state = state;
 			this.move = move;
 			this.visitCount = 0;
@@ -117,17 +116,18 @@ public class AlphaPentago {
 		public Node expand () {
 			PentagoMove move = untriedMoves().remove(0);
 			PentagoBoardState curStateClone = s();
+			Node child;
 			
 			curStateClone.processMove(move);
 			
-			Node childNode = new Node(
-				this, // Parent node
+			child = new Node(
 				curStateClone, // State
-				move // Move/action
+				move // Move
 			);
+			child.setParent(this);
+			addChild(child);
 			
-			children.add(childNode);
-			return childNode;
+			return child;
 		}
 		
 		public int rollout () {
@@ -148,16 +148,16 @@ public class AlphaPentago {
 		
 		public void backpropagate (int winner) {
 			updateNsa();
-			updateQsa(winner, AlphaPentago.WIN_REWARD);
+			updateQsa(winner);
 			
-			if (parent != null)
-				((Node) parent).backpropagate(winner);
+			if ( hasParent() )
+				parent.backpropagate(winner);
 		}
 		
 		public Node bestChild(double cParam) {
 			double[] ucts = getUcts(this, cParam);
 			
-			return (Node) children.get(Utils.argmax(ucts));
+			return children.get(Utils.argmax(ucts));
 		}
 		
 		public double[] getUcts(Node curNode, double cParam) {
@@ -166,7 +166,8 @@ public class AlphaPentago {
 			Node child;
 			
 			for (int i = 0; i < numChildren; i++) {
-				child = (Node) curNode.children.get(i);
+				child = curNode.children.get(i);
+				
 				ucts[i] = child.qsa() / child.nsa()
 						+ cParam * Math.sqrt( curNode.nsa() / (child.nsa() + 1) );
 			}
@@ -188,31 +189,28 @@ public class AlphaPentago {
 			return untriedMoves;
 		}
 		
-		public void updateQsa (int winner, int reward) {
+		public void updateQsa (int winner) {
 			if (winner == AlphaPentago.playerTurn)
-				moveValue += ( reward - qsa()) / nsa();
+				moveValue += (AlphaPentago.REWARD  - qsa()) / nsa();
+			
 			else
-				moveValue += (-reward - qsa()) / nsa();
+				moveValue += (AlphaPentago.PENALTY - qsa()) / nsa();
 		}
 		
-		public void updateNsa () {
-			visitCount++;
-		}
+		public double qsa () { return moveValue; }
 		
-		public int nsa () {
-			return visitCount;
-		}
+		public void updateNsa () { visitCount++; }
 		
-		public double qsa () {
-			return moveValue;
-		}
+		public int nsa () { return visitCount; }
 		
-		public PentagoBoardState s () {
-			return (PentagoBoardState) state.clone();
-		}
+		public PentagoBoardState s () { return (PentagoBoardState) state.clone(); }
 		
-		public PentagoMove a () {
-			return move;
-		}
+		public PentagoMove a () { return move; }
+		
+		public void setParent (Node parent) { this.parent = parent; }
+		
+		public void addChild (Node child) { children.add(child); }
+		
+		public boolean hasParent () { return parent != null; }
 	}
 }
