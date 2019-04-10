@@ -12,7 +12,7 @@ public class StudentPlayer extends PentagoPlayer {
 		studentNumber = "260793376";
 	
 	private AlphaPentago alphaPentago;
-	private final int NUM_SIMS = 1000;
+	private final int NUM_SIMS = 5000;
 	
     /**
      * You must modify this constructor to return your student number. This is
@@ -40,8 +40,8 @@ public class StudentPlayer extends PentagoPlayer {
     			NUM_SIMS
     		); 
     	
-    	Utils.print("cur board state");
-		boardState.printBoard();
+    	//Utils.print("cur board state");
+		//boardState.printBoard();
 		
         //Move myMove = boardState.getRandomMove();
 		Move myMove = alphaPentago.chooseMove(boardState);
