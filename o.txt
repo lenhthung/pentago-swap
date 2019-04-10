@@ -19159,6 +19159,8 @@ cur board state
 |   |   |   ||   |   |   |
 --------------------------
 
+root children not empty
+Same state found!
 num untried moves
 204
 --------------------------
@@ -19189,7 +19191,7 @@ num untried moves
 
 simulated
 root qsa:
-0.0
+33.33333333333333
 1
 num untried moves
 202
@@ -19205,7 +19207,7 @@ num untried moves
 
 simulated
 root qsa:
--33.333333333333336
+0.0
 2
 num untried moves
 201
@@ -19221,7 +19223,7 @@ num untried moves
 
 simulated
 root qsa:
--50.0
+-20.0
 3
 num untried moves
 200
@@ -19237,7 +19239,7 @@ num untried moves
 
 simulated
 root qsa:
--60.0
+-33.333333333333336
 4
 num untried moves
 199
@@ -19253,7 +19255,7 @@ num untried moves
 
 simulated
 root qsa:
--66.66666666666667
+-42.85714285714286
 5
 num untried moves
 198
@@ -19269,7 +19271,7 @@ num untried moves
 
 simulated
 root qsa:
--42.85714285714286
+-25.000000000000004
 6
 num untried moves
 197
@@ -19285,7 +19287,7 @@ num untried moves
 
 simulated
 root qsa:
--50.0
+-33.333333333333336
 7
 num untried moves
 196
@@ -19301,7 +19303,7 @@ num untried moves
 
 simulated
 root qsa:
--55.55555555555556
+-40.0
 8
 num untried moves
 195
@@ -19317,7 +19319,7 @@ num untried moves
 
 simulated
 root qsa:
--60.0
+-45.45454545454545
 9
 num untried moves
 194
@@ -19333,7 +19335,7 @@ num untried moves
 
 simulated
 root qsa:
--45.45454545454545
+-33.333333333333336
 10
 num untried moves
 193
@@ -19349,7 +19351,7 @@ num untried moves
 
 simulated
 root qsa:
--33.333333333333336
+-23.07692307692308
 11
 num untried moves
 192
@@ -19365,7 +19367,7 @@ num untried moves
 
 simulated
 root qsa:
--23.07692307692308
+-14.285714285714288
 12
 num untried moves
 191
@@ -19381,7 +19383,7 @@ num untried moves
 
 simulated
 root qsa:
--28.571428571428577
+-20.0
 13
 num untried moves
 190
@@ -19397,7 +19399,7 @@ num untried moves
 
 simulated
 root qsa:
--33.333333333333336
+-25.0
 14
 num untried moves
 189
@@ -19413,7 +19415,7 @@ num untried moves
 
 simulated
 root qsa:
--37.5
+-29.411764705882355
 15
 num untried moves
 188
@@ -19429,7 +19431,7 @@ num untried moves
 
 simulated
 root qsa:
--41.1764705882353
+-33.333333333333336
 16
 num untried moves
 187
@@ -19445,7 +19447,7 @@ num untried moves
 
 simulated
 root qsa:
--33.333333333333336
+-26.315789473684212
 17
 num untried moves
 186
@@ -19461,7 +19463,7 @@ num untried moves
 
 simulated
 root qsa:
--26.315789473684212
+-20.0
 18
 num untried moves
 185
@@ -19477,7 +19479,7 @@ num untried moves
 
 simulated
 root qsa:
--30.0
+-23.80952380952381
 19
 num untried moves
 184
@@ -19493,7 +19495,7 @@ num untried moves
 
 simulated
 root qsa:
--33.333333333333336
+-27.272727272727273
 20
 num untried moves
 183
@@ -19509,7 +19511,7 @@ num untried moves
 
 simulated
 root qsa:
--36.36363636363637
+-30.434782608695652
 21
 num untried moves
 182
@@ -19525,7 +19527,7 @@ num untried moves
 
 simulated
 root qsa:
--39.1304347826087
+-33.333333333333336
 22
 num untried moves
 181
@@ -19541,7 +19543,7 @@ num untried moves
 
 simulated
 root qsa:
--41.66666666666667
+-36.0
 23
 num untried moves
 180
@@ -19557,7 +19559,7 @@ num untried moves
 
 simulated
 root qsa:
--36.0
+-30.76923076923077
 24
 num untried moves
 179
@@ -19573,7 +19575,7 @@ num untried moves
 
 simulated
 root qsa:
--30.76923076923077
+-25.925925925925927
 25
 num untried moves
 178
@@ -19589,26 +19591,10 @@ num untried moves
 
 simulated
 root qsa:
--25.925925925925927
+-21.42857142857143
 26
 num untried moves
 177
---------------------------
-|   | b | w ||   |   |   |
-| w |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--21.42857142857143
-27
-num untried moves
-176
 --------------------------
 |   | b | w ||   |   |   |
 | w |   |   ||   |   |   |
@@ -19622,6 +19608,22 @@ num untried moves
 simulated
 root qsa:
 -17.24137931034483
+27
+num untried moves
+176
+--------------------------
+|   | b | w ||   |   |   |
+| w |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-13.333333333333336
 28
 num untried moves
 175
@@ -19637,7 +19639,7 @@ num untried moves
 
 simulated
 root qsa:
--13.333333333333336
+-9.677419354838712
 29
 num untried moves
 174
@@ -19653,7 +19655,7 @@ num untried moves
 
 simulated
 root qsa:
--9.677419354838712
+-6.250000000000002
 30
 num untried moves
 173
@@ -19669,7 +19671,7 @@ num untried moves
 
 simulated
 root qsa:
--6.250000000000002
+-3.030303030303032
 31
 num untried moves
 172
@@ -19685,7 +19687,7 @@ num untried moves
 
 simulated
 root qsa:
--3.030303030303032
+-1.7763568394002505E-15
 32
 num untried moves
 171
@@ -19701,7 +19703,7 @@ num untried moves
 
 simulated
 root qsa:
--1.7763568394002505E-15
+2.8571428571428554
 33
 num untried moves
 170
@@ -19717,7 +19719,7 @@ num untried moves
 
 simulated
 root qsa:
-2.8571428571428554
+5.555555555555554
 34
 num untried moves
 169
@@ -19733,7 +19735,7 @@ num untried moves
 
 simulated
 root qsa:
-5.555555555555554
+8.108108108108105
 35
 num untried moves
 168
@@ -19749,7 +19751,7 @@ num untried moves
 
 simulated
 root qsa:
-8.108108108108105
+10.526315789473681
 36
 num untried moves
 167
@@ -19765,7 +19767,7 @@ num untried moves
 
 simulated
 root qsa:
-10.526315789473681
+12.820512820512818
 37
 num untried moves
 166
@@ -19781,7 +19783,7 @@ num untried moves
 
 simulated
 root qsa:
-7.69230769230769
+9.999999999999996
 38
 num untried moves
 165
@@ -19797,7 +19799,7 @@ num untried moves
 
 simulated
 root qsa:
-9.999999999999996
+12.195121951219509
 39
 num untried moves
 164
@@ -19813,7 +19815,7 @@ num untried moves
 
 simulated
 root qsa:
-12.195121951219509
+14.285714285714283
 40
 num untried moves
 163
@@ -19829,7 +19831,7 @@ num untried moves
 
 simulated
 root qsa:
-14.285714285714283
+16.279069767441857
 41
 num untried moves
 162
@@ -19845,7 +19847,7 @@ num untried moves
 
 simulated
 root qsa:
-11.627906976744184
+13.636363636363633
 42
 num untried moves
 161
@@ -19861,7 +19863,7 @@ num untried moves
 
 simulated
 root qsa:
-13.636363636363633
+15.555555555555552
 43
 num untried moves
 160
@@ -19877,7 +19879,7 @@ num untried moves
 
 simulated
 root qsa:
-15.555555555555552
+17.391304347826082
 44
 num untried moves
 159
@@ -19893,7 +19895,7 @@ num untried moves
 
 simulated
 root qsa:
-17.391304347826082
+19.14893617021276
 45
 num untried moves
 158
@@ -19909,7 +19911,7 @@ num untried moves
 
 simulated
 root qsa:
-19.14893617021276
+20.83333333333333
 46
 num untried moves
 157
@@ -19925,7 +19927,7 @@ num untried moves
 
 simulated
 root qsa:
-16.66666666666666
+18.367346938775505
 47
 num untried moves
 156
@@ -19941,7 +19943,7 @@ num untried moves
 
 simulated
 root qsa:
-14.28571428571428
+15.999999999999995
 48
 num untried moves
 155
@@ -19957,7 +19959,7 @@ num untried moves
 
 simulated
 root qsa:
-15.999999999999993
+17.647058823529406
 49
 num untried moves
 154
@@ -19973,7 +19975,7 @@ num untried moves
 
 simulated
 root qsa:
-13.725490196078425
+15.38461538461538
 50
 num untried moves
 153
@@ -19989,7 +19991,7 @@ num untried moves
 
 simulated
 root qsa:
-15.384615384615378
+16.98113207547169
 51
 num untried moves
 152
@@ -20005,7 +20007,7 @@ num untried moves
 
 simulated
 root qsa:
-16.98113207547169
+18.518518518518512
 52
 num untried moves
 151
@@ -20021,7 +20023,7 @@ num untried moves
 
 simulated
 root qsa:
-14.81481481481481
+16.363636363636356
 53
 num untried moves
 150
@@ -20037,7 +20039,7 @@ num untried moves
 
 simulated
 root qsa:
-12.727272727272723
+14.285714285714278
 54
 num untried moves
 149
@@ -20053,7 +20055,7 @@ num untried moves
 
 simulated
 root qsa:
-10.71428571428571
+12.280701754385957
 55
 num untried moves
 148
@@ -20069,7 +20071,7 @@ num untried moves
 
 simulated
 root qsa:
-12.28070175438596
+13.793103448275854
 56
 num untried moves
 147
@@ -20085,7 +20087,7 @@ num untried moves
 
 simulated
 root qsa:
-13.793103448275858
+15.254237288135585
 57
 num untried moves
 146
@@ -20101,7 +20103,7 @@ num untried moves
 
 simulated
 root qsa:
-15.254237288135588
+16.666666666666657
 58
 num untried moves
 145
@@ -20117,7 +20119,7 @@ num untried moves
 
 simulated
 root qsa:
-13.333333333333329
+14.754098360655728
 59
 num untried moves
 144
@@ -20133,7 +20135,7 @@ num untried moves
 
 simulated
 root qsa:
-14.754098360655734
+16.129032258064505
 60
 num untried moves
 143
@@ -20149,7 +20151,7 @@ num untried moves
 
 simulated
 root qsa:
-16.129032258064512
+17.460317460317448
 61
 num untried moves
 142
@@ -20165,7 +20167,7 @@ num untried moves
 
 simulated
 root qsa:
-17.460317460317455
+18.74999999999999
 62
 num untried moves
 141
@@ -20181,7 +20183,7 @@ num untried moves
 
 simulated
 root qsa:
-15.624999999999995
+16.923076923076913
 63
 num untried moves
 140
@@ -20197,7 +20199,7 @@ num untried moves
 
 simulated
 root qsa:
-13.846153846153841
+15.151515151515142
 64
 num untried moves
 139
@@ -20213,7 +20215,7 @@ num untried moves
 
 simulated
 root qsa:
-12.121212121212116
+13.432835820895512
 65
 num untried moves
 138
@@ -20229,7 +20231,7 @@ num untried moves
 
 simulated
 root qsa:
-13.432835820895518
+14.705882352941167
 66
 num untried moves
 137
@@ -20245,7 +20247,7 @@ num untried moves
 
 simulated
 root qsa:
-14.705882352941172
+15.942028985507237
 67
 num untried moves
 136
@@ -20261,7 +20263,7 @@ num untried moves
 
 simulated
 root qsa:
-13.043478260869561
+14.285714285714278
 68
 num untried moves
 135
@@ -20277,7 +20279,7 @@ num untried moves
 
 simulated
 root qsa:
-11.428571428571423
+12.676056338028161
 69
 num untried moves
 134
@@ -20293,7 +20295,7 @@ num untried moves
 
 simulated
 root qsa:
-9.85915492957746
+11.111111111111104
 70
 num untried moves
 133
@@ -20309,7 +20311,7 @@ num untried moves
 
 simulated
 root qsa:
-8.333333333333329
+9.589041095890403
 71
 num untried moves
 132
@@ -20325,7 +20327,7 @@ num untried moves
 
 simulated
 root qsa:
-9.589041095890407
+10.810810810810803
 72
 num untried moves
 131
@@ -20341,7 +20343,7 @@ num untried moves
 
 simulated
 root qsa:
-10.810810810810807
+11.999999999999993
 73
 num untried moves
 130
@@ -20357,7 +20359,7 @@ num untried moves
 
 simulated
 root qsa:
-9.333333333333329
+10.526315789473678
 74
 num untried moves
 129
@@ -20373,7 +20375,7 @@ num untried moves
 
 simulated
 root qsa:
-7.894736842105258
+9.090909090909085
 75
 num untried moves
 128
@@ -20389,7 +20391,7 @@ num untried moves
 
 simulated
 root qsa:
-6.493506493506489
+7.692307692307686
 76
 num untried moves
 127
@@ -20405,7 +20407,7 @@ num untried moves
 
 simulated
 root qsa:
-5.128205128205124
+6.329113924050628
 77
 num untried moves
 126
@@ -20421,7 +20423,7 @@ num untried moves
 
 simulated
 root qsa:
-3.797468354430376
+4.999999999999995
 78
 num untried moves
 125
@@ -20437,7 +20439,7 @@ num untried moves
 
 simulated
 root qsa:
-2.4999999999999964
+3.7037037037036984
 79
 num untried moves
 124
@@ -20453,7 +20455,7 @@ num untried moves
 
 simulated
 root qsa:
-1.2345679012345643
+2.4390243902438975
 80
 num untried moves
 123
@@ -20469,7 +20471,7 @@ num untried moves
 
 simulated
 root qsa:
--3.552713678800501E-15
+1.2048192771084287
 81
 num untried moves
 122
@@ -20485,7 +20487,7 @@ num untried moves
 
 simulated
 root qsa:
--1.2048192771084374
+-4.884981308350689E-15
 82
 num untried moves
 121
@@ -20501,7 +20503,7 @@ num untried moves
 
 simulated
 root qsa:
--2.3809523809523845
+-1.176470588235299
 83
 num untried moves
 120
@@ -20517,7 +20519,7 @@ num untried moves
 
 simulated
 root qsa:
--3.529411764705886
+-2.3255813953488422
 84
 num untried moves
 119
@@ -20533,7 +20535,7 @@ num untried moves
 
 simulated
 root qsa:
--4.651162790697677
+-3.4482758620689706
 85
 num untried moves
 118
@@ -20549,7 +20551,7 @@ num untried moves
 
 simulated
 root qsa:
--5.7471264367816115
+-4.54545454545455
 86
 num untried moves
 117
@@ -20565,7 +20567,7 @@ num untried moves
 
 simulated
 root qsa:
--6.81818181818182
+-5.6179775280898925
 87
 num untried moves
 116
@@ -20581,7 +20583,7 @@ num untried moves
 
 simulated
 root qsa:
--7.865168539325845
+-6.666666666666671
 88
 num untried moves
 115
@@ -20597,7 +20599,7 @@ num untried moves
 
 simulated
 root qsa:
--6.666666666666669
+-5.494505494505499
 89
 num untried moves
 114
@@ -20613,7 +20615,7 @@ num untried moves
 
 simulated
 root qsa:
--5.494505494505496
+-4.347826086956526
 90
 num untried moves
 113
@@ -20629,7 +20631,7 @@ num untried moves
 
 simulated
 root qsa:
--6.521739130434785
+-5.3763440860215095
 91
 num untried moves
 112
@@ -20645,7 +20647,7 @@ num untried moves
 
 simulated
 root qsa:
--7.52688172043011
+-6.38297872340426
 92
 num untried moves
 111
@@ -20661,7 +20663,7 @@ num untried moves
 
 simulated
 root qsa:
--6.382978723404257
+-5.263157894736846
 93
 num untried moves
 110
@@ -20677,7 +20679,7 @@ num untried moves
 
 simulated
 root qsa:
--7.3684210526315805
+-6.2500000000000036
 94
 num untried moves
 109
@@ -20693,7 +20695,7 @@ num untried moves
 
 simulated
 root qsa:
--8.333333333333336
+-7.216494845360828
 95
 num untried moves
 108
@@ -20709,7 +20711,7 @@ num untried moves
 
 simulated
 root qsa:
--9.27835051546392
+-8.163265306122453
 96
 num untried moves
 107
@@ -20725,7 +20727,7 @@ num untried moves
 
 simulated
 root qsa:
--10.204081632653065
+-9.090909090909095
 97
 num untried moves
 106
@@ -20741,7 +20743,7 @@ num untried moves
 
 simulated
 root qsa:
--11.111111111111114
+-10.000000000000004
 98
 num untried moves
 105
@@ -20757,7 +20759,7 @@ num untried moves
 
 simulated
 root qsa:
--10.000000000000004
+-8.910891089108915
 99
 num untried moves
 104
@@ -20773,7 +20775,7 @@ num untried moves
 
 simulated
 root qsa:
--10.891089108910895
+-9.803921568627455
 100
 num untried moves
 103
@@ -20789,7 +20791,7 @@ num untried moves
 
 simulated
 root qsa:
--9.803921568627455
+-8.737864077669908
 101
 num untried moves
 102
@@ -20805,7 +20807,7 @@ num untried moves
 
 simulated
 root qsa:
--10.679611650485441
+-9.61538461538462
 102
 num untried moves
 101
@@ -20821,7 +20823,7 @@ num untried moves
 
 simulated
 root qsa:
--9.61538461538462
+-8.571428571428577
 103
 num untried moves
 100
@@ -20837,7 +20839,7 @@ num untried moves
 
 simulated
 root qsa:
--10.476190476190482
+-9.43396226415095
 104
 num untried moves
 99
@@ -20853,7 +20855,7 @@ num untried moves
 
 simulated
 root qsa:
--9.43396226415095
+-8.411214953271035
 105
 num untried moves
 98
@@ -20869,7 +20871,7 @@ num untried moves
 
 simulated
 root qsa:
--10.280373831775707
+-9.259259259259267
 106
 num untried moves
 97
@@ -20885,7 +20887,7 @@ num untried moves
 
 simulated
 root qsa:
--11.111111111111118
+-10.091743119266063
 107
 num untried moves
 96
@@ -20901,7 +20903,7 @@ num untried moves
 
 simulated
 root qsa:
--11.926605504587162
+-10.909090909090917
 108
 num untried moves
 95
@@ -20917,7 +20919,7 @@ num untried moves
 
 simulated
 root qsa:
--12.727272727272734
+-11.71171171171172
 109
 num untried moves
 94
@@ -20933,7 +20935,7 @@ num untried moves
 
 simulated
 root qsa:
--13.51351351351352
+-12.500000000000009
 110
 num untried moves
 93
@@ -20949,7 +20951,7 @@ num untried moves
 
 simulated
 root qsa:
--14.285714285714292
+-13.27433628318585
 111
 num untried moves
 92
@@ -20965,7 +20967,7 @@ num untried moves
 
 simulated
 root qsa:
--15.044247787610626
+-14.035087719298254
 112
 num untried moves
 91
@@ -20981,7 +20983,7 @@ num untried moves
 
 simulated
 root qsa:
--15.789473684210533
+-14.782608695652183
 113
 num untried moves
 90
@@ -20997,7 +20999,7 @@ num untried moves
 
 simulated
 root qsa:
--16.52173913043479
+-15.517241379310354
 114
 num untried moves
 89
@@ -21013,7 +21015,7 @@ num untried moves
 
 simulated
 root qsa:
--17.241379310344833
+-16.23931623931625
 115
 num untried moves
 88
@@ -21029,7 +21031,7 @@ num untried moves
 
 simulated
 root qsa:
--16.239316239316246
+-15.254237288135602
 116
 num untried moves
 87
@@ -21045,7 +21047,7 @@ num untried moves
 
 simulated
 root qsa:
--15.254237288135599
+-14.285714285714295
 117
 num untried moves
 86
@@ -21061,7 +21063,7 @@ num untried moves
 
 simulated
 root qsa:
--14.285714285714292
+-13.333333333333343
 118
 num untried moves
 85
@@ -21077,7 +21079,7 @@ num untried moves
 
 simulated
 root qsa:
--15.000000000000005
+-14.049586776859513
 119
 num untried moves
 84
@@ -21093,7 +21095,7 @@ num untried moves
 
 simulated
 root qsa:
--15.70247933884298
+-14.754098360655746
 120
 num untried moves
 83
@@ -21109,7 +21111,7 @@ num untried moves
 
 simulated
 root qsa:
--16.393442622950825
+-15.447154471544724
 121
 num untried moves
 82
@@ -21125,7 +21127,7 @@ num untried moves
 
 simulated
 root qsa:
--15.44715447154472
+-14.516129032258073
 122
 num untried moves
 81
@@ -21141,7 +21143,7 @@ num untried moves
 
 simulated
 root qsa:
--16.129032258064523
+-15.200000000000008
 123
 num untried moves
 80
@@ -21157,7 +21159,7 @@ num untried moves
 
 simulated
 root qsa:
--15.200000000000006
+-14.285714285714294
 124
 num untried moves
 79
@@ -21173,7 +21175,7 @@ num untried moves
 
 simulated
 root qsa:
--15.873015873015879
+-14.96062992125985
 125
 num untried moves
 78
@@ -21189,7 +21191,7 @@ num untried moves
 
 simulated
 root qsa:
--16.535433070866148
+-15.625000000000007
 126
 num untried moves
 77
@@ -21205,7 +21207,7 @@ num untried moves
 
 simulated
 root qsa:
--17.187500000000007
+-16.279069767441868
 127
 num untried moves
 76
@@ -21221,7 +21223,7 @@ num untried moves
 
 simulated
 root qsa:
--16.279069767441868
+-15.384615384615392
 128
 num untried moves
 75
@@ -21237,7 +21239,7 @@ num untried moves
 
 simulated
 root qsa:
--16.92307692307693
+-16.030534351145047
 129
 num untried moves
 74
@@ -21253,7 +21255,7 @@ num untried moves
 
 simulated
 root qsa:
--17.557251908396953
+-16.666666666666675
 130
 num untried moves
 73
@@ -21269,7 +21271,7 @@ num untried moves
 
 simulated
 root qsa:
--18.181818181818187
+-17.293233082706774
 131
 num untried moves
 72
@@ -21285,7 +21287,7 @@ num untried moves
 
 simulated
 root qsa:
--18.796992481203013
+-17.910447761194035
 132
 num untried moves
 71
@@ -21301,7 +21303,7 @@ num untried moves
 
 simulated
 root qsa:
--19.40298507462687
+-18.518518518518523
 133
 num untried moves
 70
@@ -21317,7 +21319,7 @@ num untried moves
 
 simulated
 root qsa:
--20.000000000000004
+-19.117647058823533
 134
 num untried moves
 69
@@ -21333,7 +21335,7 @@ num untried moves
 
 simulated
 root qsa:
--20.588235294117652
+-19.708029197080297
 135
 num untried moves
 68
@@ -21349,7 +21351,7 @@ num untried moves
 
 simulated
 root qsa:
--19.708029197080297
+-18.840579710144933
 136
 num untried moves
 67
@@ -21365,7 +21367,7 @@ num untried moves
 
 simulated
 root qsa:
--18.840579710144933
+-17.985611510791372
 137
 num untried moves
 66
@@ -21381,7 +21383,7 @@ num untried moves
 
 simulated
 root qsa:
--19.424460431654683
+-18.571428571428577
 138
 num untried moves
 65
@@ -21397,7 +21399,7 @@ num untried moves
 
 simulated
 root qsa:
--20.000000000000007
+-19.14893617021277
 139
 num untried moves
 64
@@ -21413,7 +21415,7 @@ num untried moves
 
 simulated
 root qsa:
--19.148936170212774
+-18.309859154929583
 140
 num untried moves
 63
@@ -21429,7 +21431,7 @@ num untried moves
 
 simulated
 root qsa:
--19.71830985915494
+-18.881118881118887
 141
 num untried moves
 62
@@ -21445,7 +21447,7 @@ num untried moves
 
 simulated
 root qsa:
--18.88111888111889
+-18.05555555555556
 142
 num untried moves
 61
@@ -21461,7 +21463,7 @@ num untried moves
 
 simulated
 root qsa:
--18.055555555555564
+-17.241379310344833
 143
 num untried moves
 60
@@ -21477,7 +21479,7 @@ num untried moves
 
 simulated
 root qsa:
--17.241379310344836
+-16.438356164383567
 144
 num untried moves
 59
@@ -21493,7 +21495,7 @@ num untried moves
 
 simulated
 root qsa:
--17.8082191780822
+-17.00680272108844
 145
 num untried moves
 58
@@ -21509,7 +21511,7 @@ num untried moves
 
 simulated
 root qsa:
--17.006802721088444
+-16.21621621621622
 146
 num untried moves
 57
@@ -21525,7 +21527,7 @@ num untried moves
 
 simulated
 root qsa:
--17.567567567567576
+-16.77852348993289
 147
 num untried moves
 56
@@ -21541,7 +21543,7 @@ num untried moves
 
 simulated
 root qsa:
--16.778523489932894
+-16.000000000000004
 148
 num untried moves
 55
@@ -21557,7 +21559,7 @@ num untried moves
 
 simulated
 root qsa:
--16.000000000000007
+-15.231788079470203
 149
 num untried moves
 54
@@ -21573,7 +21575,7 @@ num untried moves
 
 simulated
 root qsa:
--16.556291390728482
+-15.789473684210531
 150
 num untried moves
 53
@@ -21589,7 +21591,7 @@ num untried moves
 
 simulated
 root qsa:
--15.789473684210531
+-15.032679738562097
 151
 num untried moves
 52
@@ -21605,7 +21607,7 @@ num untried moves
 
 simulated
 root qsa:
--15.032679738562097
+-14.285714285714292
 152
 num untried moves
 51
@@ -21621,7 +21623,7 @@ num untried moves
 
 simulated
 root qsa:
--14.285714285714292
+-13.5483870967742
 153
 num untried moves
 50
@@ -21637,7 +21639,7 @@ num untried moves
 
 simulated
 root qsa:
--14.838709677419361
+-14.102564102564108
 154
 num untried moves
 49
@@ -21653,7 +21655,7 @@ num untried moves
 
 simulated
 root qsa:
--14.10256410256411
+-13.375796178343954
 155
 num untried moves
 48
@@ -21669,7 +21671,7 @@ num untried moves
 
 simulated
 root qsa:
--14.649681528662427
+-13.924050632911397
 156
 num untried moves
 47
@@ -21685,7 +21687,7 @@ num untried moves
 
 simulated
 root qsa:
--13.924050632911399
+-13.207547169811326
 157
 num untried moves
 46
@@ -21701,7 +21703,7 @@ num untried moves
 
 simulated
 root qsa:
--13.207547169811328
+-12.500000000000005
 158
 num untried moves
 45
@@ -21717,7 +21719,7 @@ num untried moves
 
 simulated
 root qsa:
--12.500000000000007
+-11.80124223602485
 159
 num untried moves
 44
@@ -21733,7 +21735,7 @@ num untried moves
 
 simulated
 root qsa:
--13.043478260869572
+-12.345679012345684
 160
 num untried moves
 43
@@ -21749,7 +21751,7 @@ num untried moves
 
 simulated
 root qsa:
--12.345679012345686
+-11.656441717791417
 161
 num untried moves
 42
@@ -21765,7 +21767,7 @@ num untried moves
 
 simulated
 root qsa:
--12.883435582822093
+-12.195121951219518
 162
 num untried moves
 41
@@ -21781,7 +21783,7 @@ num untried moves
 
 simulated
 root qsa:
--12.19512195121952
+-11.515151515151521
 163
 num untried moves
 40
@@ -21797,7 +21799,7 @@ num untried moves
 
 simulated
 root qsa:
--11.515151515151523
+-10.843373493975909
 164
 num untried moves
 39
@@ -21813,7 +21815,7 @@ num untried moves
 
 simulated
 root qsa:
--10.84337349397591
+-10.17964071856288
 165
 num untried moves
 38
@@ -21829,7 +21831,7 @@ num untried moves
 
 simulated
 root qsa:
--11.377245508982043
+-10.714285714285719
 166
 num untried moves
 37
@@ -21845,7 +21847,7 @@ num untried moves
 
 simulated
 root qsa:
--10.71428571428572
+-10.05917159763314
 167
 num untried moves
 36
@@ -21861,7 +21863,7 @@ num untried moves
 
 simulated
 root qsa:
--11.242603550295865
+-10.588235294117652
 168
 num untried moves
 35
@@ -21877,7 +21879,7 @@ num untried moves
 
 simulated
 root qsa:
--11.764705882352947
+-11.111111111111116
 169
 num untried moves
 34
@@ -21893,7 +21895,7 @@ num untried moves
 
 simulated
 root qsa:
--11.111111111111118
+-10.465116279069772
 170
 num untried moves
 33
@@ -21909,7 +21911,7 @@ num untried moves
 
 simulated
 root qsa:
--11.627906976744192
+-10.982658959537577
 171
 num untried moves
 32
@@ -21925,7 +21927,7 @@ num untried moves
 
 simulated
 root qsa:
--12.138728323699429
+-11.494252873563223
 172
 num untried moves
 31
@@ -21941,7 +21943,7 @@ num untried moves
 
 simulated
 root qsa:
--12.643678160919547
+-12.000000000000005
 173
 num untried moves
 30
@@ -21957,7 +21959,7 @@ num untried moves
 
 simulated
 root qsa:
--12.000000000000007
+-11.363636363636369
 174
 num untried moves
 29
@@ -21973,7 +21975,7 @@ num untried moves
 
 simulated
 root qsa:
--12.500000000000007
+-11.864406779661023
 175
 num untried moves
 28
@@ -21989,7 +21991,7 @@ num untried moves
 
 simulated
 root qsa:
--11.864406779661024
+-11.235955056179781
 176
 num untried moves
 27
@@ -22005,7 +22007,7 @@ num untried moves
 
 simulated
 root qsa:
--11.235955056179783
+-10.61452513966481
 177
 num untried moves
 26
@@ -22021,7 +22023,7 @@ num untried moves
 
 simulated
 root qsa:
--11.731843575419003
+-11.111111111111116
 178
 num untried moves
 25
@@ -22037,7 +22039,7 @@ num untried moves
 
 simulated
 root qsa:
--12.22222222222223
+-11.602209944751387
 179
 num untried moves
 24
@@ -22053,7 +22055,7 @@ num untried moves
 
 simulated
 root qsa:
--11.602209944751388
+-10.989010989010994
 180
 num untried moves
 23
@@ -22069,7 +22071,7 @@ num untried moves
 
 simulated
 root qsa:
--10.989010989010996
+-10.382513661202191
 181
 num untried moves
 22
@@ -22085,7 +22087,7 @@ num untried moves
 
 simulated
 root qsa:
--10.382513661202193
+-9.78260869565218
 182
 num untried moves
 21
@@ -22101,7 +22103,7 @@ num untried moves
 
 simulated
 root qsa:
--10.869565217391312
+-10.270270270270276
 183
 num untried moves
 20
@@ -22117,7 +22119,7 @@ num untried moves
 
 simulated
 root qsa:
--10.270270270270277
+-9.677419354838715
 184
 num untried moves
 19
@@ -22133,7 +22135,7 @@ num untried moves
 
 simulated
 root qsa:
--10.752688172043017
+-10.160427807486636
 185
 num untried moves
 18
@@ -22149,7 +22151,7 @@ num untried moves
 
 simulated
 root qsa:
--11.229946524064177
+-10.63829787234043
 186
 num untried moves
 17
@@ -22165,7 +22167,7 @@ num untried moves
 
 simulated
 root qsa:
--11.702127659574474
+-11.111111111111116
 187
 num untried moves
 16
@@ -22181,7 +22183,7 @@ num untried moves
 
 simulated
 root qsa:
--12.169312169312175
+-11.578947368421058
 188
 num untried moves
 15
@@ -22197,7 +22199,7 @@ num untried moves
 
 simulated
 root qsa:
--12.631578947368427
+-12.041884816753932
 189
 num untried moves
 14
@@ -22213,7 +22215,7 @@ num untried moves
 
 simulated
 root qsa:
--13.0890052356021
+-12.500000000000005
 190
 num untried moves
 13
@@ -22229,7 +22231,7 @@ num untried moves
 
 simulated
 root qsa:
--13.541666666666671
+-12.953367875647674
 191
 num untried moves
 12
@@ -22245,7 +22247,7 @@ num untried moves
 
 simulated
 root qsa:
--13.989637305699487
+-13.402061855670109
 192
 num untried moves
 11
@@ -22261,7 +22263,7 @@ num untried moves
 
 simulated
 root qsa:
--14.432989690721655
+-13.846153846153852
 193
 num untried moves
 10
@@ -22277,7 +22279,7 @@ num untried moves
 
 simulated
 root qsa:
--14.871794871794878
+-14.285714285714292
 194
 num untried moves
 9
@@ -22293,7 +22295,7 @@ num untried moves
 
 simulated
 root qsa:
--15.306122448979597
+-14.720812182741122
 195
 num untried moves
 8
@@ -22309,7 +22311,7 @@ num untried moves
 
 simulated
 root qsa:
--14.720812182741122
+-14.141414141414147
 196
 num untried moves
 7
@@ -22325,7 +22327,7 @@ num untried moves
 
 simulated
 root qsa:
--15.151515151515158
+-14.572864321608046
 197
 num untried moves
 6
@@ -22341,7 +22343,7 @@ num untried moves
 
 simulated
 root qsa:
--15.577889447236187
+-15.000000000000005
 198
 num untried moves
 5
@@ -22357,7 +22359,7 @@ num untried moves
 
 simulated
 root qsa:
--16.000000000000007
+-15.42288557213931
 199
 num untried moves
 4
@@ -22373,7 +22375,7 @@ num untried moves
 
 simulated
 root qsa:
--16.4179104477612
+-15.841584158415847
 200
 num untried moves
 3
@@ -22389,7 +22391,7 @@ num untried moves
 
 simulated
 root qsa:
--16.83168316831684
+-16.256157635467986
 201
 num untried moves
 2
@@ -22405,7 +22407,7 @@ num untried moves
 
 simulated
 root qsa:
--17.241379310344836
+-16.66666666666667
 202
 num untried moves
 1
@@ -22421,7 +22423,7 @@ num untried moves
 
 simulated
 root qsa:
--16.666666666666675
+-16.09756097560976
 203
 node fully expanded, choosing best child
 true
@@ -22441,7 +22443,7 @@ num untried moves
 
 simulated
 root qsa:
--16.097560975609763
+-15.533980582524276
 204
 node fully expanded, choosing best child
 true
@@ -22461,7 +22463,7 @@ num untried moves
 
 simulated
 root qsa:
--15.53398058252428
+-14.975845410628024
 205
 node fully expanded, choosing best child
 true
@@ -22481,7 +22483,7 @@ num untried moves
 
 simulated
 root qsa:
--15.942028985507253
+-15.384615384615389
 206
 node fully expanded, choosing best child
 true
@@ -22501,7 +22503,7 @@ num untried moves
 
 simulated
 root qsa:
--16.346153846153854
+-15.789473684210531
 207
 node fully expanded, choosing best child
 true
@@ -22521,7 +22523,7 @@ num untried moves
 
 simulated
 root qsa:
--15.789473684210535
+-15.238095238095243
 208
 node fully expanded, choosing best child
 true
@@ -22541,7 +22543,7 @@ num untried moves
 
 simulated
 root qsa:
--16.190476190476197
+-15.639810426540288
 209
 node fully expanded, choosing best child
 true
@@ -22561,7 +22563,7 @@ num untried moves
 
 simulated
 root qsa:
--15.63981042654029
+-15.094339622641513
 210
 node fully expanded, choosing best child
 true
@@ -22581,7 +22583,7 @@ num untried moves
 
 simulated
 root qsa:
--16.03773584905661
+-15.492957746478877
 211
 node fully expanded, choosing best child
 true
@@ -22601,7 +22603,7 @@ num untried moves
 
 simulated
 root qsa:
--16.431924882629115
+-15.887850467289724
 212
 node fully expanded, choosing best child
 true
@@ -22621,7 +22623,7 @@ num untried moves
 
 simulated
 root qsa:
--16.822429906542062
+-16.279069767441865
 213
 node fully expanded, choosing best child
 true
@@ -22641,7 +22643,7 @@ num untried moves
 
 simulated
 root qsa:
--16.279069767441868
+-15.740740740740744
 214
 node fully expanded, choosing best child
 true
@@ -22661,7 +22663,7 @@ num untried moves
 
 simulated
 root qsa:
--15.740740740740748
+-15.207373271889404
 215
 node fully expanded, choosing best child
 true
@@ -22681,7 +22683,7 @@ num untried moves
 
 simulated
 root qsa:
--15.207373271889407
+-14.67889908256881
 216
 node fully expanded, choosing best child
 true
@@ -22701,7 +22703,7 @@ num untried moves
 
 simulated
 root qsa:
--15.596330275229365
+-15.068493150684935
 217
 node fully expanded, choosing best child
 true
@@ -22721,7 +22723,7 @@ num untried moves
 
 simulated
 root qsa:
--15.068493150684938
+-14.545454545454549
 218
 node fully expanded, choosing best child
 true
@@ -22741,7 +22743,7 @@ num untried moves
 
 simulated
 root qsa:
--15.454545454545462
+-14.932126696832583
 219
 node fully expanded, choosing best child
 true
@@ -22761,7 +22763,7 @@ num untried moves
 
 simulated
 root qsa:
--15.837104072398198
+-15.315315315315319
 220
 node fully expanded, choosing best child
 true
@@ -22781,7 +22783,7 @@ num untried moves
 
 simulated
 root qsa:
--16.216216216216225
+-15.695067264573995
 221
 node fully expanded, choosing best child
 true
@@ -22801,7 +22803,7 @@ num untried moves
 
 simulated
 root qsa:
--16.591928251121086
+-16.071428571428577
 222
 node fully expanded, choosing best child
 true
@@ -22821,7 +22823,7 @@ num untried moves
 
 simulated
 root qsa:
--16.07142857142858
+-15.55555555555556
 223
 node fully expanded, choosing best child
 true
@@ -22841,7 +22843,7 @@ num untried moves
 
 simulated
 root qsa:
--15.555555555555564
+-15.044247787610624
 224
 node fully expanded, choosing best child
 true
@@ -22861,7 +22863,7 @@ num untried moves
 
 simulated
 root qsa:
--15.929203539823018
+-15.418502202643177
 225
 node fully expanded, choosing best child
 true
@@ -22881,7 +22883,7 @@ num untried moves
 
 simulated
 root qsa:
--16.299559471365647
+-15.789473684210531
 226
 node fully expanded, choosing best child
 true
@@ -22901,7 +22903,7 @@ num untried moves
 
 simulated
 root qsa:
--16.666666666666675
+-16.157205240174676
 227
 node fully expanded, choosing best child
 true
@@ -22921,7 +22923,7 @@ num untried moves
 
 simulated
 root qsa:
--16.15720524017468
+-15.652173913043482
 228
 node fully expanded, choosing best child
 true
@@ -22941,7 +22943,7 @@ num untried moves
 
 simulated
 root qsa:
--16.52173913043479
+-16.01731601731602
 229
 node fully expanded, choosing best child
 true
@@ -22961,7 +22963,7 @@ num untried moves
 
 simulated
 root qsa:
--16.883116883116887
+-16.379310344827587
 230
 node fully expanded, choosing best child
 true
@@ -22981,7 +22983,7 @@ num untried moves
 
 simulated
 root qsa:
--16.37931034482759
+-15.879828326180258
 231
 node fully expanded, choosing best child
 true
@@ -23001,7 +23003,7 @@ num untried moves
 
 simulated
 root qsa:
--15.879828326180261
+-15.384615384615385
 232
 node fully expanded, choosing best child
 true
@@ -23021,7 +23023,7 @@ num untried moves
 
 simulated
 root qsa:
--16.239316239316242
+-15.74468085106383
 233
 node fully expanded, choosing best child
 true
@@ -23041,7 +23043,7 @@ num untried moves
 
 simulated
 root qsa:
--16.595744680851066
+-16.10169491525424
 234
 node fully expanded, choosing best child
 true
@@ -23061,7 +23063,7 @@ num untried moves
 
 simulated
 root qsa:
--16.949152542372882
+-16.455696202531648
 235
 node fully expanded, choosing best child
 true
@@ -23081,7 +23083,7 @@ num untried moves
 
 simulated
 root qsa:
--17.29957805907173
+-16.806722689075634
 236
 node fully expanded, choosing best child
 true
@@ -23101,7 +23103,7 @@ num untried moves
 
 simulated
 root qsa:
--16.80672268907563
+-16.317991631799167
 237
 node fully expanded, choosing best child
 true
@@ -23121,7 +23123,7 @@ num untried moves
 
 simulated
 root qsa:
--16.317991631799163
+-15.833333333333337
 238
 node fully expanded, choosing best child
 true
@@ -23141,7 +23143,7 @@ num untried moves
 
 simulated
 root qsa:
--15.833333333333334
+-15.352697095435689
 239
 node fully expanded, choosing best child
 true
@@ -23161,7 +23163,7 @@ num untried moves
 
 simulated
 root qsa:
--15.352697095435685
+-14.876033057851243
 240
 node fully expanded, choosing best child
 true
@@ -23181,7 +23183,7 @@ num untried moves
 
 simulated
 root qsa:
--14.87603305785124
+-14.403292181069963
 241
 node fully expanded, choosing best child
 true
@@ -23201,7 +23203,7 @@ num untried moves
 
 simulated
 root qsa:
--14.40329218106996
+-13.934426229508201
 242
 node fully expanded, choosing best child
 true
@@ -23221,7 +23223,7 @@ num untried moves
 
 simulated
 root qsa:
--13.934426229508198
+-13.469387755102046
 243
 node fully expanded, choosing best child
 true
@@ -23241,7 +23243,7 @@ num untried moves
 
 simulated
 root qsa:
--13.469387755102042
+-13.008130081300818
 244
 node fully expanded, choosing best child
 true
@@ -23261,7 +23263,7 @@ num untried moves
 
 simulated
 root qsa:
--13.008130081300814
+-12.550607287449397
 245
 node fully expanded, choosing best child
 true
@@ -23281,7 +23283,7 @@ num untried moves
 
 simulated
 root qsa:
--13.360323886639678
+-12.903225806451617
 246
 node fully expanded, choosing best child
 true
@@ -23301,7 +23303,7 @@ num untried moves
 
 simulated
 root qsa:
--12.903225806451616
+-12.449799196787152
 247
 node fully expanded, choosing best child
 true
@@ -23321,7 +23323,7 @@ num untried moves
 
 simulated
 root qsa:
--13.253012048192774
+-12.800000000000004
 248
 node fully expanded, choosing best child
 true
@@ -23341,7 +23343,7 @@ num untried moves
 
 simulated
 root qsa:
--13.600000000000003
+-13.147410358565741
 249
 node fully expanded, choosing best child
 true
@@ -23361,7 +23363,7 @@ num untried moves
 
 simulated
 root qsa:
--13.14741035856574
+-12.698412698412703
 250
 node fully expanded, choosing best child
 true
@@ -23381,7 +23383,7 @@ num untried moves
 
 simulated
 root qsa:
--13.492063492063494
+-13.04347826086957
 251
 node fully expanded, choosing best child
 true
@@ -23401,7 +23403,7 @@ num untried moves
 
 simulated
 root qsa:
--13.833992094861662
+-13.385826771653548
 252
 node fully expanded, choosing best child
 true
@@ -23421,7 +23423,7 @@ num untried moves
 
 simulated
 root qsa:
--14.173228346456694
+-13.725490196078436
 253
 node fully expanded, choosing best child
 true
@@ -23441,7 +23443,7 @@ num untried moves
 
 simulated
 root qsa:
--14.50980392156863
+-14.062500000000005
 254
 node fully expanded, choosing best child
 true
@@ -23461,7 +23463,7 @@ num untried moves
 
 simulated
 root qsa:
--14.843750000000002
+-14.39688715953308
 255
 node fully expanded, choosing best child
 true
@@ -23481,7 +23483,7 @@ num untried moves
 
 simulated
 root qsa:
--15.175097276264593
+-14.72868217054264
 256
 node fully expanded, choosing best child
 true
@@ -23501,7 +23503,7 @@ num untried moves
 
 simulated
 root qsa:
--15.503875968992249
+-15.057915057915062
 257
 node fully expanded, choosing best child
 true
@@ -23521,7 +23523,7 @@ num untried moves
 
 simulated
 root qsa:
--15.830115830115831
+-15.384615384615389
 258
 node fully expanded, choosing best child
 true
@@ -23541,7 +23543,7 @@ num untried moves
 
 simulated
 root qsa:
--15.384615384615385
+-14.942528735632187
 259
 node fully expanded, choosing best child
 true
@@ -23561,7 +23563,7 @@ num untried moves
 
 simulated
 root qsa:
--15.7088122605364
+-15.267175572519088
 260
 node fully expanded, choosing best child
 true
@@ -23581,7 +23583,7 @@ num untried moves
 
 simulated
 root qsa:
--16.03053435114504
+-15.589353612167304
 261
 node fully expanded, choosing best child
 true
@@ -23601,7 +23603,7 @@ num untried moves
 
 simulated
 root qsa:
--16.34980988593156
+-15.909090909090914
 262
 node fully expanded, choosing best child
 true
@@ -23621,7 +23623,7 @@ num untried moves
 
 simulated
 root qsa:
--16.666666666666668
+-16.22641509433963
 263
 node fully expanded, choosing best child
 true
@@ -23641,7 +23643,7 @@ num untried moves
 
 simulated
 root qsa:
--16.226415094339625
+-15.789473684210533
 264
 node fully expanded, choosing best child
 true
@@ -23661,7 +23663,7 @@ num untried moves
 
 simulated
 root qsa:
--16.54135338345865
+-16.104868913857683
 265
 node fully expanded, choosing best child
 true
@@ -23681,7 +23683,7 @@ num untried moves
 
 simulated
 root qsa:
--16.10486891385768
+-15.671641791044781
 266
 node fully expanded, choosing best child
 true
@@ -23701,7 +23703,7 @@ num untried moves
 
 simulated
 root qsa:
--15.671641791044777
+-15.241635687732346
 267
 node fully expanded, choosing best child
 true
@@ -23721,7 +23723,7 @@ num untried moves
 
 simulated
 root qsa:
--15.985130111524164
+-15.55555555555556
 268
 node fully expanded, choosing best child
 true
@@ -23741,7 +23743,7 @@ num untried moves
 
 simulated
 root qsa:
--15.555555555555555
+-15.12915129151292
 269
 node fully expanded, choosing best child
 true
@@ -23761,7 +23763,7 @@ num untried moves
 
 simulated
 root qsa:
--15.867158671586715
+-15.44117647058824
 270
 node fully expanded, choosing best child
 true
@@ -23781,7 +23783,7 @@ num untried moves
 
 simulated
 root qsa:
--15.441176470588234
+-15.018315018315024
 271
 node fully expanded, choosing best child
 true
@@ -23801,7 +23803,7 @@ num untried moves
 
 simulated
 root qsa:
--15.75091575091575
+-15.328467153284677
 272
 node fully expanded, choosing best child
 true
@@ -23821,7 +23823,7 @@ num untried moves
 
 simulated
 root qsa:
--16.05839416058394
+-15.636363636363642
 273
 node fully expanded, choosing best child
 true
@@ -23841,7 +23843,7 @@ num untried moves
 
 simulated
 root qsa:
--16.363636363636363
+-15.942028985507251
 274
 node fully expanded, choosing best child
 true
@@ -23861,7 +23863,7 @@ num untried moves
 
 simulated
 root qsa:
--15.942028985507246
+-15.523465703971125
 275
 node fully expanded, choosing best child
 true
@@ -23881,7 +23883,7 @@ num untried moves
 
 simulated
 root qsa:
--16.24548736462094
+-15.82733812949641
 276
 node fully expanded, choosing best child
 true
@@ -23901,7 +23903,7 @@ num untried moves
 
 simulated
 root qsa:
--15.827338129496402
+-15.412186379928322
 277
 node fully expanded, choosing best child
 true
@@ -23921,7 +23923,7 @@ num untried moves
 
 simulated
 root qsa:
--16.129032258064516
+-15.71428571428572
 278
 node fully expanded, choosing best child
 true
@@ -23941,7 +23943,7 @@ num untried moves
 
 simulated
 root qsa:
--15.714285714285714
+-15.302491103202854
 279
 node fully expanded, choosing best child
 true
@@ -23961,7 +23963,7 @@ num untried moves
 
 simulated
 root qsa:
--15.302491103202847
+-14.893617021276603
 280
 node fully expanded, choosing best child
 true
@@ -23981,7 +23983,7 @@ num untried moves
 
 simulated
 root qsa:
--14.893617021276595
+-14.48763250883393
 281
 node fully expanded, choosing best child
 true
@@ -24001,7 +24003,7 @@ num untried moves
 
 simulated
 root qsa:
--14.487632508833922
+-14.084507042253527
 282
 node fully expanded, choosing best child
 true
@@ -24021,7 +24023,7 @@ num untried moves
 
 simulated
 root qsa:
--14.08450704225352
+-13.684210526315795
 283
 node fully expanded, choosing best child
 true
@@ -24041,7 +24043,7 @@ num untried moves
 
 simulated
 root qsa:
--14.3859649122807
+-13.986013986013992
 284
 node fully expanded, choosing best child
 true
@@ -24061,7 +24063,7 @@ num untried moves
 
 simulated
 root qsa:
--13.986013986013985
+-13.588850174216034
 285
 node fully expanded, choosing best child
 true
@@ -24081,7 +24083,7 @@ num untried moves
 
 simulated
 root qsa:
--13.588850174216027
+-13.194444444444452
 286
 node fully expanded, choosing best child
 true
@@ -24101,7 +24103,7 @@ num untried moves
 
 simulated
 root qsa:
--13.194444444444445
+-12.802768166089972
 287
 node fully expanded, choosing best child
 true
@@ -24121,7 +24123,7 @@ num untried moves
 
 simulated
 root qsa:
--12.802768166089965
+-12.413793103448283
 288
 node fully expanded, choosing best child
 true
@@ -24141,7 +24143,7 @@ num untried moves
 
 simulated
 root qsa:
--13.10344827586207
+-12.714776632302412
 289
 node fully expanded, choosing best child
 true
@@ -24161,7 +24163,7 @@ num untried moves
 
 simulated
 root qsa:
--13.402061855670103
+-13.013698630136993
 290
 node fully expanded, choosing best child
 true
@@ -24181,7 +24183,7 @@ num untried moves
 
 simulated
 root qsa:
--13.698630136986301
+-13.310580204778164
 291
 node fully expanded, choosing best child
 true
@@ -24201,7 +24203,7 @@ num untried moves
 
 simulated
 root qsa:
--13.993174061433447
+-13.605442176870755
 292
 node fully expanded, choosing best child
 true
@@ -24221,7 +24223,7 @@ num untried moves
 
 simulated
 root qsa:
--13.605442176870747
+-13.220338983050853
 293
 node fully expanded, choosing best child
 true
@@ -24241,7 +24243,7 @@ num untried moves
 
 simulated
 root qsa:
--13.220338983050846
+-12.837837837837844
 294
 node fully expanded, choosing best child
 true
@@ -24261,7 +24263,7 @@ num untried moves
 
 simulated
 root qsa:
--12.837837837837837
+-12.457912457912464
 295
 node fully expanded, choosing best child
 true
@@ -24281,7 +24283,7 @@ num untried moves
 
 simulated
 root qsa:
--13.13131313131313
+-12.751677852349
 296
 node fully expanded, choosing best child
 true
@@ -24301,7 +24303,7 @@ num untried moves
 
 simulated
 root qsa:
--12.751677852348992
+-12.374581939799338
 297
 node fully expanded, choosing best child
 true
@@ -24321,7 +24323,7 @@ num untried moves
 
 simulated
 root qsa:
--12.37458193979933
+-12.000000000000007
 298
 node fully expanded, choosing best child
 true
@@ -24341,7 +24343,7 @@ num untried moves
 
 simulated
 root qsa:
--12.666666666666666
+-12.292358803986717
 299
 node fully expanded, choosing best child
 true
@@ -24361,7 +24363,7 @@ num untried moves
 
 simulated
 root qsa:
--12.29235880398671
+-11.92052980132451
 300
 node fully expanded, choosing best child
 true
@@ -24381,7 +24383,7 @@ num untried moves
 
 simulated
 root qsa:
--12.582781456953642
+-12.211221122112217
 301
 node fully expanded, choosing best child
 true
@@ -24401,7 +24403,7 @@ num untried moves
 
 simulated
 root qsa:
--12.21122112211221
+-11.842105263157901
 302
 node fully expanded, choosing best child
 true
@@ -24421,7 +24423,7 @@ num untried moves
 
 simulated
 root qsa:
--11.842105263157894
+-11.47540983606558
 303
 node fully expanded, choosing best child
 true
@@ -24441,7 +24443,7 @@ num untried moves
 
 simulated
 root qsa:
--12.131147540983605
+-11.764705882352947
 304
 node fully expanded, choosing best child
 true
@@ -24461,7 +24463,7 @@ num untried moves
 
 simulated
 root qsa:
--12.41830065359477
+-12.052117263843654
 305
 node fully expanded, choosing best child
 true
@@ -24481,7 +24483,7 @@ num untried moves
 
 simulated
 root qsa:
--12.052117263843646
+-11.688311688311694
 306
 node fully expanded, choosing best child
 true
@@ -24501,7 +24503,7 @@ num untried moves
 
 simulated
 root qsa:
--12.337662337662335
+-11.974110032362466
 307
 node fully expanded, choosing best child
 true
@@ -24521,7 +24523,7 @@ num untried moves
 
 simulated
 root qsa:
--12.621359223300969
+-12.25806451612904
 308
 node fully expanded, choosing best child
 true
@@ -24541,7 +24543,7 @@ num untried moves
 
 simulated
 root qsa:
--12.90322580645161
+-12.540192926045023
 309
 node fully expanded, choosing best child
 true
@@ -24561,7 +24563,7 @@ num untried moves
 
 simulated
 root qsa:
--12.540192926045014
+-12.179487179487186
 310
 node fully expanded, choosing best child
 true
@@ -24581,7 +24583,7 @@ num untried moves
 
 simulated
 root qsa:
--12.179487179487177
+-11.821086261980836
 311
 node fully expanded, choosing best child
 true
@@ -24601,7 +24603,7 @@ num untried moves
 
 simulated
 root qsa:
--12.460063897763575
+-12.101910828025483
 312
 node fully expanded, choosing best child
 true
@@ -24621,7 +24623,7 @@ num untried moves
 
 simulated
 root qsa:
--12.101910828025474
+-11.74603174603175
 313
 node fully expanded, choosing best child
 true
@@ -24641,7 +24643,7 @@ num untried moves
 
 simulated
 root qsa:
--12.380952380952378
+-12.025316455696206
 314
 node fully expanded, choosing best child
 true
@@ -24661,7 +24663,7 @@ num untried moves
 
 simulated
 root qsa:
--12.0253164556962
+-11.671924290220824
 315
 node fully expanded, choosing best child
 true
@@ -24681,7 +24683,7 @@ num untried moves
 
 simulated
 root qsa:
--12.30283911671924
+-11.949685534591199
 316
 node fully expanded, choosing best child
 true
@@ -24701,7 +24703,7 @@ num untried moves
 
 simulated
 root qsa:
--11.949685534591191
+-11.598746081504705
 317
 node fully expanded, choosing best child
 true
@@ -24721,7 +24723,7 @@ num untried moves
 
 simulated
 root qsa:
--12.225705329153602
+-11.875000000000004
 318
 node fully expanded, choosing best child
 true
@@ -24741,7 +24743,7 @@ num untried moves
 
 simulated
 root qsa:
--12.499999999999996
+-12.149532710280377
 319
 node fully expanded, choosing best child
 true
@@ -24761,7 +24763,7 @@ num untried moves
 
 simulated
 root qsa:
--12.14953271028037
+-11.801242236024848
 320
 node fully expanded, choosing best child
 true
@@ -24781,7 +24783,7 @@ num untried moves
 
 simulated
 root qsa:
--12.422360248447202
+-12.074303405572758
 321
 node fully expanded, choosing best child
 true
@@ -24801,7 +24803,7 @@ num untried moves
 
 simulated
 root qsa:
--12.074303405572753
+-11.728395061728397
 322
 node fully expanded, choosing best child
 true
@@ -24821,7 +24823,7 @@ num untried moves
 
 simulated
 root qsa:
--12.345679012345677
+-12.000000000000002
 323
 node fully expanded, choosing best child
 true
@@ -24841,7 +24843,7 @@ num untried moves
 
 simulated
 root qsa:
--11.999999999999998
+-11.656441717791413
 324
 node fully expanded, choosing best child
 true
@@ -24861,7 +24863,7 @@ num untried moves
 
 simulated
 root qsa:
--11.65644171779141
+-11.314984709480123
 325
 node fully expanded, choosing best child
 true
@@ -24881,7 +24883,7 @@ num untried moves
 
 simulated
 root qsa:
--11.31498470948012
+-10.975609756097562
 326
 node fully expanded, choosing best child
 true
@@ -24901,7 +24903,7 @@ num untried moves
 
 simulated
 root qsa:
--10.975609756097558
+-10.638297872340427
 327
 node fully expanded, choosing best child
 true
@@ -24921,7 +24923,7 @@ num untried moves
 
 simulated
 root qsa:
--10.638297872340424
+-10.303030303030305
 328
 node fully expanded, choosing best child
 true
@@ -24941,7 +24943,7 @@ num untried moves
 
 simulated
 root qsa:
--10.303030303030301
+-9.969788519637463
 329
 node fully expanded, choosing best child
 true
@@ -24961,7 +24963,7 @@ num untried moves
 
 simulated
 root qsa:
--10.574018126888216
+-10.240963855421688
 330
 node fully expanded, choosing best child
 true
@@ -24981,7 +24983,7 @@ num untried moves
 
 simulated
 root qsa:
--10.843373493975902
+-10.510510510510512
 331
 node fully expanded, choosing best child
 true
@@ -25001,7 +25003,7 @@ num untried moves
 
 simulated
 root qsa:
--11.111111111111109
+-10.778443113772457
 332
 node fully expanded, choosing best child
 true
@@ -25021,7 +25023,7 @@ num untried moves
 
 simulated
 root qsa:
--11.377245508982034
+-11.044776119402988
 333
 node fully expanded, choosing best child
 true
@@ -25041,7 +25043,7 @@ num untried moves
 
 simulated
 root qsa:
--11.044776119402982
+-10.714285714285717
 334
 node fully expanded, choosing best child
 true
@@ -25061,7 +25063,7 @@ num untried moves
 
 simulated
 root qsa:
--11.309523809523807
+-10.979228486646887
 335
 node fully expanded, choosing best child
 true
@@ -25081,7 +25083,7 @@ num untried moves
 
 simulated
 root qsa:
--11.572700296735903
+-11.242603550295861
 336
 node fully expanded, choosing best child
 true
@@ -25101,7 +25103,7 @@ num untried moves
 
 simulated
 root qsa:
--11.242603550295856
+-10.914454277286138
 337
 node fully expanded, choosing best child
 true
@@ -25121,7 +25123,7 @@ num untried moves
 
 simulated
 root qsa:
--10.914454277286133
+-10.58823529411765
 338
 node fully expanded, choosing best child
 true
@@ -25141,7 +25143,7 @@ num untried moves
 
 simulated
 root qsa:
--10.588235294117645
+-10.263929618768332
 339
 node fully expanded, choosing best child
 true
@@ -25161,7 +25163,7 @@ num untried moves
 
 simulated
 root qsa:
--10.263929618768326
+-9.941520467836261
 340
 node fully expanded, choosing best child
 true
@@ -25181,7 +25183,7 @@ num untried moves
 
 simulated
 root qsa:
--10.526315789473681
+-10.204081632653065
 341
 node fully expanded, choosing best child
 true
@@ -25201,7 +25203,7 @@ num untried moves
 
 simulated
 root qsa:
--10.787172011661804
+-10.46511627906977
 342
 node fully expanded, choosing best child
 true
@@ -25221,7 +25223,7 @@ num untried moves
 
 simulated
 root qsa:
--11.046511627906973
+-10.724637681159424
 343
 node fully expanded, choosing best child
 true
@@ -25241,7 +25243,7 @@ num untried moves
 
 simulated
 root qsa:
--11.304347826086953
+-10.982658959537575
 344
 node fully expanded, choosing best child
 true
@@ -25261,7 +25263,7 @@ num untried moves
 
 simulated
 root qsa:
--11.560693641618494
+-11.23919308357349
 345
 node fully expanded, choosing best child
 true
@@ -25281,7 +25283,7 @@ num untried moves
 
 simulated
 root qsa:
--11.239193083573484
+-10.91954022988506
 346
 node fully expanded, choosing best child
 true
@@ -25301,7 +25303,7 @@ num untried moves
 
 simulated
 root qsa:
--11.494252873563216
+-11.174785100286535
 347
 node fully expanded, choosing best child
 true
@@ -25321,7 +25323,7 @@ num untried moves
 
 simulated
 root qsa:
--11.747851002865326
+-11.42857142857143
 348
 node fully expanded, choosing best child
 true
@@ -25341,7 +25343,7 @@ num untried moves
 
 simulated
 root qsa:
--11.428571428571425
+-11.111111111111112
 349
 node fully expanded, choosing best child
 true
@@ -25361,7 +25363,7 @@ num untried moves
 
 simulated
 root qsa:
--11.111111111111107
+-10.795454545454547
 350
 node fully expanded, choosing best child
 true
@@ -25381,7 +25383,7 @@ num untried moves
 
 simulated
 root qsa:
--10.795454545454541
+-10.48158640226629
 351
 node fully expanded, choosing best child
 true
@@ -25401,7 +25403,7 @@ num untried moves
 
 simulated
 root qsa:
--10.481586402266284
+-10.16949152542373
 352
 node fully expanded, choosing best child
 true
@@ -25421,7 +25423,7 @@ num untried moves
 
 simulated
 root qsa:
--10.169491525423725
+-9.859154929577466
 353
 node fully expanded, choosing best child
 true
@@ -25441,7 +25443,7 @@ num untried moves
 
 simulated
 root qsa:
--9.85915492957746
+-9.55056179775281
 354
 node fully expanded, choosing best child
 true
@@ -25461,7 +25463,7 @@ num untried moves
 
 simulated
 root qsa:
--10.112359550561793
+-9.803921568627452
 355
 node fully expanded, choosing best child
 true
@@ -25481,7 +25483,7 @@ num untried moves
 
 simulated
 root qsa:
--9.803921568627446
+-9.497206703910615
 356
 node fully expanded, choosing best child
 true
@@ -25501,7 +25503,7 @@ num untried moves
 
 simulated
 root qsa:
--10.055865921787705
+-9.749303621169917
 357
 node fully expanded, choosing best child
 true
@@ -25521,7 +25523,7 @@ num untried moves
 
 simulated
 root qsa:
--9.749303621169911
+-9.444444444444445
 358
 node fully expanded, choosing best child
 true
@@ -25541,7 +25543,7 @@ num untried moves
 
 simulated
 root qsa:
--9.999999999999995
+-9.695290858725762
 359
 node fully expanded, choosing best child
 true
@@ -25561,7 +25563,7 @@ num untried moves
 
 simulated
 root qsa:
--9.695290858725757
+-9.392265193370166
 360
 node fully expanded, choosing best child
 true
@@ -25581,7 +25583,7 @@ num untried moves
 
 simulated
 root qsa:
--9.944751381215465
+-9.641873278236915
 361
 node fully expanded, choosing best child
 true
@@ -25601,7 +25603,7 @@ num untried moves
 
 simulated
 root qsa:
--9.64187327823691
+-9.340659340659341
 362
 node fully expanded, choosing best child
 true
@@ -25621,7 +25623,7 @@ num untried moves
 
 simulated
 root qsa:
--9.340659340659336
+-9.04109589041096
 363
 node fully expanded, choosing best child
 true
@@ -25641,7 +25643,7 @@ num untried moves
 
 simulated
 root qsa:
--9.589041095890407
+-9.289617486338798
 364
 node fully expanded, choosing best child
 true
@@ -25661,7 +25663,7 @@ num untried moves
 
 simulated
 root qsa:
--9.836065573770487
+-9.536784741144414
 365
 node fully expanded, choosing best child
 true
@@ -25681,7 +25683,7 @@ num untried moves
 
 simulated
 root qsa:
--10.081743869209804
+-9.782608695652174
 366
 node fully expanded, choosing best child
 true
@@ -25701,7 +25703,7 @@ num untried moves
 
 simulated
 root qsa:
--10.326086956521735
+-10.027100271002709
 367
 node fully expanded, choosing best child
 true
@@ -25721,27 +25723,27 @@ num untried moves
 
 simulated
 root qsa:
--10.569105691056906
+-10.27027027027027
 368
 node fully expanded, choosing best child
 true
 false
 false
 num untried moves
-196
+195
 --------------------------
-|   |   |   || w | b | w |
-|   |   |   ||   |   |   |
+| b | b | w ||   |   |   |
+| w |   |   ||   |   |   |
 |   |   |   ||   |   |   |
 --------------------------
-|   |   |   || b |   |   |
+|   |   |   ||   |   |   |
 |   |   |   ||   |   |   |
 |   |   |   ||   |   |   |
 --------------------------
 
 simulated
 root qsa:
--10.810810810810807
+-10.512129380053908
 369
 node fully expanded, choosing best child
 true
@@ -25761,27 +25763,27 @@ num untried moves
 
 simulated
 root qsa:
--11.051212938005387
+-10.75268817204301
 370
 node fully expanded, choosing best child
 true
 false
 false
 num untried moves
-195
+196
 --------------------------
-| b | b | w ||   |   |   |
-| w |   |   ||   |   |   |
+|   |   |   || w | b | w |
+|   |   |   ||   |   |   |
 |   |   |   ||   |   |   |
 --------------------------
-|   |   |   ||   |   |   |
+|   |   |   || b |   |   |
 |   |   |   ||   |   |   |
 |   |   |   ||   |   |   |
 --------------------------
 
 simulated
 root qsa:
--11.290322580645157
+-10.99195710455764
 371
 node fully expanded, choosing best child
 true
@@ -25801,7 +25803,7 @@ num untried moves
 
 simulated
 root qsa:
--11.528150134048254
+-11.22994652406417
 372
 node fully expanded, choosing best child
 true
@@ -25821,28 +25823,8 @@ num untried moves
 
 simulated
 root qsa:
--11.764705882352937
+-11.466666666666665
 373
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-196
---------------------------
-|   |   |   ||   | b | w |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   || b |   | w |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--11.999999999999995
-374
 node fully expanded, choosing best child
 true
 false
@@ -25861,7 +25843,27 @@ num untried moves
 
 simulated
 root qsa:
--12.234042553191484
+-11.702127659574467
+374
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+196
+--------------------------
+|   |   |   ||   | b | w |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   || b |   | w |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-11.936339522546419
 375
 node fully expanded, choosing best child
 true
@@ -25881,7 +25883,7 @@ num untried moves
 
 simulated
 root qsa:
--11.936339522546414
+-11.64021164021164
 376
 node fully expanded, choosing best child
 true
@@ -25901,7 +25903,7 @@ num untried moves
 
 simulated
 root qsa:
--11.640211640211634
+-11.345646437994722
 377
 node fully expanded, choosing best child
 true
@@ -25921,7 +25923,7 @@ num untried moves
 
 simulated
 root qsa:
--11.345646437994716
+-11.052631578947366
 378
 node fully expanded, choosing best child
 true
@@ -25941,7 +25943,7 @@ num untried moves
 
 simulated
 root qsa:
--11.052631578947361
+-10.761154855643042
 379
 node fully expanded, choosing best child
 true
@@ -25961,7 +25963,7 @@ num untried moves
 
 simulated
 root qsa:
--11.286089238845136
+-10.994764397905756
 380
 node fully expanded, choosing best child
 true
@@ -25981,7 +25983,7 @@ num untried moves
 
 simulated
 root qsa:
--10.994764397905751
+-10.704960835509135
 381
 node fully expanded, choosing best child
 true
@@ -26001,7 +26003,7 @@ num untried moves
 
 simulated
 root qsa:
--11.22715404699738
+-10.937499999999996
 382
 node fully expanded, choosing best child
 true
@@ -26021,7 +26023,7 @@ num untried moves
 
 simulated
 root qsa:
--10.937499999999991
+-10.649350649350646
 383
 node fully expanded, choosing best child
 true
@@ -26041,7 +26043,7 @@ num untried moves
 
 simulated
 root qsa:
--11.16883116883116
+-10.880829015544037
 384
 node fully expanded, choosing best child
 true
@@ -26061,7 +26063,7 @@ num untried moves
 
 simulated
 root qsa:
--10.880829015544032
+-10.594315245478032
 385
 node fully expanded, choosing best child
 true
@@ -26081,7 +26083,7 @@ num untried moves
 
 simulated
 root qsa:
--11.111111111111102
+-10.824742268041234
 386
 node fully expanded, choosing best child
 true
@@ -26101,7 +26103,7 @@ num untried moves
 
 simulated
 root qsa:
--11.340206185567
+-11.053984575835473
 387
 node fully expanded, choosing best child
 true
@@ -26121,7 +26123,7 @@ num untried moves
 
 simulated
 root qsa:
--11.053984575835466
+-10.769230769230766
 388
 node fully expanded, choosing best child
 true
@@ -26141,7 +26143,7 @@ num untried moves
 
 simulated
 root qsa:
--11.282051282051272
+-10.997442455242965
 389
 node fully expanded, choosing best child
 true
@@ -26161,7 +26163,7 @@ num untried moves
 
 simulated
 root qsa:
--11.508951406649606
+-11.224489795918366
 390
 node fully expanded, choosing best child
 true
@@ -26181,7 +26183,7 @@ num untried moves
 
 simulated
 root qsa:
--11.224489795918357
+-10.94147582697201
 391
 node fully expanded, choosing best child
 true
@@ -26201,7 +26203,7 @@ num untried moves
 
 simulated
 root qsa:
--11.450381679389302
+-11.167512690355329
 392
 node fully expanded, choosing best child
 true
@@ -26221,7 +26223,7 @@ num untried moves
 
 simulated
 root qsa:
--11.16751269035532
+-10.886075949367088
 393
 node fully expanded, choosing best child
 true
@@ -26241,7 +26243,7 @@ num untried moves
 
 simulated
 root qsa:
--10.88607594936708
+-10.606060606060606
 394
 node fully expanded, choosing best child
 true
@@ -26261,7 +26263,7 @@ num untried moves
 
 simulated
 root qsa:
--11.111111111111102
+-10.831234256926951
 395
 node fully expanded, choosing best child
 true
@@ -26281,7 +26283,7 @@ num untried moves
 
 simulated
 root qsa:
--10.831234256926942
+-10.552763819095476
 396
 node fully expanded, choosing best child
 true
@@ -26301,7 +26303,7 @@ num untried moves
 
 simulated
 root qsa:
--11.055276381909538
+-10.776942355889723
 397
 node fully expanded, choosing best child
 true
@@ -26321,7 +26323,7 @@ num untried moves
 
 simulated
 root qsa:
--11.278195488721794
+-10.999999999999998
 398
 node fully expanded, choosing best child
 true
@@ -26341,7 +26343,7 @@ num untried moves
 
 simulated
 root qsa:
--11.49999999999999
+-11.221945137157105
 399
 node fully expanded, choosing best child
 true
@@ -26361,7 +26363,7 @@ num untried moves
 
 simulated
 root qsa:
--11.221945137157096
+-10.945273631840793
 400
 node fully expanded, choosing best child
 true
@@ -26381,7 +26383,7 @@ num untried moves
 
 simulated
 root qsa:
--11.44278606965173
+-11.16625310173697
 401
 node fully expanded, choosing best child
 true
@@ -26401,7 +26403,7 @@ num untried moves
 
 simulated
 root qsa:
--11.166253101736961
+-10.891089108910888
 402
 node fully expanded, choosing best child
 true
@@ -26421,7 +26423,7 @@ num untried moves
 
 simulated
 root qsa:
--10.89108910891088
+-10.617283950617281
 403
 node fully expanded, choosing best child
 true
@@ -26441,7 +26443,7 @@ num untried moves
 
 simulated
 root qsa:
--11.1111111111111
+-10.837438423645317
 404
 node fully expanded, choosing best child
 true
@@ -26461,7 +26463,7 @@ num untried moves
 
 simulated
 root qsa:
--10.83743842364531
+-10.565110565110562
 405
 node fully expanded, choosing best child
 true
@@ -26481,7 +26483,7 @@ num untried moves
 
 simulated
 root qsa:
--11.056511056511045
+-10.784313725490193
 406
 node fully expanded, choosing best child
 true
@@ -26501,7 +26503,7 @@ num untried moves
 
 simulated
 root qsa:
--11.274509803921557
+-11.002444987775059
 407
 node fully expanded, choosing best child
 true
@@ -26521,7 +26523,7 @@ num untried moves
 
 simulated
 root qsa:
--11.491442542787274
+-11.219512195121949
 408
 node fully expanded, choosing best child
 true
@@ -26541,7 +26543,7 @@ num untried moves
 
 simulated
 root qsa:
--11.707317073170719
+-11.43552311435523
 409
 node fully expanded, choosing best child
 true
@@ -26561,7 +26563,7 @@ num untried moves
 
 simulated
 root qsa:
--11.922141119221399
+-11.650485436893202
 410
 node fully expanded, choosing best child
 true
@@ -26581,7 +26583,7 @@ num untried moves
 
 simulated
 root qsa:
--11.650485436893192
+-11.380145278450362
 411
 node fully expanded, choosing best child
 true
@@ -26601,7 +26603,7 @@ num untried moves
 
 simulated
 root qsa:
--11.380145278450351
+-11.11111111111111
 412
 node fully expanded, choosing best child
 true
@@ -26621,7 +26623,7 @@ num untried moves
 
 simulated
 root qsa:
--11.1111111111111
+-10.843373493975903
 413
 node fully expanded, choosing best child
 true
@@ -26641,7 +26643,7 @@ num untried moves
 
 simulated
 root qsa:
--10.843373493975893
+-10.576923076923077
 414
 node fully expanded, choosing best child
 true
@@ -26661,7 +26663,7 @@ num untried moves
 
 simulated
 root qsa:
--10.576923076923066
+-10.311750599520384
 415
 node fully expanded, choosing best child
 true
@@ -26681,7 +26683,7 @@ num untried moves
 
 simulated
 root qsa:
--10.311750599520373
+-10.047846889952153
 416
 node fully expanded, choosing best child
 true
@@ -26701,7 +26703,7 @@ num untried moves
 
 simulated
 root qsa:
--10.047846889952142
+-9.785202863961814
 417
 node fully expanded, choosing best child
 true
@@ -26721,7 +26723,7 @@ num untried moves
 
 simulated
 root qsa:
--9.785202863961803
+-9.523809523809524
 418
 node fully expanded, choosing best child
 true
@@ -26741,7 +26743,7 @@ num untried moves
 
 simulated
 root qsa:
--9.523809523809513
+-9.263657957244655
 419
 node fully expanded, choosing best child
 true
@@ -26761,7 +26763,7 @@ num untried moves
 
 simulated
 root qsa:
--9.738717339667447
+-9.47867298578199
 420
 node fully expanded, choosing best child
 true
@@ -26781,7 +26783,7 @@ num untried moves
 
 simulated
 root qsa:
--9.95260663507108
+-9.692671394799055
 421
 node fully expanded, choosing best child
 true
@@ -26801,7 +26803,7 @@ num untried moves
 
 simulated
 root qsa:
--9.692671394799044
+-9.433962264150944
 422
 node fully expanded, choosing best child
 true
@@ -26821,7 +26823,7 @@ num untried moves
 
 simulated
 root qsa:
--9.90566037735848
+-9.647058823529413
 423
 node fully expanded, choosing best child
 true
@@ -26841,7 +26843,7 @@ num untried moves
 
 simulated
 root qsa:
--10.117647058823518
+-9.859154929577466
 424
 node fully expanded, choosing best child
 true
@@ -26861,7 +26863,7 @@ num untried moves
 
 simulated
 root qsa:
--10.328638497652571
+-10.07025761124122
 425
 node fully expanded, choosing best child
 true
@@ -26881,7 +26883,7 @@ num untried moves
 
 simulated
 root qsa:
--10.53864168618266
+-10.280373831775702
 426
 node fully expanded, choosing best child
 true
@@ -26901,7 +26903,7 @@ num untried moves
 
 simulated
 root qsa:
--10.280373831775691
+-10.023310023310025
 427
 node fully expanded, choosing best child
 true
@@ -26921,7 +26923,7 @@ num untried moves
 
 simulated
 root qsa:
--10.023310023310014
+-9.767441860465118
 428
 node fully expanded, choosing best child
 true
@@ -26941,7 +26943,7 @@ num untried moves
 
 simulated
 root qsa:
--9.767441860465107
+-9.512761020881673
 429
 node fully expanded, choosing best child
 true
@@ -26961,7 +26963,7 @@ num untried moves
 
 simulated
 root qsa:
--9.512761020881662
+-9.259259259259261
 430
 node fully expanded, choosing best child
 true
@@ -26981,7 +26983,7 @@ num untried moves
 
 simulated
 root qsa:
--9.25925925925925
+-9.006928406466514
 431
 node fully expanded, choosing best child
 true
@@ -27001,7 +27003,7 @@ num untried moves
 
 simulated
 root qsa:
--9.006928406466503
+-8.755760368663596
 432
 node fully expanded, choosing best child
 true
@@ -27021,7 +27023,7 @@ num untried moves
 
 simulated
 root qsa:
--9.216589861751142
+-8.965517241379311
 433
 node fully expanded, choosing best child
 true
@@ -27041,7 +27043,7 @@ num untried moves
 
 simulated
 root qsa:
--9.42528735632183
+-9.174311926605506
 434
 node fully expanded, choosing best child
 true
@@ -27061,7 +27063,7 @@ num untried moves
 
 simulated
 root qsa:
--9.174311926605496
+-8.924485125858125
 435
 node fully expanded, choosing best child
 true
@@ -27081,7 +27083,7 @@ num untried moves
 
 simulated
 root qsa:
--8.924485125858114
+-8.675799086757992
 436
 node fully expanded, choosing best child
 true
@@ -27101,7 +27103,7 @@ num untried moves
 
 simulated
 root qsa:
--8.675799086757982
+-8.428246013667428
 437
 node fully expanded, choosing best child
 true
@@ -27121,7 +27123,7 @@ num untried moves
 
 simulated
 root qsa:
--8.428246013667417
+-8.181818181818183
 438
 node fully expanded, choosing best child
 true
@@ -27141,7 +27143,7 @@ num untried moves
 
 simulated
 root qsa:
--8.181818181818173
+-7.9365079365079385
 439
 node fully expanded, choosing best child
 true
@@ -27161,7 +27163,7 @@ num untried moves
 
 simulated
 root qsa:
--7.936507936507928
+-7.692307692307694
 440
 node fully expanded, choosing best child
 true
@@ -27181,7 +27183,7 @@ num untried moves
 
 simulated
 root qsa:
--7.692307692307684
+-7.449209932279912
 441
 node fully expanded, choosing best child
 true
@@ -27201,7 +27203,7 @@ num untried moves
 
 simulated
 root qsa:
--7.449209932279901
+-7.207207207207209
 442
 node fully expanded, choosing best child
 true
@@ -27221,7 +27223,7 @@ num untried moves
 
 simulated
 root qsa:
--7.657657657657649
+-7.415730337078654
 443
 node fully expanded, choosing best child
 true
@@ -27241,7 +27243,7 @@ num untried moves
 
 simulated
 root qsa:
--7.415730337078643
+-7.174887892376684
 444
 node fully expanded, choosing best child
 true
@@ -27261,7 +27263,7 @@ num untried moves
 
 simulated
 root qsa:
--7.623318385650216
+-7.382550335570472
 445
 node fully expanded, choosing best child
 true
@@ -27281,7 +27283,7 @@ num untried moves
 
 simulated
 root qsa:
--7.382550335570461
+-7.142857142857145
 446
 node fully expanded, choosing best child
 true
@@ -27301,7 +27303,7 @@ num untried moves
 
 simulated
 root qsa:
--7.5892857142857055
+-7.349665924276171
 447
 node fully expanded, choosing best child
 true
@@ -27321,7 +27323,7 @@ num untried moves
 
 simulated
 root qsa:
--7.34966592427616
+-7.1111111111111125
 448
 node fully expanded, choosing best child
 true
@@ -27341,7 +27343,7 @@ num untried moves
 
 simulated
 root qsa:
--7.111111111111102
+-6.873614190687363
 449
 node fully expanded, choosing best child
 true
@@ -27361,7 +27363,7 @@ num untried moves
 
 simulated
 root qsa:
--6.873614190687352
+-6.637168141592921
 450
 node fully expanded, choosing best child
 true
@@ -27381,7 +27383,7 @@ num untried moves
 
 simulated
 root qsa:
--6.637168141592911
+-6.401766004415012
 451
 node fully expanded, choosing best child
 true
@@ -27401,7 +27403,7 @@ num untried moves
 
 simulated
 root qsa:
--6.401766004415001
+-6.16740088105727
 452
 node fully expanded, choosing best child
 true
@@ -27421,7 +27423,7 @@ num untried moves
 
 simulated
 root qsa:
--6.607929515418492
+-6.373626373626374
 453
 node fully expanded, choosing best child
 true
@@ -27441,7 +27443,7 @@ num untried moves
 
 simulated
 root qsa:
--6.813186813186803
+-6.578947368421053
 454
 node fully expanded, choosing best child
 true
@@ -27461,7 +27463,7 @@ num untried moves
 
 simulated
 root qsa:
--7.017543859649113
+-6.783369803063458
 455
 node fully expanded, choosing best child
 true
@@ -27481,7 +27483,7 @@ num untried moves
 
 simulated
 root qsa:
--6.783369803063447
+-6.550218340611354
 456
 node fully expanded, choosing best child
 true
@@ -27501,7 +27503,7 @@ num untried moves
 
 simulated
 root qsa:
--6.986899563318767
+-6.753812636165578
 457
 node fully expanded, choosing best child
 true
@@ -27521,7 +27523,7 @@ num untried moves
 
 simulated
 root qsa:
--7.18954248366012
+-6.9565217391304355
 458
 node fully expanded, choosing best child
 true
@@ -27541,7 +27543,7 @@ num untried moves
 
 simulated
 root qsa:
--7.391304347826076
+-7.158351409978309
 459
 node fully expanded, choosing best child
 true
@@ -27561,7 +27563,7 @@ num untried moves
 
 simulated
 root qsa:
--7.158351409978297
+-6.926406926406927
 460
 node fully expanded, choosing best child
 true
@@ -27581,7 +27583,7 @@ num untried moves
 
 simulated
 root qsa:
--7.359307359307349
+-7.127429805615551
 461
 node fully expanded, choosing best child
 true
@@ -27601,7 +27603,7 @@ num untried moves
 
 simulated
 root qsa:
--7.559395248380119
+-7.3275862068965525
 462
 node fully expanded, choosing best child
 true
@@ -27621,7 +27623,7 @@ num untried moves
 
 simulated
 root qsa:
--7.327586206896541
+-7.096774193548388
 463
 node fully expanded, choosing best child
 true
@@ -27641,7 +27643,7 @@ num untried moves
 
 simulated
 root qsa:
--7.526881720430096
+-7.296137339055795
 464
 node fully expanded, choosing best child
 true
@@ -27661,7 +27663,7 @@ num untried moves
 
 simulated
 root qsa:
--7.296137339055782
+-7.066381156316917
 465
 node fully expanded, choosing best child
 true
@@ -27681,7 +27683,7 @@ num untried moves
 
 simulated
 root qsa:
--7.494646680942172
+-7.264957264957266
 466
 node fully expanded, choosing best child
 true
@@ -27701,7 +27703,7 @@ num untried moves
 
 simulated
 root qsa:
--7.264957264957253
+-7.0362473347547985
 467
 node fully expanded, choosing best child
 true
@@ -27721,7 +27723,7 @@ num untried moves
 
 simulated
 root qsa:
--7.462686567164168
+-7.2340425531914905
 468
 node fully expanded, choosing best child
 true
@@ -27741,7 +27743,7 @@ num untried moves
 
 simulated
 root qsa:
--7.234042553191478
+-7.0063694267515935
 469
 node fully expanded, choosing best child
 true
@@ -27761,7 +27763,7 @@ num untried moves
 
 simulated
 root qsa:
--7.006369426751581
+-6.779661016949154
 470
 node fully expanded, choosing best child
 true
@@ -27781,7 +27783,7 @@ num untried moves
 
 simulated
 root qsa:
--7.203389830508463
+-6.976744186046513
 471
 node fully expanded, choosing best child
 true
@@ -27801,7 +27803,7 @@ num untried moves
 
 simulated
 root qsa:
--6.9767441860465
+-6.751054852320677
 472
 node fully expanded, choosing best child
 true
@@ -27821,7 +27823,7 @@ num untried moves
 
 simulated
 root qsa:
--6.751054852320664
+-6.526315789473686
 473
 node fully expanded, choosing best child
 true
@@ -27841,7 +27843,7 @@ num untried moves
 
 simulated
 root qsa:
--6.94736842105262
+-6.722689075630254
 474
 node fully expanded, choosing best child
 true
@@ -27861,7 +27863,7 @@ num untried moves
 
 simulated
 root qsa:
--6.722689075630241
+-6.498951781970652
 475
 node fully expanded, choosing best child
 true
@@ -27881,7 +27883,7 @@ num untried moves
 
 simulated
 root qsa:
--6.498951781970638
+-6.276150627615064
 476
 node fully expanded, choosing best child
 true
@@ -27901,7 +27903,7 @@ num untried moves
 
 simulated
 root qsa:
--6.694560669456055
+-6.471816283924845
 477
 node fully expanded, choosing best child
 true
@@ -27921,7 +27923,7 @@ num untried moves
 
 simulated
 root qsa:
--6.889352818371596
+-6.666666666666668
 478
 node fully expanded, choosing best child
 true
@@ -27941,7 +27943,7 @@ num untried moves
 
 simulated
 root qsa:
--6.666666666666655
+-6.444906444906446
 479
 node fully expanded, choosing best child
 true
@@ -27961,7 +27963,7 @@ num untried moves
 
 simulated
 root qsa:
--6.860706860706849
+-6.639004149377595
 480
 node fully expanded, choosing best child
 true
@@ -27981,7 +27983,7 @@ num untried moves
 
 simulated
 root qsa:
--6.639004149377582
+-6.418219461697724
 481
 node fully expanded, choosing best child
 true
@@ -28001,7 +28003,7 @@ num untried moves
 
 simulated
 root qsa:
--6.832298136645951
+-6.611570247933886
 482
 node fully expanded, choosing best child
 true
@@ -28021,7 +28023,7 @@ num untried moves
 
 simulated
 root qsa:
--6.611570247933873
+-6.39175257731959
 483
 node fully expanded, choosing best child
 true
@@ -28041,7 +28043,7 @@ num untried moves
 
 simulated
 root qsa:
--6.8041237113401944
+-6.5843621399176975
 484
 node fully expanded, choosing best child
 true
@@ -28061,7 +28063,7 @@ num untried moves
 
 simulated
 root qsa:
--6.99588477366254
+-6.776180698151952
 485
 node fully expanded, choosing best child
 true
@@ -28081,7 +28083,7 @@ num untried moves
 
 simulated
 root qsa:
--6.776180698151939
+-6.55737704918033
 486
 node fully expanded, choosing best child
 true
@@ -28101,7 +28103,7 @@ num untried moves
 
 simulated
 root qsa:
--6.5573770491803165
+-6.339468302658489
 487
 node fully expanded, choosing best child
 true
@@ -28121,7 +28123,7 @@ num untried moves
 
 simulated
 root qsa:
--6.339468302658475
+-6.122448979591838
 488
 node fully expanded, choosing best child
 true
@@ -28141,7 +28143,7 @@ num untried moves
 
 simulated
 root qsa:
--6.530612244897948
+-6.313645621181264
 489
 node fully expanded, choosing best child
 true
@@ -28161,7 +28163,7 @@ num untried moves
 
 simulated
 root qsa:
--6.3136456211812515
+-6.097560975609757
 490
 node fully expanded, choosing best child
 true
@@ -28181,7 +28183,7 @@ num untried moves
 
 simulated
 root qsa:
--6.504065040650396
+-6.288032454361056
 491
 node fully expanded, choosing best child
 true
@@ -28201,7 +28203,7 @@ num untried moves
 
 simulated
 root qsa:
--6.693711967545628
+-6.477732793522268
 492
 node fully expanded, choosing best child
 true
@@ -28221,7 +28223,7 @@ num untried moves
 
 simulated
 root qsa:
--6.882591093117398
+-6.666666666666668
 493
 node fully expanded, choosing best child
 true
@@ -28241,7 +28243,7 @@ num untried moves
 
 simulated
 root qsa:
--7.070707070707059
+-6.854838709677421
 494
 node fully expanded, choosing best child
 true
@@ -28261,7 +28263,7 @@ num untried moves
 
 simulated
 root qsa:
--6.854838709677408
+-6.639839034205233
 495
 node fully expanded, choosing best child
 true
@@ -28281,7 +28283,7 @@ num untried moves
 
 simulated
 root qsa:
--6.63983903420522
+-6.425702811244982
 496
 node fully expanded, choosing best child
 true
@@ -28301,7 +28303,7 @@ num untried moves
 
 simulated
 root qsa:
--6.425702811244969
+-6.2124248496994
 497
 node fully expanded, choosing best child
 true
@@ -28321,7 +28323,7 @@ num untried moves
 
 simulated
 root qsa:
--6.212424849699388
+-6.000000000000001
 498
 node fully expanded, choosing best child
 true
@@ -28341,7 +28343,7 @@ num untried moves
 
 simulated
 root qsa:
--6.399999999999989
+-6.187624750499003
 499
 node fully expanded, choosing best child
 true
@@ -28361,7 +28363,7 @@ num untried moves
 
 simulated
 root qsa:
--6.586826347305378
+-6.374501992031873
 500
 node fully expanded, choosing best child
 true
@@ -28381,7 +28383,7 @@ num untried moves
 
 simulated
 root qsa:
--6.772908366533853
+-6.560636182902585
 501
 node fully expanded, choosing best child
 true
@@ -28401,7 +28403,7 @@ num untried moves
 
 simulated
 root qsa:
--6.958250497017882
+-6.746031746031747
 502
 node fully expanded, choosing best child
 true
@@ -28421,7 +28423,7 @@ num untried moves
 
 simulated
 root qsa:
--7.142857142857132
+-6.9306930693069315
 503
 node fully expanded, choosing best child
 true
@@ -28441,7 +28443,7 @@ num untried moves
 
 simulated
 root qsa:
--7.3267326732673155
+-7.114624505928854
 504
 node fully expanded, choosing best child
 true
@@ -28461,7 +28463,7 @@ num untried moves
 
 simulated
 root qsa:
--7.114624505928843
+-6.903353057199212
 505
 node fully expanded, choosing best child
 true
@@ -28481,7 +28483,7 @@ num untried moves
 
 simulated
 root qsa:
--7.297830374753441
+-7.086614173228347
 506
 node fully expanded, choosing best child
 true
@@ -28501,7 +28503,7 @@ num untried moves
 
 simulated
 root qsa:
--7.480314960629911
+-7.269155206286838
 507
 node fully expanded, choosing best child
 true
@@ -28521,7 +28523,7 @@ num untried moves
 
 simulated
 root qsa:
--7.269155206286826
+-7.058823529411765
 508
 node fully expanded, choosing best child
 true
@@ -28541,7 +28543,7 @@ num untried moves
 
 simulated
 root qsa:
--7.450980392156852
+-7.240704500978474
 509
 node fully expanded, choosing best child
 true
@@ -28561,7 +28563,7 @@ num untried moves
 
 simulated
 root qsa:
--7.240704500978463
+-7.03125
 510
 node fully expanded, choosing best child
 true
@@ -28581,7 +28583,7 @@ num untried moves
 
 simulated
 root qsa:
--7.421874999999989
+-7.212475633528265
 511
 node fully expanded, choosing best child
 true
@@ -28601,7 +28603,7 @@ num untried moves
 
 simulated
 root qsa:
--7.602339181286539
+-7.392996108949416
 512
 node fully expanded, choosing best child
 true
@@ -28621,7 +28623,7 @@ num untried moves
 
 simulated
 root qsa:
--7.392996108949406
+-7.184466019417475
 513
 node fully expanded, choosing best child
 true
@@ -28641,7 +28643,7 @@ num untried moves
 
 simulated
 root qsa:
--7.184466019417465
+-6.976744186046511
 514
 node fully expanded, choosing best child
 true
@@ -28661,7 +28663,7 @@ num untried moves
 
 simulated
 root qsa:
--6.976744186046501
+-6.769825918762088
 515
 node fully expanded, choosing best child
 true
@@ -28681,7 +28683,7 @@ num untried moves
 
 simulated
 root qsa:
--7.156673114119912
+-6.949806949806948
 516
 node fully expanded, choosing best child
 true
@@ -28701,7 +28703,7 @@ num untried moves
 
 simulated
 root qsa:
--7.335907335907326
+-7.129094412331405
 517
 node fully expanded, choosing best child
 true
@@ -28721,7 +28723,7 @@ num untried moves
 
 simulated
 root qsa:
--7.129094412331396
+-6.923076923076922
 518
 node fully expanded, choosing best child
 true
@@ -28741,7 +28743,7 @@ num untried moves
 
 simulated
 root qsa:
--7.307692307692297
+-7.101727447216889
 519
 node fully expanded, choosing best child
 true
@@ -28761,7 +28763,7 @@ num untried moves
 
 simulated
 root qsa:
--7.485604606525901
+-7.279693486590037
 520
 node fully expanded, choosing best child
 true
@@ -28781,7 +28783,7 @@ num untried moves
 
 simulated
 root qsa:
--7.279693486590028
+-7.074569789674951
 521
 node fully expanded, choosing best child
 true
@@ -28801,7 +28803,7 @@ num untried moves
 
 simulated
 root qsa:
--7.45697896749521
+-7.251908396946563
 522
 node fully expanded, choosing best child
 true
@@ -28821,7 +28823,7 @@ num untried moves
 
 simulated
 root qsa:
--7.251908396946555
+-7.047619047619046
 523
 node fully expanded, choosing best child
 true
@@ -28841,7 +28843,7 @@ num untried moves
 
 simulated
 root qsa:
--7.428571428571419
+-7.2243346007604545
 524
 node fully expanded, choosing best child
 true
@@ -28861,7 +28863,7 @@ num untried moves
 
 simulated
 root qsa:
--7.604562737642576
+-7.4003795066413645
 525
 node fully expanded, choosing best child
 true
@@ -28881,7 +28883,7 @@ num untried moves
 
 simulated
 root qsa:
--7.4003795066413565
+-7.1969696969696955
 526
 node fully expanded, choosing best child
 true
@@ -28901,7 +28903,7 @@ num untried moves
 
 simulated
 root qsa:
--7.1969696969696875
+-6.9943289224952725
 527
 node fully expanded, choosing best child
 true
@@ -28921,7 +28923,7 @@ num untried moves
 
 simulated
 root qsa:
--6.9943289224952645
+-6.792452830188678
 528
 node fully expanded, choosing best child
 true
@@ -28941,7 +28943,7 @@ num untried moves
 
 simulated
 root qsa:
--7.169811320754707
+-6.967984934086627
 529
 node fully expanded, choosing best child
 true
@@ -28961,7 +28963,7 @@ num untried moves
 
 simulated
 root qsa:
--6.967984934086619
+-6.766917293233081
 530
 node fully expanded, choosing best child
 true
@@ -28981,7 +28983,7 @@ num untried moves
 
 simulated
 root qsa:
--6.766917293233073
+-6.566604127579735
 531
 node fully expanded, choosing best child
 true
@@ -29001,7 +29003,7 @@ num untried moves
 
 simulated
 root qsa:
--6.566604127579727
+-6.3670411985018704
 532
 node fully expanded, choosing best child
 true
@@ -29021,7 +29023,7 @@ num untried moves
 
 simulated
 root qsa:
--6.3670411985018625
+-6.168224299065418
 533
 node fully expanded, choosing best child
 true
@@ -29041,7 +29043,7 @@ num untried moves
 
 simulated
 root qsa:
--6.16822429906541
+-5.970149253731341
 534
 node fully expanded, choosing best child
 true
@@ -29061,7 +29063,7 @@ num untried moves
 
 simulated
 root qsa:
--6.3432835820895415
+-6.145251396648042
 535
 node fully expanded, choosing best child
 true
@@ -29081,7 +29083,7 @@ num untried moves
 
 simulated
 root qsa:
--6.1452513966480335
+-5.94795539033457
 536
 node fully expanded, choosing best child
 true
@@ -29101,7 +29103,7 @@ num untried moves
 
 simulated
 root qsa:
--6.319702602230472
+-6.122448979591835
 537
 node fully expanded, choosing best child
 true
@@ -29121,7 +29123,7 @@ num untried moves
 
 simulated
 root qsa:
--6.122448979591826
+-5.925925925925924
 538
 node fully expanded, choosing best child
 true
@@ -29141,7 +29143,7 @@ num untried moves
 
 simulated
 root qsa:
--5.925925925925915
+-5.730129390018482
 539
 node fully expanded, choosing best child
 true
@@ -29161,7 +29163,7 @@ num untried moves
 
 simulated
 root qsa:
--5.730129390018473
+-5.535055350553503
 540
 node fully expanded, choosing best child
 true
@@ -29181,7 +29183,7 @@ num untried moves
 
 simulated
 root qsa:
--5.5350553505534945
+-5.340699815837935
 541
 node fully expanded, choosing best child
 true
@@ -29201,7 +29203,7 @@ num untried moves
 
 simulated
 root qsa:
--5.709023941068129
+-5.5147058823529385
 542
 node fully expanded, choosing best child
 true
@@ -29221,7 +29223,7 @@ num untried moves
 
 simulated
 root qsa:
--5.88235294117646
+-5.68807339449541
 543
 node fully expanded, choosing best child
 true
@@ -29241,7 +29243,7 @@ num untried moves
 
 simulated
 root qsa:
--6.0550458715596225
+-5.860805860805858
 544
 node fully expanded, choosing best child
 true
@@ -29261,7 +29263,7 @@ num untried moves
 
 simulated
 root qsa:
--5.860805860805851
+-5.6672760511882965
 545
 node fully expanded, choosing best child
 true
@@ -29281,7 +29283,7 @@ num untried moves
 
 simulated
 root qsa:
--5.667276051188289
+-5.474452554744523
 546
 node fully expanded, choosing best child
 true
@@ -29301,7 +29303,7 @@ num untried moves
 
 simulated
 root qsa:
--5.83941605839415
+-5.646630236794168
 547
 node fully expanded, choosing best child
 true
@@ -29321,7 +29323,7 @@ num untried moves
 
 simulated
 root qsa:
--6.010928961748623
+-5.818181818181816
 548
 node fully expanded, choosing best child
 true
@@ -29341,7 +29343,7 @@ num untried moves
 
 simulated
 root qsa:
--6.181818181818171
+-5.98911070780399
 549
 node fully expanded, choosing best child
 true
@@ -29361,7 +29363,7 @@ num untried moves
 
 simulated
 root qsa:
--5.989110707803982
+-5.79710144927536
 550
 node fully expanded, choosing best child
 true
@@ -29381,7 +29383,7 @@ num untried moves
 
 simulated
 root qsa:
--6.159420289855062
+-5.967450271247737
 551
 node fully expanded, choosing best child
 true
@@ -29401,7 +29403,7 @@ num untried moves
 
 simulated
 root qsa:
--6.329113924050622
+-6.137184115523462
 552
 node fully expanded, choosing best child
 true
@@ -29421,7 +29423,7 @@ num untried moves
 
 simulated
 root qsa:
--6.137184115523455
+-5.945945945945943
 553
 node fully expanded, choosing best child
 true
@@ -29441,7 +29443,7 @@ num untried moves
 
 simulated
 root qsa:
--6.306306306306296
+-6.115107913669061
 554
 node fully expanded, choosing best child
 true
@@ -29461,7 +29463,7 @@ num untried moves
 
 simulated
 root qsa:
--6.474820143884882
+-6.2836624775583445
 555
 node fully expanded, choosing best child
 true
@@ -29481,7 +29483,7 @@ num untried moves
 
 simulated
 root qsa:
--6.642728904847386
+-6.4516129032258025
 556
 node fully expanded, choosing best child
 true
@@ -29501,7 +29503,7 @@ num untried moves
 
 simulated
 root qsa:
--6.810035842293896
+-6.618962432915917
 557
 node fully expanded, choosing best child
 true
@@ -29521,7 +29523,7 @@ num untried moves
 
 simulated
 root qsa:
--6.976744186046501
+-6.785714285714281
 558
 node fully expanded, choosing best child
 true
@@ -29541,7 +29543,7 @@ num untried moves
 
 simulated
 root qsa:
--6.785714285714275
+-6.5953654188948265
 559
 node fully expanded, choosing best child
 true
@@ -29561,7 +29563,7 @@ num untried moves
 
 simulated
 root qsa:
--6.59536541889482
+-6.405693950177932
 560
 node fully expanded, choosing best child
 true
@@ -29581,7 +29583,7 @@ num untried moves
 
 simulated
 root qsa:
--6.405693950177926
+-6.216696269982235
 561
 node fully expanded, choosing best child
 true
@@ -29601,7 +29603,7 @@ num untried moves
 
 simulated
 root qsa:
--6.571936056838356
+-6.382978723404252
 562
 node fully expanded, choosing best child
 true
@@ -29621,7 +29623,7 @@ num untried moves
 
 simulated
 root qsa:
--6.73758865248226
+-6.548672566371677
 563
 node fully expanded, choosing best child
 true
@@ -29641,7 +29643,7 @@ num untried moves
 
 simulated
 root qsa:
--6.9026548672566275
+-6.713780918727911
 564
 node fully expanded, choosing best child
 true
@@ -29661,7 +29663,7 @@ num untried moves
 
 simulated
 root qsa:
--7.06713780918727
+-6.878306878306875
 565
 node fully expanded, choosing best child
 true
@@ -29681,7 +29683,7 @@ num untried moves
 
 simulated
 root qsa:
--6.878306878306869
+-6.6901408450704185
 566
 node fully expanded, choosing best child
 true
@@ -29701,7 +29703,7 @@ num untried moves
 
 simulated
 root qsa:
--6.690140845070413
+-6.5026362038664285
 567
 node fully expanded, choosing best child
 true
@@ -29721,7 +29723,7 @@ num untried moves
 
 simulated
 root qsa:
--6.502636203866423
+-6.315789473684207
 568
 node fully expanded, choosing best child
 true
@@ -29741,7 +29743,7 @@ num untried moves
 
 simulated
 root qsa:
--6.315789473684202
+-6.129597197898421
 569
 node fully expanded, choosing best child
 true
@@ -29761,7 +29763,7 @@ num untried moves
 
 simulated
 root qsa:
--6.129597197898415
+-5.944055944055941
 570
 node fully expanded, choosing best child
 true
@@ -29781,7 +29783,7 @@ num untried moves
 
 simulated
 root qsa:
--5.944055944055935
+-5.759162303664918
 571
 node fully expanded, choosing best child
 true
@@ -29801,7 +29803,7 @@ num untried moves
 
 simulated
 root qsa:
--5.759162303664913
+-5.5749128919860595
 572
 node fully expanded, choosing best child
 true
@@ -29821,7 +29823,7 @@ num untried moves
 
 simulated
 root qsa:
--5.574912891986054
+-5.391304347826083
 573
 node fully expanded, choosing best child
 true
@@ -29841,7 +29843,7 @@ num untried moves
 
 simulated
 root qsa:
--5.391304347826078
+-5.2083333333333295
 574
 node fully expanded, choosing best child
 true
@@ -29861,7 +29863,7 @@ num untried moves
 
 simulated
 root qsa:
--5.5555555555555465
+-5.372616984402076
 575
 node fully expanded, choosing best child
 true
@@ -29881,7 +29883,7 @@ num untried moves
 
 simulated
 root qsa:
--5.372616984402071
+-5.190311418685117
 576
 node fully expanded, choosing best child
 true
@@ -29901,7 +29903,7 @@ num untried moves
 
 simulated
 root qsa:
--5.190311418685112
+-5.008635578583761
 577
 node fully expanded, choosing best child
 true
@@ -29921,7 +29923,7 @@ num untried moves
 
 simulated
 root qsa:
--5.3540587219343605
+-5.172413793103445
 578
 node fully expanded, choosing best child
 true
@@ -29941,7 +29943,7 @@ num untried moves
 
 simulated
 root qsa:
--5.517241379310335
+-5.335628227194489
 579
 node fully expanded, choosing best child
 true
@@ -29961,7 +29963,7 @@ num untried moves
 
 simulated
 root qsa:
--5.679862306368321
+-5.498281786941577
 580
 node fully expanded, choosing best child
 true
@@ -29981,7 +29983,7 @@ num untried moves
 
 simulated
 root qsa:
--5.498281786941571
+-5.31732418524871
 581
 node fully expanded, choosing best child
 true
@@ -30001,7 +30003,7 @@ num untried moves
 
 simulated
 root qsa:
--5.660377358490556
+-5.479452054794517
 582
 node fully expanded, choosing best child
 true
@@ -30021,7 +30023,7 @@ num untried moves
 
 simulated
 root qsa:
--5.821917808219168
+-5.641025641025637
 583
 node fully expanded, choosing best child
 true
@@ -30041,7 +30043,7 @@ num untried moves
 
 simulated
 root qsa:
--5.641025641025631
+-5.460750853242317
 584
 node fully expanded, choosing best child
 true
@@ -30061,7 +30063,7 @@ num untried moves
 
 simulated
 root qsa:
--5.460750853242311
+-5.281090289608173
 585
 node fully expanded, choosing best child
 true
@@ -30081,7 +30083,7 @@ num untried moves
 
 simulated
 root qsa:
--5.281090289608167
+-5.102040816326526
 586
 node fully expanded, choosing best child
 true
@@ -30101,7 +30103,7 @@ num untried moves
 
 simulated
 root qsa:
--5.4421768707482885
+-5.263157894736837
 587
 node fully expanded, choosing best child
 true
@@ -30121,7 +30123,7 @@ num untried moves
 
 simulated
 root qsa:
--5.263157894736831
+-5.08474576271186
 588
 node fully expanded, choosing best child
 true
@@ -30141,7 +30143,7 @@ num untried moves
 
 simulated
 root qsa:
--5.423728813559311
+-5.245346869712347
 589
 node fully expanded, choosing best child
 true
@@ -30161,7 +30163,7 @@ num untried moves
 
 simulated
 root qsa:
--5.583756345177654
+-5.405405405405401
 590
 node fully expanded, choosing best child
 true
@@ -30181,7 +30183,7 @@ num untried moves
 
 simulated
 root qsa:
--5.405405405405395
+-5.22765598650927
 591
 node fully expanded, choosing best child
 true
@@ -30201,7 +30203,7 @@ num untried moves
 
 simulated
 root qsa:
--5.227655986509264
+-5.050505050505046
 592
 node fully expanded, choosing best child
 true
@@ -30221,7 +30223,7 @@ num untried moves
 
 simulated
 root qsa:
--5.0505050505050395
+-4.873949579831928
 593
 node fully expanded, choosing best child
 true
@@ -30241,7 +30243,7 @@ num untried moves
 
 simulated
 root qsa:
--5.210084033613434
+-5.033557046979861
 594
 node fully expanded, choosing best child
 true
@@ -30261,7 +30263,7 @@ num untried moves
 
 simulated
 root qsa:
--5.369127516778512
+-5.192629815745389
 595
 node fully expanded, choosing best child
 true
@@ -30281,7 +30283,7 @@ num untried moves
 
 simulated
 root qsa:
--5.527638190954763
+-5.351170568561868
 596
 node fully expanded, choosing best child
 true
@@ -30301,7 +30303,7 @@ num untried moves
 
 simulated
 root qsa:
--5.351170568561862
+-5.17529215358931
 597
 node fully expanded, choosing best child
 true
@@ -30321,7 +30323,7 @@ num untried moves
 
 simulated
 root qsa:
--5.175292153589305
+-4.999999999999995
 598
 node fully expanded, choosing best child
 true
@@ -30341,7 +30343,7 @@ num untried moves
 
 simulated
 root qsa:
--4.999999999999989
+-4.8252911813643875
 599
 node fully expanded, choosing best child
 true
@@ -30361,7 +30363,7 @@ num untried moves
 
 simulated
 root qsa:
--5.1580698835274434
+-4.983388704318932
 600
 node fully expanded, choosing best child
 true
@@ -30381,7 +30383,7 @@ num untried moves
 
 simulated
 root qsa:
--5.315614617940189
+-5.140961857379763
 601
 node fully expanded, choosing best child
 true
@@ -30401,7 +30403,7 @@ num untried moves
 
 simulated
 root qsa:
--5.140961857379757
+-4.966887417218538
 602
 node fully expanded, choosing best child
 true
@@ -30421,7 +30423,7 @@ num untried moves
 
 simulated
 root qsa:
--4.966887417218532
+-4.793388429752061
 603
 node fully expanded, choosing best child
 true
@@ -30441,7 +30443,7 @@ num untried moves
 
 simulated
 root qsa:
--4.7933884297520555
+-4.620462046204615
 604
 node fully expanded, choosing best child
 true
@@ -30461,7 +30463,7 @@ num untried moves
 
 simulated
 root qsa:
--4.62046204620461
+-4.448105436573306
 605
 node fully expanded, choosing best child
 true
@@ -30481,7 +30483,7 @@ num untried moves
 
 simulated
 root qsa:
--4.448105436573301
+-4.27631578947368
 606
 node fully expanded, choosing best child
 true
@@ -30501,7 +30503,7 @@ num untried moves
 
 simulated
 root qsa:
--4.276315789473674
+-4.105090311986859
 607
 node fully expanded, choosing best child
 true
@@ -30521,7 +30523,7 @@ num untried moves
 
 simulated
 root qsa:
--4.105090311986854
+-3.934426229508192
 608
 node fully expanded, choosing best child
 true
@@ -30541,7 +30543,7 @@ num untried moves
 
 simulated
 root qsa:
--3.934426229508187
+-3.764320785597377
 609
 node fully expanded, choosing best child
 true
@@ -30561,7 +30563,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7643207855973717
+-3.594771241830061
 610
 node fully expanded, choosing best child
 true
@@ -30581,7 +30583,7 @@ num untried moves
 
 simulated
 root qsa:
--3.921568627450971
+-3.752039151712883
 611
 node fully expanded, choosing best child
 true
@@ -30601,7 +30603,7 @@ num untried moves
 
 simulated
 root qsa:
--4.078303425774868
+-3.908794788273611
 612
 node fully expanded, choosing best child
 true
@@ -30621,7 +30623,7 @@ num untried moves
 
 simulated
 root qsa:
--4.234527687296407
+-4.0650406504065
 613
 node fully expanded, choosing best child
 true
@@ -30641,7 +30643,7 @@ num untried moves
 
 simulated
 root qsa:
--4.065040650406495
+-3.896103896103892
 614
 node fully expanded, choosing best child
 true
@@ -30661,7 +30663,7 @@ num untried moves
 
 simulated
 root qsa:
--3.8961038961038867
+-3.727714748784437
 615
 node fully expanded, choosing best child
 true
@@ -30681,7 +30683,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7277147487844315
+-3.559870550161808
 616
 node fully expanded, choosing best child
 true
@@ -30701,7 +30703,7 @@ num untried moves
 
 simulated
 root qsa:
--3.559870550161803
+-3.392568659127621
 617
 node fully expanded, choosing best child
 true
@@ -30721,7 +30723,7 @@ num untried moves
 
 simulated
 root qsa:
--3.392568659127616
+-3.225806451612899
 618
 node fully expanded, choosing best child
 true
@@ -30741,7 +30743,7 @@ num untried moves
 
 simulated
 root qsa:
--3.2258064516128937
+-3.0595813204508815
 619
 node fully expanded, choosing best child
 true
@@ -30761,7 +30763,7 @@ num untried moves
 
 simulated
 root qsa:
--3.3816425120772853
+-3.215434083601282
 620
 node fully expanded, choosing best child
 true
@@ -30781,7 +30783,7 @@ num untried moves
 
 simulated
 root qsa:
--3.536977491961405
+-3.3707865168539284
 621
 node fully expanded, choosing best child
 true
@@ -30801,7 +30803,7 @@ num untried moves
 
 simulated
 root qsa:
--3.691813804173345
+-3.5256410256410216
 622
 node fully expanded, choosing best child
 true
@@ -30821,7 +30823,7 @@ num untried moves
 
 simulated
 root qsa:
--3.525641025641016
+-3.359999999999996
 623
 node fully expanded, choosing best child
 true
@@ -30841,7 +30843,7 @@ num untried moves
 
 simulated
 root qsa:
--3.67999999999999
+-3.5143769968051077
 624
 node fully expanded, choosing best child
 true
@@ -30861,7 +30863,7 @@ num untried moves
 
 simulated
 root qsa:
--3.8338658146964755
+-3.668261562998401
 625
 node fully expanded, choosing best child
 true
@@ -30881,7 +30883,7 @@ num untried moves
 
 simulated
 root qsa:
--3.9872408293460824
+-3.82165605095541
 626
 node fully expanded, choosing best child
 true
@@ -30901,7 +30903,7 @@ num untried moves
 
 simulated
 root qsa:
--4.140127388535022
+-3.974562798092206
 627
 node fully expanded, choosing best child
 true
@@ -30921,7 +30923,7 @@ num untried moves
 
 simulated
 root qsa:
--4.292527821939577
+-4.126984126984123
 628
 node fully expanded, choosing best child
 true
@@ -30941,7 +30943,7 @@ num untried moves
 
 simulated
 root qsa:
--4.444444444444434
+-4.278922345483355
 629
 node fully expanded, choosing best child
 true
@@ -30961,7 +30963,7 @@ num untried moves
 
 simulated
 root qsa:
--4.278922345483349
+-4.113924050632907
 630
 node fully expanded, choosing best child
 true
@@ -30981,7 +30983,7 @@ num untried moves
 
 simulated
 root qsa:
--4.430379746835433
+-4.265402843601891
 631
 node fully expanded, choosing best child
 true
@@ -31001,7 +31003,7 @@ num untried moves
 
 simulated
 root qsa:
--4.265402843601886
+-4.1009463722397435
 632
 node fully expanded, choosing best child
 true
@@ -31021,7 +31023,7 @@ num untried moves
 
 simulated
 root qsa:
--4.416403785488949
+-4.251968503937004
 633
 node fully expanded, choosing best child
 true
@@ -31041,7 +31043,7 @@ num untried moves
 
 simulated
 root qsa:
--4.2519685039369985
+-4.088050314465405
 634
 node fully expanded, choosing best child
 true
@@ -31061,7 +31063,7 @@ num untried moves
 
 simulated
 root qsa:
--4.0880503144653995
+-3.924646781789635
 635
 node fully expanded, choosing best child
 true
@@ -31081,7 +31083,7 @@ num untried moves
 
 simulated
 root qsa:
--4.238618524332801
+-4.075235109717864
 636
 node fully expanded, choosing best child
 true
@@ -31101,7 +31103,7 @@ num untried moves
 
 simulated
 root qsa:
--4.075235109717859
+-3.912363067292641
 637
 node fully expanded, choosing best child
 true
@@ -31121,7 +31123,7 @@ num untried moves
 
 simulated
 root qsa:
--4.225352112676047
+-4.0624999999999964
 638
 node fully expanded, choosing best child
 true
@@ -31141,7 +31143,7 @@ num untried moves
 
 simulated
 root qsa:
--4.062499999999991
+-3.900156006240246
 639
 node fully expanded, choosing best child
 true
@@ -31161,7 +31163,7 @@ num untried moves
 
 simulated
 root qsa:
--3.9001560062402407
+-3.738317757009342
 640
 node fully expanded, choosing best child
 true
@@ -31181,7 +31183,7 @@ num untried moves
 
 simulated
 root qsa:
--4.049844236760116
+-3.88802488335925
 641
 node fully expanded, choosing best child
 true
@@ -31201,7 +31203,7 @@ num untried moves
 
 simulated
 root qsa:
--3.8880248833592446
+-3.726708074534158
 642
 node fully expanded, choosing best child
 true
@@ -31221,7 +31223,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7267080745341525
+-3.5658914728682136
 643
 node fully expanded, choosing best child
 true
@@ -31241,7 +31243,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5658914728682083
+-3.4055727554179533
 644
 node fully expanded, choosing best child
 true
@@ -31261,7 +31263,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7151702786377623
+-3.5548686244203984
 645
 node fully expanded, choosing best child
 true
@@ -31281,7 +31283,7 @@ num untried moves
 
 simulated
 root qsa:
--3.554868624420393
+-3.395061728395058
 646
 node fully expanded, choosing best child
 true
@@ -31301,7 +31303,7 @@ num untried moves
 
 simulated
 root qsa:
--3.703703703703695
+-3.543913713405235
 647
 node fully expanded, choosing best child
 true
@@ -31321,7 +31323,7 @@ num untried moves
 
 simulated
 root qsa:
--3.54391371340523
+-3.384615384615381
 648
 node fully expanded, choosing best child
 true
@@ -31341,7 +31343,7 @@ num untried moves
 
 simulated
 root qsa:
--3.692307692307683
+-3.5330261136712715
 649
 node fully expanded, choosing best child
 true
@@ -31361,7 +31363,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5330261136712657
+-3.3742331288343523
 650
 node fully expanded, choosing best child
 true
@@ -31381,7 +31383,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6809815950920153
+-3.5222052067381284
 651
 node fully expanded, choosing best child
 true
@@ -31401,7 +31403,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5222052067381227
+-3.3639143730886816
 652
 node fully expanded, choosing best child
 true
@@ -31421,7 +31423,7 @@ num untried moves
 
 simulated
 root qsa:
--3.363914373088676
+-3.206106870229004
 653
 node fully expanded, choosing best child
 true
@@ -31441,7 +31443,7 @@ num untried moves
 
 simulated
 root qsa:
--3.51145038167938
+-3.353658536585362
 654
 node fully expanded, choosing best child
 true
@@ -31461,7 +31463,7 @@ num untried moves
 
 simulated
 root qsa:
--3.353658536585357
+-3.196347031963467
 655
 node fully expanded, choosing best child
 true
@@ -31481,7 +31483,7 @@ num untried moves
 
 simulated
 root qsa:
--3.1963470319634615
+-3.039513677811547
 656
 node fully expanded, choosing best child
 true
@@ -31501,7 +31503,7 @@ num untried moves
 
 simulated
 root qsa:
--3.0395136778115415
+-2.8831562974203306
 657
 node fully expanded, choosing best child
 true
@@ -31521,7 +31523,7 @@ num untried moves
 
 simulated
 root qsa:
--3.1866464339908864
+-3.030303030303027
 658
 node fully expanded, choosing best child
 true
@@ -31541,7 +31543,7 @@ num untried moves
 
 simulated
 root qsa:
--3.0303030303030214
+-2.8744326777609652
 659
 node fully expanded, choosing best child
 true
@@ -31561,7 +31563,7 @@ num untried moves
 
 simulated
 root qsa:
--3.1770045385779033
+-3.0211480362537735
 660
 node fully expanded, choosing best child
 true
@@ -31581,7 +31583,7 @@ num untried moves
 
 simulated
 root qsa:
--3.323262839879145
+-3.167420814479635
 661
 node fully expanded, choosing best child
 true
@@ -31601,7 +31603,7 @@ num untried moves
 
 simulated
 root qsa:
--3.167420814479629
+-3.0120481927710814
 662
 node fully expanded, choosing best child
 true
@@ -31621,7 +31623,7 @@ num untried moves
 
 simulated
 root qsa:
--3.012048192771075
+-2.857142857142854
 663
 node fully expanded, choosing best child
 true
@@ -31641,7 +31643,7 @@ num untried moves
 
 simulated
 root qsa:
--3.157894736842096
+-3.003003003003
 664
 node fully expanded, choosing best child
 true
@@ -31661,7 +31663,7 @@ num untried moves
 
 simulated
 root qsa:
--3.003003003002994
+-2.848575712143925
 665
 node fully expanded, choosing best child
 true
@@ -31681,7 +31683,7 @@ num untried moves
 
 simulated
 root qsa:
--3.148425787106438
+-2.994011976047901
 666
 node fully expanded, choosing best child
 true
@@ -31701,7 +31703,7 @@ num untried moves
 
 simulated
 root qsa:
--3.2934131736526857
+-3.1390134529147953
 667
 node fully expanded, choosing best child
 true
@@ -31721,7 +31723,7 @@ num untried moves
 
 simulated
 root qsa:
--3.437967115097151
+-3.283582089552236
 668
 node fully expanded, choosing best child
 true
@@ -31741,7 +31743,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5820895522387968
+-3.4277198211624413
 669
 node fully expanded, choosing best child
 true
@@ -31761,7 +31763,7 @@ num untried moves
 
 simulated
 root qsa:
--3.725782414306995
+-3.5714285714285685
 670
 node fully expanded, choosing best child
 true
@@ -31781,7 +31783,7 @@ num untried moves
 
 simulated
 root qsa:
--3.8690476190476097
+-3.714710252600294
 671
 node fully expanded, choosing best child
 true
@@ -31801,7 +31803,7 @@ num untried moves
 
 simulated
 root qsa:
--4.011887072808312
+-3.857566765578632
 672
 node fully expanded, choosing best child
 true
@@ -31821,7 +31823,7 @@ num untried moves
 
 simulated
 root qsa:
--4.154302670623136
+-3.999999999999997
 673
 node fully expanded, choosing best child
 true
@@ -31841,7 +31843,7 @@ num untried moves
 
 simulated
 root qsa:
--4.296296296296287
+-4.142011834319524
 674
 node fully expanded, choosing best child
 true
@@ -31861,7 +31863,7 @@ num untried moves
 
 simulated
 root qsa:
--4.437869822485197
+-4.283604135893645
 675
 node fully expanded, choosing best child
 true
@@ -31881,7 +31883,7 @@ num untried moves
 
 simulated
 root qsa:
--4.283604135893639
+-4.129793510324481
 676
 node fully expanded, choosing best child
 true
@@ -31901,7 +31903,7 @@ num untried moves
 
 simulated
 root qsa:
--4.1297935103244745
+-3.9764359351988188
 677
 node fully expanded, choosing best child
 true
@@ -31921,7 +31923,7 @@ num untried moves
 
 simulated
 root qsa:
--3.9764359351988126
+-3.823529411764703
 678
 node fully expanded, choosing best child
 true
@@ -31941,7 +31943,7 @@ num untried moves
 
 simulated
 root qsa:
--3.8235294117646967
+-3.671071953010276
 679
 node fully expanded, choosing best child
 true
@@ -31961,7 +31963,7 @@ num untried moves
 
 simulated
 root qsa:
--3.67107195301027
+-3.5190615835777095
 680
 node fully expanded, choosing best child
 true
@@ -31981,7 +31983,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5190615835777033
+-3.3674963396778885
 681
 node fully expanded, choosing best child
 true
@@ -32001,7 +32003,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6603221083455253
+-3.508771929824558
 682
 node fully expanded, choosing best child
 true
@@ -32021,7 +32023,7 @@ num untried moves
 
 simulated
 root qsa:
--3.8011695906432656
+-3.6496350364963472
 683
 node fully expanded, choosing best child
 true
@@ -32041,7 +32043,7 @@ num untried moves
 
 simulated
 root qsa:
--3.649635036496341
+-3.498542274052475
 684
 node fully expanded, choosing best child
 true
@@ -32061,7 +32063,7 @@ num untried moves
 
 simulated
 root qsa:
--3.4985422740524688
+-3.3478893740902445
 685
 node fully expanded, choosing best child
 true
@@ -32081,7 +32083,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6390101892285207
+-3.4883720930232527
 686
 node fully expanded, choosing best child
 true
@@ -32101,7 +32103,7 @@ num untried moves
 
 simulated
 root qsa:
--3.779069767441851
+-3.6284470246734366
 687
 node fully expanded, choosing best child
 true
@@ -32121,7 +32123,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6284470246734304
+-3.478260869565214
 688
 node fully expanded, choosing best child
 true
@@ -32141,7 +32143,7 @@ num untried moves
 
 simulated
 root qsa:
--3.768115942028976
+-3.6179450072358867
 689
 node fully expanded, choosing best child
 true
@@ -32161,7 +32163,7 @@ num untried moves
 
 simulated
 root qsa:
--3.9073806078147517
+-3.7572254335260085
 690
 node fully expanded, choosing best child
 true
@@ -32181,7 +32183,7 @@ num untried moves
 
 simulated
 root qsa:
--4.046242774566465
+-3.896103896103893
 691
 node fully expanded, choosing best child
 true
@@ -32201,7 +32203,7 @@ num untried moves
 
 simulated
 root qsa:
--3.8961038961038867
+-3.7463976945244926
 692
 node fully expanded, choosing best child
 true
@@ -32221,7 +32223,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7463976945244863
+-3.59712230215827
 693
 node fully expanded, choosing best child
 true
@@ -32241,7 +32243,7 @@ num untried moves
 
 simulated
 root qsa:
--3.597122302158264
+-3.448275862068962
 694
 node fully expanded, choosing best child
 true
@@ -32261,7 +32263,7 @@ num untried moves
 
 simulated
 root qsa:
--3.448275862068956
+-3.2998565279770413
 695
 node fully expanded, choosing best child
 true
@@ -32281,7 +32283,7 @@ num untried moves
 
 simulated
 root qsa:
--3.299856527977035
+-3.151862464183378
 696
 node fully expanded, choosing best child
 true
@@ -32301,7 +32303,7 @@ num untried moves
 
 simulated
 root qsa:
--3.1518624641833717
+-3.004291845493559
 697
 node fully expanded, choosing best child
 true
@@ -32321,7 +32323,7 @@ num untried moves
 
 simulated
 root qsa:
--3.2904148783977014
+-3.1428571428571397
 698
 node fully expanded, choosing best child
 true
@@ -32341,7 +32343,7 @@ num untried moves
 
 simulated
 root qsa:
--3.428571428571419
+-3.281027104136944
 699
 node fully expanded, choosing best child
 true
@@ -32361,7 +32363,7 @@ num untried moves
 
 simulated
 root qsa:
--3.2810271041369377
+-3.1339031339031305
 700
 node fully expanded, choosing best child
 true
@@ -32381,7 +32383,7 @@ num untried moves
 
 simulated
 root qsa:
--3.4188034188034093
+-3.2716927453769524
 701
 node fully expanded, choosing best child
 true
@@ -32401,7 +32403,7 @@ num untried moves
 
 simulated
 root qsa:
--3.556187766714073
+-3.4090909090909056
 702
 node fully expanded, choosing best child
 true
@@ -32421,7 +32423,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6931818181818086
+-3.5460992907801385
 703
 node fully expanded, choosing best child
 true
@@ -32441,7 +32443,7 @@ num untried moves
 
 simulated
 root qsa:
--3.8297872340425436
+-3.6827195467422063
 704
 node fully expanded, choosing best child
 true
@@ -32461,7 +32463,7 @@ num untried moves
 
 simulated
 root qsa:
--3.96600566572237
+-3.8189533239038154
 705
 node fully expanded, choosing best child
 true
@@ -32481,7 +32483,7 @@ num untried moves
 
 simulated
 root qsa:
--4.101838755304092
+-3.954802259887002
 706
 node fully expanded, choosing best child
 true
@@ -32501,7 +32503,7 @@ num untried moves
 
 simulated
 root qsa:
--4.237288135593211
+-4.0902679830747495
 707
 node fully expanded, choosing best child
 true
@@ -32521,7 +32523,7 @@ num untried moves
 
 simulated
 root qsa:
--4.372355430183347
+-4.2253521126760525
 708
 node fully expanded, choosing best child
 true
@@ -32541,7 +32543,7 @@ num untried moves
 
 simulated
 root qsa:
--4.507042253521117
+-4.360056258790432
 709
 node fully expanded, choosing best child
 true
@@ -32561,7 +32563,7 @@ num untried moves
 
 simulated
 root qsa:
--4.6413502109704545
+-4.494382022471906
 710
 node fully expanded, choosing best child
 true
@@ -32581,7 +32583,7 @@ num untried moves
 
 simulated
 root qsa:
--4.775280898876395
+-4.628330995792422
 711
 node fully expanded, choosing best child
 true
@@ -32601,7 +32603,7 @@ num untried moves
 
 simulated
 root qsa:
--4.908835904628321
+-4.761904761904757
 712
 node fully expanded, choosing best child
 true
@@ -32621,7 +32623,7 @@ num untried moves
 
 simulated
 root qsa:
--5.042016806722679
+-4.8951048951048906
 713
 node fully expanded, choosing best child
 true
@@ -32641,7 +32643,7 @@ num untried moves
 
 simulated
 root qsa:
--4.895104895104885
+-4.748603351955302
 714
 node fully expanded, choosing best child
 true
@@ -32661,7 +32663,7 @@ num untried moves
 
 simulated
 root qsa:
--4.748603351955297
+-4.602510460251041
 715
 node fully expanded, choosing best child
 true
@@ -32681,7 +32683,7 @@ num untried moves
 
 simulated
 root qsa:
--4.881450488145038
+-4.73537604456824
 716
 node fully expanded, choosing best child
 true
@@ -32701,7 +32703,7 @@ num untried moves
 
 simulated
 root qsa:
--4.735376044568235
+-4.589707927677325
 717
 node fully expanded, choosing best child
 true
@@ -32721,7 +32723,7 @@ num untried moves
 
 simulated
 root qsa:
--4.867872044506249
+-4.722222222222218
 718
 node fully expanded, choosing best child
 true
@@ -32741,7 +32743,7 @@ num untried moves
 
 simulated
 root qsa:
--4.99999999999999
+-4.854368932038831
 719
 node fully expanded, choosing best child
 true
@@ -32761,7 +32763,7 @@ num untried moves
 
 simulated
 root qsa:
--5.131761442441045
+-4.9861495844875305
 720
 node fully expanded, choosing best child
 true
@@ -32781,7 +32783,7 @@ num untried moves
 
 simulated
 root qsa:
--5.263157894736833
+-5.117565698478558
 721
 node fully expanded, choosing best child
 true
@@ -32801,7 +32803,7 @@ num untried moves
 
 simulated
 root qsa:
--5.117565698478552
+-4.9723756906077305
 722
 node fully expanded, choosing best child
 true
@@ -32821,7 +32823,7 @@ num untried moves
 
 simulated
 root qsa:
--4.972375690607725
+-4.827586206896547
 723
 node fully expanded, choosing best child
 true
@@ -32841,7 +32843,7 @@ num untried moves
 
 simulated
 root qsa:
--5.10344827586206
+-4.958677685950408
 724
 node fully expanded, choosing best child
 true
@@ -32861,7 +32863,7 @@ num untried moves
 
 simulated
 root qsa:
--5.234159779614315
+-5.089408528198069
 725
 node fully expanded, choosing best child
 true
@@ -32881,7 +32883,7 @@ num untried moves
 
 simulated
 root qsa:
--5.364511691884447
+-5.219780219780215
 726
 node fully expanded, choosing best child
 true
@@ -32901,7 +32903,7 @@ num untried moves
 
 simulated
 root qsa:
--5.494505494505485
+-5.349794238683122
 727
 node fully expanded, choosing best child
 true
@@ -32921,7 +32923,7 @@ num untried moves
 
 simulated
 root qsa:
--5.624142661179689
+-5.479452054794515
 728
 node fully expanded, choosing best child
 true
@@ -32941,7 +32943,7 @@ num untried moves
 
 simulated
 root qsa:
--5.753424657534237
+-5.608755129958955
 729
 node fully expanded, choosing best child
 true
@@ -32961,7 +32963,7 @@ num untried moves
 
 simulated
 root qsa:
--5.88235294117646
+-5.737704918032781
 730
 node fully expanded, choosing best child
 true
@@ -32981,7 +32983,7 @@ num untried moves
 
 simulated
 root qsa:
--5.737704918032777
+-5.593451568894947
 731
 node fully expanded, choosing best child
 true
@@ -33001,7 +33003,7 @@ num untried moves
 
 simulated
 root qsa:
--5.593451568894942
+-5.449591280653946
 732
 node fully expanded, choosing best child
 true
@@ -33021,7 +33023,7 @@ num untried moves
 
 simulated
 root qsa:
--5.449591280653941
+-5.306122448979587
 733
 node fully expanded, choosing best child
 true
@@ -33041,7 +33043,7 @@ num untried moves
 
 simulated
 root qsa:
--5.578231292516997
+-5.434782608695647
 734
 node fully expanded, choosing best child
 true
@@ -33061,7 +33063,7 @@ num untried moves
 
 simulated
 root qsa:
--5.706521739130425
+-5.56309362279511
 735
 node fully expanded, choosing best child
 true
@@ -33081,7 +33083,7 @@ num untried moves
 
 simulated
 root qsa:
--5.5630936227951056
+-5.420054200542
 736
 node fully expanded, choosing best child
 true
@@ -33101,7 +33103,7 @@ num untried moves
 
 simulated
 root qsa:
--5.691056910569096
+-5.548037889039237
 737
 node fully expanded, choosing best child
 true
@@ -33121,7 +33123,7 @@ num untried moves
 
 simulated
 root qsa:
--5.548037889039232
+-5.4054054054054
 738
 node fully expanded, choosing best child
 true
@@ -33141,7 +33143,7 @@ num untried moves
 
 simulated
 root qsa:
--5.4054054054053955
+-5.263157894736836
 739
 node fully expanded, choosing best child
 true
@@ -33161,7 +33163,7 @@ num untried moves
 
 simulated
 root qsa:
--5.53306342780026
+-5.390835579514819
 740
 node fully expanded, choosing best child
 true
@@ -33181,7 +33183,7 @@ num untried moves
 
 simulated
 root qsa:
--5.660377358490557
+-5.518169582772538
 741
 node fully expanded, choosing best child
 true
@@ -33201,7 +33203,7 @@ num untried moves
 
 simulated
 root qsa:
--5.5181695827725346
+-5.3763440860215
 742
 node fully expanded, choosing best child
 true
@@ -33221,7 +33223,7 @@ num untried moves
 
 simulated
 root qsa:
--5.376344086021496
+-5.234899328859055
 743
 node fully expanded, choosing best child
 true
@@ -33241,7 +33243,7 @@ num untried moves
 
 simulated
 root qsa:
--5.2348993288590515
+-5.093833780160852
 744
 node fully expanded, choosing best child
 true
@@ -33261,7 +33263,7 @@ num untried moves
 
 simulated
 root qsa:
--5.361930294906157
+-5.220883534136541
 745
 node fully expanded, choosing best child
 true
@@ -33281,7 +33283,7 @@ num untried moves
 
 simulated
 root qsa:
--5.220883534136537
+-5.08021390374331
 746
 node fully expanded, choosing best child
 true
@@ -33301,7 +33303,7 @@ num untried moves
 
 simulated
 root qsa:
--5.347593582887692
+-5.206942590120155
 747
 node fully expanded, choosing best child
 true
@@ -33321,7 +33323,7 @@ num untried moves
 
 simulated
 root qsa:
--5.47396528704939
+-5.333333333333329
 748
 node fully expanded, choosing best child
 true
@@ -33341,7 +33343,7 @@ num untried moves
 
 simulated
 root qsa:
--5.333333333333324
+-5.1930758988015935
 749
 node fully expanded, choosing best child
 true
@@ -33361,7 +33363,7 @@ num untried moves
 
 simulated
 root qsa:
--5.193075898801589
+-5.053191489361698
 750
 node fully expanded, choosing best child
 true
@@ -33381,7 +33383,7 @@ num untried moves
 
 simulated
 root qsa:
--5.053191489361693
+-4.913678618857897
 751
 node fully expanded, choosing best child
 true
@@ -33401,7 +33403,7 @@ num untried moves
 
 simulated
 root qsa:
--5.179282868525887
+-5.039787798408484
 752
 node fully expanded, choosing best child
 true
@@ -33421,7 +33423,7 @@ num untried moves
 
 simulated
 root qsa:
--5.039787798408479
+-4.900662251655625
 753
 node fully expanded, choosing best child
 true
@@ -33441,7 +33443,7 @@ num untried moves
 
 simulated
 root qsa:
--5.1655629139072765
+-5.0264550264550225
 754
 node fully expanded, choosing best child
 true
@@ -33461,7 +33463,7 @@ num untried moves
 
 simulated
 root qsa:
--5.026455026455018
+-4.887714663143986
 755
 node fully expanded, choosing best child
 true
@@ -33481,7 +33483,7 @@ num untried moves
 
 simulated
 root qsa:
--4.887714663143981
+-4.749340369393137
 756
 node fully expanded, choosing best child
 true
@@ -33501,7 +33503,7 @@ num untried moves
 
 simulated
 root qsa:
--4.749340369393132
+-4.611330698287217
 757
 node fully expanded, choosing best child
 true
@@ -33521,7 +33523,7 @@ num untried moves
 
 simulated
 root qsa:
--4.874835309617911
+-4.736842105263155
 758
 node fully expanded, choosing best child
 true
@@ -33541,7 +33543,7 @@ num untried moves
 
 simulated
 root qsa:
--4.73684210526315
+-4.599211563731929
 759
 node fully expanded, choosing best child
 true
@@ -33561,7 +33563,7 @@ num untried moves
 
 simulated
 root qsa:
--4.599211563731924
+-4.461942257217845
 760
 node fully expanded, choosing best child
 true
@@ -33581,7 +33583,7 @@ num untried moves
 
 simulated
 root qsa:
--4.4619422572178395
+-4.325032765399735
 761
 node fully expanded, choosing best child
 true
@@ -33601,7 +33603,7 @@ num untried moves
 
 simulated
 root qsa:
--4.587155963302744
+-4.450261780104709
 762
 node fully expanded, choosing best child
 true
@@ -33621,7 +33623,7 @@ num untried moves
 
 simulated
 root qsa:
--4.450261780104704
+-4.3137254901960755
 763
 node fully expanded, choosing best child
 true
@@ -33641,7 +33643,7 @@ num untried moves
 
 simulated
 root qsa:
--4.575163398692802
+-4.438642297650127
 764
 node fully expanded, choosing best child
 true
@@ -33661,7 +33663,7 @@ num untried moves
 
 simulated
 root qsa:
--4.699738903394247
+-4.563233376792696
 765
 node fully expanded, choosing best child
 true
@@ -33681,7 +33683,7 @@ num untried moves
 
 simulated
 root qsa:
--4.563233376792691
+-4.42708333333333
 766
 node fully expanded, choosing best child
 true
@@ -33701,7 +33703,7 @@ num untried moves
 
 simulated
 root qsa:
--4.427083333333325
+-4.291287386215862
 767
 node fully expanded, choosing best child
 true
@@ -33721,7 +33723,7 @@ num untried moves
 
 simulated
 root qsa:
--4.551365409622878
+-4.415584415584412
 768
 node fully expanded, choosing best child
 true
@@ -33741,7 +33743,7 @@ num untried moves
 
 simulated
 root qsa:
--4.415584415584407
+-4.280155642023343
 769
 node fully expanded, choosing best child
 true
@@ -33761,7 +33763,7 @@ num untried moves
 
 simulated
 root qsa:
--4.280155642023337
+-4.14507772020725
 770
 node fully expanded, choosing best child
 true
@@ -33781,7 +33783,7 @@ num untried moves
 
 simulated
 root qsa:
--4.404145077720198
+-4.269081500646827
 771
 node fully expanded, choosing best child
 true
@@ -33801,7 +33803,7 @@ num untried moves
 
 simulated
 root qsa:
--4.5278137128072355
+-4.392764857881134
 772
 node fully expanded, choosing best child
 true
@@ -33821,7 +33823,7 @@ num untried moves
 
 simulated
 root qsa:
--4.651162790697666
+-4.516129032258061
 773
 node fully expanded, choosing best child
 true
@@ -33841,7 +33843,7 @@ num untried moves
 
 simulated
 root qsa:
--4.516129032258056
+-4.381443298969069
 774
 node fully expanded, choosing best child
 true
@@ -33861,7 +33863,7 @@ num untried moves
 
 simulated
 root qsa:
--4.63917525773195
+-4.504504504504501
 775
 node fully expanded, choosing best child
 true
@@ -33881,7 +33883,7 @@ num untried moves
 
 simulated
 root qsa:
--4.761904761904754
+-4.627249357326475
 776
 node fully expanded, choosing best child
 true
@@ -33901,7 +33903,7 @@ num untried moves
 
 simulated
 root qsa:
--4.62724935732647
+-4.492939666238764
 777
 node fully expanded, choosing best child
 true
@@ -33921,28 +33923,8 @@ num untried moves
 
 simulated
 root qsa:
--4.7496790757381175
+-4.615384615384612
 778
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-189
---------------------------
-|   | b | w ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-| b |   |   ||   |   |   |
-|   |   |   ||   |   | w |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--4.871794871794863
-779
 node fully expanded, choosing best child
 true
 false
@@ -33961,7 +33943,27 @@ num untried moves
 
 simulated
 root qsa:
--4.993597951344422
+-4.737516005121636
+779
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+189
+--------------------------
+|   | b | w ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+| b |   |   ||   |   |   |
+|   |   |   ||   |   | w |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-4.859335038363168
 780
 node fully expanded, choosing best child
 true
@@ -33981,7 +33983,7 @@ num untried moves
 
 simulated
 root qsa:
--5.115089514066488
+-4.980842911877391
 781
 node fully expanded, choosing best child
 true
@@ -34001,28 +34003,8 @@ num untried moves
 
 simulated
 root qsa:
--5.236270753512125
+-5.102040816326527
 782
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-189
---------------------------
-|   | b |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   | w |   |
---------------------------
-|   | b | w ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--5.35714285714285
-783
 node fully expanded, choosing best child
 true
 false
@@ -34041,7 +34023,27 @@ num untried moves
 
 simulated
 root qsa:
--5.222929936305725
+-4.9681528662420344
+783
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+189
+--------------------------
+|   | b |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   | w |   |
+--------------------------
+|   | b | w ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-5.089058524173025
 784
 node fully expanded, choosing best child
 true
@@ -34061,7 +34063,7 @@ num untried moves
 
 simulated
 root qsa:
--5.343511450381672
+-5.209656925031763
 785
 node fully expanded, choosing best child
 true
@@ -34081,7 +34083,7 @@ num untried moves
 
 simulated
 root qsa:
--5.463786531130869
+-5.329949238578677
 786
 node fully expanded, choosing best child
 true
@@ -34101,7 +34103,7 @@ num untried moves
 
 simulated
 root qsa:
--5.583756345177657
+-5.44993662864385
 787
 node fully expanded, choosing best child
 true
@@ -34121,7 +34123,7 @@ num untried moves
 
 simulated
 root qsa:
--5.7034220532319315
+-5.569620253164554
 788
 node fully expanded, choosing best child
 true
@@ -34141,7 +34143,7 @@ num untried moves
 
 simulated
 root qsa:
--5.569620253164549
+-5.436156763590389
 789
 node fully expanded, choosing best child
 true
@@ -34161,7 +34163,7 @@ num untried moves
 
 simulated
 root qsa:
--5.436156763590384
+-5.3030303030303
 790
 node fully expanded, choosing best child
 true
@@ -34181,7 +34183,7 @@ num untried moves
 
 simulated
 root qsa:
--5.303030303030296
+-5.170239596469102
 791
 node fully expanded, choosing best child
 true
@@ -34201,7 +34203,7 @@ num untried moves
 
 simulated
 root qsa:
--5.170239596469098
+-5.037783375314859
 792
 node fully expanded, choosing best child
 true
@@ -34221,7 +34223,7 @@ num untried moves
 
 simulated
 root qsa:
--5.289672544080598
+-5.157232704402514
 793
 node fully expanded, choosing best child
 true
@@ -34241,7 +34243,7 @@ num untried moves
 
 simulated
 root qsa:
--5.408805031446534
+-5.2763819095477364
 794
 node fully expanded, choosing best child
 true
@@ -34261,7 +34263,7 @@ num untried moves
 
 simulated
 root qsa:
--5.276381909547732
+-5.144291091593473
 795
 node fully expanded, choosing best child
 true
@@ -34281,7 +34283,7 @@ num untried moves
 
 simulated
 root qsa:
--5.395232120451687
+-5.26315789473684
 796
 node fully expanded, choosing best child
 true
@@ -34301,7 +34303,7 @@ num untried moves
 
 simulated
 root qsa:
--5.263157894736835
+-5.131414267834791
 797
 node fully expanded, choosing best child
 true
@@ -34321,28 +34323,8 @@ num untried moves
 
 simulated
 root qsa:
--5.381727158948679
+-5.249999999999997
 798
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-187
---------------------------
-|   | b |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   | b | w |
-|   |   |   ||   |   |   |
-|   |   |   || w |   |   |
---------------------------
-
-simulated
-root qsa:
--5.249999999999993
-799
 node fully expanded, choosing best child
 true
 false
@@ -34361,8 +34343,8 @@ num untried moves
 
 simulated
 root qsa:
--5.368289637952552
-800
+-5.368289637952556
+799
 node fully expanded, choosing best child
 true
 false
@@ -34381,8 +34363,8 @@ num untried moves
 
 simulated
 root qsa:
--5.4862842892768
-801
+-5.486284289276805
+800
 node fully expanded, choosing best child
 true
 false
@@ -34401,8 +34383,8 @@ num untried moves
 
 simulated
 root qsa:
--5.603985056039843
-802
+-5.603985056039847
+801
 node fully expanded, choosing best child
 true
 false
@@ -34421,8 +34403,8 @@ num untried moves
 
 simulated
 root qsa:
--5.47263681592039
-803
+-5.472636815920395
+802
 node fully expanded, choosing best child
 true
 false
@@ -34441,7 +34423,27 @@ num untried moves
 
 simulated
 root qsa:
--5.590062111801235
+-5.590062111801239
+803
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+187
+--------------------------
+|   | b |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   | b | w |
+|   |   |   ||   |   |   |
+|   |   |   || w |   |   |
+--------------------------
+
+simulated
+root qsa:
+-5.459057071960294
 804
 node fully expanded, choosing best child
 true
@@ -34461,7 +34463,7 @@ num untried moves
 
 simulated
 root qsa:
--5.45905707196029
+-5.328376703841385
 805
 node fully expanded, choosing best child
 true
@@ -34481,7 +34483,7 @@ num untried moves
 
 simulated
 root qsa:
--5.32837670384138
+-5.198019801980195
 806
 node fully expanded, choosing best child
 true
@@ -34501,7 +34503,7 @@ num untried moves
 
 simulated
 root qsa:
--5.445544554455438
+-5.315203955500615
 807
 node fully expanded, choosing best child
 true
@@ -34521,7 +34523,7 @@ num untried moves
 
 simulated
 root qsa:
--5.562422744128546
+-5.432098765432095
 808
 node fully expanded, choosing best child
 true
@@ -34541,7 +34543,7 @@ num untried moves
 
 simulated
 root qsa:
--5.432098765432091
+-5.302096177558567
 809
 node fully expanded, choosing best child
 true
@@ -34561,7 +34563,7 @@ num untried moves
 
 simulated
 root qsa:
--5.302096177558562
+-5.172413793103445
 810
 node fully expanded, choosing best child
 true
@@ -34581,7 +34583,7 @@ num untried moves
 
 simulated
 root qsa:
--5.17241379310344
+-5.043050430504302
 811
 node fully expanded, choosing best child
 true
@@ -34601,7 +34603,7 @@ num untried moves
 
 simulated
 root qsa:
--5.043050430504297
+-4.91400491400491
 812
 node fully expanded, choosing best child
 true
@@ -34621,7 +34623,7 @@ num untried moves
 
 simulated
 root qsa:
--4.914004914004906
+-4.785276073619628
 813
 node fully expanded, choosing best child
 true
@@ -34641,7 +34643,7 @@ num untried moves
 
 simulated
 root qsa:
--4.785276073619624
+-4.656862745098036
 814
 node fully expanded, choosing best child
 true
@@ -34661,7 +34663,7 @@ num untried moves
 
 simulated
 root qsa:
--4.6568627450980316
+-4.528763769889838
 815
 node fully expanded, choosing best child
 true
@@ -34681,7 +34683,7 @@ num untried moves
 
 simulated
 root qsa:
--4.528763769889833
+-4.400977995110021
 816
 node fully expanded, choosing best child
 true
@@ -34701,28 +34703,8 @@ num untried moves
 
 simulated
 root qsa:
--4.64547677261613
+-4.517704517704514
 817
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-185
---------------------------
-|   | b | w ||   |   |   |
-|   |   |   ||   |   |   |
-|   | w |   ||   |   |   |
---------------------------
-|   |   | b ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--4.5177045177045105
-818
 node fully expanded, choosing best child
 true
 false
@@ -34741,8 +34723,8 @@ num untried moves
 
 simulated
 root qsa:
--4.634146341463407
-819
+-4.634146341463411
+818
 node fully expanded, choosing best child
 true
 false
@@ -34761,8 +34743,8 @@ num untried moves
 
 simulated
 root qsa:
--4.506699147381235
-820
+-4.506699147381238
+819
 node fully expanded, choosing best child
 true
 false
@@ -34781,8 +34763,8 @@ num untried moves
 
 simulated
 root qsa:
--4.622871046228703
-821
+-4.622871046228706
+820
 node fully expanded, choosing best child
 true
 false
@@ -34801,8 +34783,8 @@ num untried moves
 
 simulated
 root qsa:
--4.495747266099627
-822
+-4.495747266099631
+821
 node fully expanded, choosing best child
 true
 false
@@ -34821,8 +34803,8 @@ num untried moves
 
 simulated
 root qsa:
--4.611650485436885
-823
+-4.611650485436889
+822
 node fully expanded, choosing best child
 true
 false
@@ -34841,7 +34823,27 @@ num untried moves
 
 simulated
 root qsa:
--4.7272727272727195
+-4.727272727272723
+823
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+185
+--------------------------
+|   | b | w ||   |   |   |
+|   |   |   ||   |   |   |
+|   | w |   ||   |   |   |
+--------------------------
+|   |   | b ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-4.600484261501206
 824
 node fully expanded, choosing best child
 true
@@ -34861,7 +34863,7 @@ num untried moves
 
 simulated
 root qsa:
--4.600484261501203
+-4.474002418379682
 825
 node fully expanded, choosing best child
 true
@@ -34881,7 +34883,7 @@ num untried moves
 
 simulated
 root qsa:
--4.474002418379678
+-4.347826086956518
 826
 node fully expanded, choosing best child
 true
@@ -34901,7 +34903,7 @@ num untried moves
 
 simulated
 root qsa:
--4.347826086956514
+-4.221954161640527
 827
 node fully expanded, choosing best child
 true
@@ -34921,7 +34923,7 @@ num untried moves
 
 simulated
 root qsa:
--4.221954161640523
+-4.096385542168671
 828
 node fully expanded, choosing best child
 true
@@ -34941,7 +34943,7 @@ num untried moves
 
 simulated
 root qsa:
--4.096385542168667
+-3.9711191335740033
 829
 node fully expanded, choosing best child
 true
@@ -34961,7 +34963,7 @@ num untried moves
 
 simulated
 root qsa:
--3.9711191335739997
+-3.8461538461538423
 830
 node fully expanded, choosing best child
 true
@@ -34981,7 +34983,7 @@ num untried moves
 
 simulated
 root qsa:
--3.8461538461538387
+-3.7214885954381716
 831
 node fully expanded, choosing best child
 true
@@ -35001,7 +35003,7 @@ num untried moves
 
 simulated
 root qsa:
--3.721488595438168
+-3.5971223021582697
 832
 node fully expanded, choosing best child
 true
@@ -35021,7 +35023,7 @@ num untried moves
 
 simulated
 root qsa:
--3.597122302158266
+-3.473053892215565
 833
 node fully expanded, choosing best child
 true
@@ -35041,7 +35043,7 @@ num untried moves
 
 simulated
 root qsa:
--3.712574850299394
+-3.5885167464114796
 834
 node fully expanded, choosing best child
 true
@@ -35061,7 +35063,7 @@ num untried moves
 
 simulated
 root qsa:
--3.588516746411476
+-3.4647550776582996
 835
 node fully expanded, choosing best child
 true
@@ -35081,7 +35083,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7037037037036966
+-3.579952267303099
 836
 node fully expanded, choosing best child
 true
@@ -35101,7 +35103,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5799522673030957
+-3.4564958283670997
 837
 node fully expanded, choosing best child
 true
@@ -35121,7 +35123,7 @@ num untried moves
 
 simulated
 root qsa:
--3.694874851013104
+-3.5714285714285676
 838
 node fully expanded, choosing best child
 true
@@ -35141,7 +35143,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5714285714285645
+-3.4482758620689618
 839
 node fully expanded, choosing best child
 true
@@ -35161,7 +35163,7 @@ num untried moves
 
 simulated
 root qsa:
--3.686087990487508
+-3.5629453681710177
 840
 node fully expanded, choosing best child
 true
@@ -35181,7 +35183,7 @@ num untried moves
 
 simulated
 root qsa:
--3.800475059382416
+-3.6773428232502927
 841
 node fully expanded, choosing best child
 true
@@ -35201,7 +35203,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6773428232502896
+-3.5545023696682425
 842
 node fully expanded, choosing best child
 true
@@ -35221,7 +35223,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5545023696682394
+-3.4319526627218897
 843
 node fully expanded, choosing best child
 true
@@ -35241,7 +35243,7 @@ num untried moves
 
 simulated
 root qsa:
--3.4319526627218866
+-3.3096926713947954
 844
 node fully expanded, choosing best child
 true
@@ -35261,7 +35263,7 @@ num untried moves
 
 simulated
 root qsa:
--3.3096926713947923
+-3.1877213695395477
 845
 node fully expanded, choosing best child
 true
@@ -35281,7 +35283,7 @@ num untried moves
 
 simulated
 root qsa:
--3.1877213695395445
+-3.066037735849053
 846
 node fully expanded, choosing best child
 true
@@ -35301,7 +35303,7 @@ num untried moves
 
 simulated
 root qsa:
--3.06603773584905
+-2.9446407538280295
 847
 node fully expanded, choosing best child
 true
@@ -35321,7 +35323,7 @@ num untried moves
 
 simulated
 root qsa:
--2.9446407538280264
+-2.8235294117647025
 848
 node fully expanded, choosing best child
 true
@@ -35341,7 +35343,7 @@ num untried moves
 
 simulated
 root qsa:
--3.0588235294117583
+-2.9377203290246734
 849
 node fully expanded, choosing best child
 true
@@ -35361,7 +35363,7 @@ num untried moves
 
 simulated
 root qsa:
--3.1727379553466446
+-3.0516431924882594
 850
 node fully expanded, choosing best child
 true
@@ -35381,7 +35383,7 @@ num untried moves
 
 simulated
 root qsa:
--3.2863849765258153
+-3.165298944900348
 851
 node fully expanded, choosing best child
 true
@@ -35401,7 +35403,7 @@ num untried moves
 
 simulated
 root qsa:
--3.1652989449003455
+-3.044496487119434
 852
 node fully expanded, choosing best child
 true
@@ -35421,7 +35423,7 @@ num untried moves
 
 simulated
 root qsa:
--3.278688524590158
+-3.1578947368421018
 853
 node fully expanded, choosing best child
 true
@@ -35441,7 +35443,7 @@ num untried moves
 
 simulated
 root qsa:
--3.157894736842099
+-3.03738317757009
 854
 node fully expanded, choosing best child
 true
@@ -35461,7 +35463,7 @@ num untried moves
 
 simulated
 root qsa:
--3.0373831775700872
+-2.917152858809798
 855
 node fully expanded, choosing best child
 true
@@ -35481,7 +35483,7 @@ num untried moves
 
 simulated
 root qsa:
--3.1505250875145796
+-3.0303030303030267
 856
 node fully expanded, choosing best child
 true
@@ -35501,7 +35503,7 @@ num untried moves
 
 simulated
 root qsa:
--3.2634032634032573
+-3.143189755529682
 857
 node fully expanded, choosing best child
 true
@@ -35521,7 +35523,7 @@ num untried moves
 
 simulated
 root qsa:
--3.3760186263096563
+-3.2558139534883686
 858
 node fully expanded, choosing best child
 true
@@ -35541,7 +35543,7 @@ num untried moves
 
 simulated
 root qsa:
--3.255813953488366
+-3.1358885017421567
 859
 node fully expanded, choosing best child
 true
@@ -35561,7 +35563,7 @@ num untried moves
 
 simulated
 root qsa:
--3.36817653890824
+-3.2482598607888598
 860
 node fully expanded, choosing best child
 true
@@ -35581,7 +35583,7 @@ num untried moves
 
 simulated
 root qsa:
--3.4802784222737757
+-3.360370799536497
 861
 node fully expanded, choosing best child
 true
@@ -35601,28 +35603,8 @@ num untried moves
 
 simulated
 root qsa:
--3.5921205098493565
+-3.4722222222222188
 862
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-187
---------------------------
-|   | b |   ||   | b | w |
-|   |   |   ||   |   | w |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--3.472222222222216
-863
 node fully expanded, choosing best child
 true
 false
@@ -35641,8 +35623,8 @@ num untried moves
 
 simulated
 root qsa:
--3.3526011560693583
-864
+-3.352601156069361
+863
 node fully expanded, choosing best child
 true
 false
@@ -35661,8 +35643,8 @@ num untried moves
 
 simulated
 root qsa:
--3.233256351039255
-865
+-3.2332563510392576
+864
 node fully expanded, choosing best child
 true
 false
@@ -35681,8 +35663,8 @@ num untried moves
 
 simulated
 root qsa:
--3.1141868512110666
-866
+-3.1141868512110693
+865
 node fully expanded, choosing best child
 true
 false
@@ -35701,8 +35683,8 @@ num untried moves
 
 simulated
 root qsa:
--3.2258064516128973
-867
+-3.2258064516129
+866
 node fully expanded, choosing best child
 true
 false
@@ -35721,8 +35703,8 @@ num untried moves
 
 simulated
 root qsa:
--3.107019562715759
-868
+-3.1070195627157617
+867
 node fully expanded, choosing best child
 true
 false
@@ -35741,8 +35723,8 @@ num untried moves
 
 simulated
 root qsa:
--2.9885057471264305
-869
+-2.988505747126433
+868
 node fully expanded, choosing best child
 true
 false
@@ -35761,8 +35743,8 @@ num untried moves
 
 simulated
 root qsa:
--2.8702640642939086
-870
+-2.8702640642939112
+869
 node fully expanded, choosing best child
 true
 false
@@ -35781,8 +35763,8 @@ num untried moves
 
 simulated
 root qsa:
--2.9816513761467824
-871
+-2.981651376146785
+870
 node fully expanded, choosing best child
 true
 false
@@ -35801,8 +35783,8 @@ num untried moves
 
 simulated
 root qsa:
--3.0927835051546326
-872
+-3.0927835051546353
+871
 node fully expanded, choosing best child
 true
 false
@@ -35821,53 +35803,53 @@ num untried moves
 
 simulated
 root qsa:
--3.2036613272311145
+-3.203661327231117
+872
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+194
+--------------------------
+| b |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   | b | w |
+|   |   |   || w |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-3.0857142857142814
 873
 node fully expanded, choosing best child
 true
 false
 false
 num untried moves
-194
+193
 --------------------------
-| b |   |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   | b | w |
+| b |   |   ||   | b | w |
 |   |   |   || w |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
 |   |   |   ||   |   |   |
 --------------------------
 
 simulated
 root qsa:
--3.0857142857142787
+-2.968036529680361
 874
 node fully expanded, choosing best child
 true
 false
 false
 num untried moves
-193
---------------------------
-| b |   |   ||   | b | w |
-|   |   |   || w |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--2.9680365296803584
-875
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
 192
 --------------------------
 |   | b | w ||   | b |   |
@@ -35881,8 +35863,8 @@ num untried moves
 
 simulated
 root qsa:
--2.8506271379703465
-876
+-2.850627137970349
+875
 node fully expanded, choosing best child
 true
 false
@@ -35901,8 +35883,8 @@ num untried moves
 
 simulated
 root qsa:
--2.7334851936218607
-877
+-2.7334851936218634
+876
 node fully expanded, choosing best child
 true
 false
@@ -35921,8 +35903,8 @@ num untried moves
 
 simulated
 root qsa:
--2.844141069397035
-878
+-2.8441410693970375
+877
 node fully expanded, choosing best child
 true
 false
@@ -35941,8 +35923,8 @@ num untried moves
 
 simulated
 root qsa:
--2.9545454545454475
-879
+-2.95454545454545
+878
 node fully expanded, choosing best child
 true
 false
@@ -35961,8 +35943,8 @@ num untried moves
 
 simulated
 root qsa:
--2.8376844494892097
-880
+-2.8376844494892124
+879
 node fully expanded, choosing best child
 true
 false
@@ -35981,8 +35963,8 @@ num untried moves
 
 simulated
 root qsa:
--2.7210884353741425
-881
+-2.721088435374145
+880
 node fully expanded, choosing best child
 true
 false
@@ -36001,8 +35983,8 @@ num untried moves
 
 simulated
 root qsa:
--2.6047565118912726
-882
+-2.604756511891275
+881
 node fully expanded, choosing best child
 true
 false
@@ -36021,8 +36003,8 @@ num untried moves
 
 simulated
 root qsa:
--2.488687782805423
-883
+-2.4886877828054255
+882
 node fully expanded, choosing best child
 true
 false
@@ -36041,8 +36023,8 @@ num untried moves
 
 simulated
 root qsa:
--2.598870056497168
-884
+-2.5988700564971707
+883
 node fully expanded, choosing best child
 true
 false
@@ -36061,7 +36043,27 @@ num untried moves
 
 simulated
 root qsa:
--2.708803611738142
+-2.7088036117381447
+884
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+194
+--------------------------
+| b | b | w ||   |   |   |
+|   | w |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-2.8184892897406946
 885
 node fully expanded, choosing best child
 true
@@ -36081,7 +36083,7 @@ num untried moves
 
 simulated
 root qsa:
--2.818489289740692
+-2.9279279279279233
 886
 node fully expanded, choosing best child
 true
@@ -36101,28 +36103,8 @@ num untried moves
 
 simulated
 root qsa:
--2.9279279279279207
+-3.037120359955001
 887
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-194
---------------------------
-| b | b | w ||   |   |   |
-|   | w |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--3.0371203599549985
-888
 node fully expanded, choosing best child
 true
 false
@@ -36141,8 +36123,8 @@ num untried moves
 
 simulated
 root qsa:
--2.9213483146067345
-889
+-2.921348314606737
+888
 node fully expanded, choosing best child
 true
 false
@@ -36161,8 +36143,8 @@ num untried moves
 
 simulated
 root qsa:
--2.8058361391694655
-890
+-2.805836139169468
+889
 node fully expanded, choosing best child
 true
 false
@@ -36181,8 +36163,8 @@ num untried moves
 
 simulated
 root qsa:
--2.9147982062780198
-891
+-2.9147982062780224
+890
 node fully expanded, choosing best child
 true
 false
@@ -36201,8 +36183,8 @@ num untried moves
 
 simulated
 root qsa:
--3.0235162374020086
-892
+-3.0235162374020113
+891
 node fully expanded, choosing best child
 true
 false
@@ -36221,8 +36203,8 @@ num untried moves
 
 simulated
 root qsa:
--2.908277404921693
-893
+-2.9082774049216957
+892
 node fully expanded, choosing best child
 true
 false
@@ -36241,8 +36223,8 @@ num untried moves
 
 simulated
 root qsa:
--3.016759776536306
-894
+-3.0167597765363086
+893
 node fully expanded, choosing best child
 true
 false
@@ -36261,8 +36243,8 @@ num untried moves
 
 simulated
 root qsa:
--2.9017857142857073
-895
+-2.90178571428571
+894
 node fully expanded, choosing best child
 true
 false
@@ -36281,7 +36263,27 @@ num untried moves
 
 simulated
 root qsa:
--3.0100334448160466
+-3.0100334448160493
+895
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+187
+--------------------------
+|   | b |   ||   | b | w |
+|   |   |   ||   |   | w |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-2.8953229398663654
 896
 node fully expanded, choosing best child
 true
@@ -36301,7 +36303,7 @@ num untried moves
 
 simulated
 root qsa:
--3.1180400890868527
+-3.0033370411568368
 897
 node fully expanded, choosing best child
 true
@@ -36321,7 +36323,7 @@ num untried moves
 
 simulated
 root qsa:
--3.003337041156834
+-2.888888888888885
 898
 node fully expanded, choosing best child
 true
@@ -36341,7 +36343,7 @@ num untried moves
 
 simulated
 root qsa:
--3.111111111111104
+-2.9966703662597074
 899
 node fully expanded, choosing best child
 true
@@ -36361,7 +36363,7 @@ num untried moves
 
 simulated
 root qsa:
--3.2186459489456087
+-3.104212860310417
 900
 node fully expanded, choosing best child
 true
@@ -36381,7 +36383,7 @@ num untried moves
 
 simulated
 root qsa:
--3.104212860310414
+-2.990033222591358
 901
 node fully expanded, choosing best child
 true
@@ -36401,7 +36403,7 @@ num untried moves
 
 simulated
 root qsa:
--3.21151716500553
+-3.0973451327433588
 902
 node fully expanded, choosing best child
 true
@@ -36421,7 +36423,7 @@ num untried moves
 
 simulated
 root qsa:
--3.0973451327433557
+-2.983425414364637
 903
 node fully expanded, choosing best child
 true
@@ -36441,7 +36443,7 @@ num untried moves
 
 simulated
 root qsa:
--3.204419889502755
+-3.0905077262693115
 904
 node fully expanded, choosing best child
 true
@@ -36461,7 +36463,7 @@ num untried moves
 
 simulated
 root qsa:
--3.3112582781456883
+-3.1973539140022007
 905
 node fully expanded, choosing best child
 true
@@ -36481,7 +36483,7 @@ num untried moves
 
 simulated
 root qsa:
--3.4178610804851086
+-3.3039647577092466
 906
 node fully expanded, choosing best child
 true
@@ -36501,7 +36503,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5242290748898606
+-3.4103410341034057
 907
 node fully expanded, choosing best child
 true
@@ -36521,7 +36523,7 @@ num untried moves
 
 simulated
 root qsa:
--3.410341034103403
+-3.296703296703292
 908
 node fully expanded, choosing best child
 true
@@ -36541,7 +36543,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5164835164835093
+-3.4028540065861645
 909
 node fully expanded, choosing best child
 true
@@ -36561,7 +36563,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6223929747530117
+-3.5087719298245568
 910
 node fully expanded, choosing best child
 true
@@ -36581,7 +36583,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5087719298245545
+-3.395399780941945
 911
 node fully expanded, choosing best child
 true
@@ -36601,7 +36603,7 @@ num untried moves
 
 simulated
 root qsa:
--3.614457831325294
+-3.5010940919037155
 912
 node fully expanded, choosing best child
 true
@@ -36621,7 +36623,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7199124726476955
+-3.606557377049176
 913
 node fully expanded, choosing best child
 true
@@ -36641,7 +36643,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6065573770491737
+-3.4934497816593844
 914
 node fully expanded, choosing best child
 true
@@ -36661,7 +36663,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7117903930130938
+-3.598691384950923
 915
 node fully expanded, choosing best child
 true
@@ -36681,7 +36683,7 @@ num untried moves
 
 simulated
 root qsa:
--3.59869138495092
+-3.4858387799564228
 916
 node fully expanded, choosing best child
 true
@@ -36701,7 +36703,7 @@ num untried moves
 
 simulated
 root qsa:
--3.48583877995642
+-3.373231773667025
 917
 node fully expanded, choosing best child
 true
@@ -36721,7 +36723,7 @@ num untried moves
 
 simulated
 root qsa:
--3.590859630032637
+-3.4782608695652133
 918
 node fully expanded, choosing best child
 true
@@ -36741,7 +36743,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6956521739130364
+-3.58306188925081
 919
 node fully expanded, choosing best child
 true
@@ -36761,7 +36763,7 @@ num untried moves
 
 simulated
 root qsa:
--3.800217155266008
+-3.687635574837306
 920
 node fully expanded, choosing best child
 true
@@ -36781,7 +36783,7 @@ num untried moves
 
 simulated
 root qsa:
--3.9045553145336154
+-3.791982665222098
 921
 node fully expanded, choosing best child
 true
@@ -36801,7 +36803,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7919826652220947
+-3.6796536796536756
 922
 node fully expanded, choosing best child
 true
@@ -36821,7 +36823,7 @@ num untried moves
 
 simulated
 root qsa:
--3.896103896103889
+-3.7837837837837798
 923
 node fully expanded, choosing best child
 true
@@ -36841,7 +36843,7 @@ num untried moves
 
 simulated
 root qsa:
--3.7837837837837767
+-3.671706263498916
 924
 node fully expanded, choosing best child
 true
@@ -36861,7 +36863,7 @@ num untried moves
 
 simulated
 root qsa:
--3.671706263498913
+-3.559870550161808
 925
 node fully expanded, choosing best child
 true
@@ -36881,7 +36883,7 @@ num untried moves
 
 simulated
 root qsa:
--3.559870550161805
+-3.4482758620689613
 926
 node fully expanded, choosing best child
 true
@@ -36901,7 +36903,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6637931034482687
+-3.5522066738428375
 927
 node fully expanded, choosing best child
 true
@@ -36921,7 +36923,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5522066738428344
+-3.440860215053759
 928
 node fully expanded, choosing best child
 true
@@ -36941,7 +36943,7 @@ num untried moves
 
 simulated
 root qsa:
--3.6559139784946164
+-3.5445757250268484
 929
 node fully expanded, choosing best child
 true
@@ -36961,7 +36963,7 @@ num untried moves
 
 simulated
 root qsa:
--3.5445757250268457
+-3.433476394849781
 930
 node fully expanded, choosing best child
 true
@@ -36981,7 +36983,7 @@ num untried moves
 
 simulated
 root qsa:
--3.64806866952789
+-3.5369774919614105
 931
 node fully expanded, choosing best child
 true
@@ -37001,7 +37003,7 @@ num untried moves
 
 simulated
 root qsa:
--3.536977491961408
+-3.426124197002137
 932
 node fully expanded, choosing best child
 true
@@ -37021,7 +37023,7 @@ num untried moves
 
 simulated
 root qsa:
--3.4261241970021343
+-3.31550802139037
 933
 node fully expanded, choosing best child
 true
@@ -37041,7 +37043,7 @@ num untried moves
 
 simulated
 root qsa:
--3.315508021390367
+-3.205128205128201
 934
 node fully expanded, choosing best child
 true
@@ -37061,7 +37063,7 @@ num untried moves
 
 simulated
 root qsa:
--3.205128205128198
+-3.094983991462109
 935
 node fully expanded, choosing best child
 true
@@ -37081,7 +37083,7 @@ num untried moves
 
 simulated
 root qsa:
--3.0949839914621062
+-2.9850746268656674
 936
 node fully expanded, choosing best child
 true
@@ -37101,7 +37103,7 @@ num untried moves
 
 simulated
 root qsa:
--2.9850746268656647
+-2.87539936102236
 937
 node fully expanded, choosing best child
 true
@@ -37121,7 +37123,7 @@ num untried moves
 
 simulated
 root qsa:
--2.875399361022357
+-2.7659574468085064
 938
 node fully expanded, choosing best child
 true
@@ -37141,7 +37143,7 @@ num untried moves
 
 simulated
 root qsa:
--2.7659574468085038
+-2.6567481402762976
 939
 node fully expanded, choosing best child
 true
@@ -37161,7 +37163,7 @@ num untried moves
 
 simulated
 root qsa:
--2.656748140276295
+-2.5477707006369386
 940
 node fully expanded, choosing best child
 true
@@ -37181,7 +37183,7 @@ num untried moves
 
 simulated
 root qsa:
--2.547770700636936
+-2.4390243902438984
 941
 node fully expanded, choosing best child
 true
@@ -37201,7 +37203,7 @@ num untried moves
 
 simulated
 root qsa:
--2.4390243902438957
+-2.330508474576267
 942
 node fully expanded, choosing best child
 true
@@ -37221,7 +37223,7 @@ num untried moves
 
 simulated
 root qsa:
--2.3305084745762645
+-2.2222222222222183
 943
 node fully expanded, choosing best child
 true
@@ -37241,7 +37243,7 @@ num untried moves
 
 simulated
 root qsa:
--2.2222222222222157
+-2.1141649048625752
 944
 node fully expanded, choosing best child
 true
@@ -37261,7 +37263,7 @@ num untried moves
 
 simulated
 root qsa:
--2.1141649048625726
+-2.0063357972544837
 945
 node fully expanded, choosing best child
 true
@@ -37281,7 +37283,7 @@ num untried moves
 
 simulated
 root qsa:
--2.006335797254481
+-1.8987341772151858
 946
 node fully expanded, choosing best child
 true
@@ -37301,7 +37303,7 @@ num untried moves
 
 simulated
 root qsa:
--1.8987341772151831
+-1.7913593256058968
 947
 node fully expanded, choosing best child
 true
@@ -37321,7 +37323,7 @@ num untried moves
 
 simulated
 root qsa:
--1.7913593256058942
+-1.6842105263157854
 948
 node fully expanded, choosing best child
 true
@@ -37341,7 +37343,7 @@ num untried moves
 
 simulated
 root qsa:
--1.6842105263157827
+-1.5772870662460527
 949
 node fully expanded, choosing best child
 true
@@ -37361,7 +37363,7 @@ num untried moves
 
 simulated
 root qsa:
--1.57728706624605
+-1.4705882352941135
 950
 node fully expanded, choosing best child
 true
@@ -37381,7 +37383,7 @@ num untried moves
 
 simulated
 root qsa:
--1.4705882352941109
+-1.3641133263378762
 951
 node fully expanded, choosing best child
 true
@@ -37401,208 +37403,8 @@ num untried moves
 
 simulated
 root qsa:
--1.3641133263378735
+-1.2578616352201215
 952
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-192
---------------------------
-| b |   |   ||   | b | w |
-|   |   |   ||   |   | w |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--1.2578616352201188
-953
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-191
---------------------------
-|   |   |   || b |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   | b | w ||   |   |   |
-|   |   | w ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--1.1518324607329773
-954
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-190
---------------------------
-|   |   |   || b |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   | b | w |
-|   |   |   ||   |   | w |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--1.0460251046025035
-955
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-189
---------------------------
-|   | b | w ||   |   |   |
-|   |   | w ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-| b |   |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--0.9404388714733473
-956
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-188
---------------------------
-|   | b | w ||   |   |   |
-|   |   | w ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   || b |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--0.8350730688935212
-957
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-187
---------------------------
-|   | b | w || b |   |   |
-|   |   | w ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--0.7299270072992631
-958
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-186
---------------------------
-|   | b |   ||   | b | w |
-|   |   |   ||   |   | w |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--0.624999999999993
-959
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-185
---------------------------
-|   |   |   ||   | b |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   | b | w ||   |   |   |
-|   |   | w ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--0.5202913631633646
-960
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-184
---------------------------
-|   |   |   ||   | b |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   |   |   ||   | b | w |
-|   |   |   ||   |   | w |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--0.4158004158004089
-961
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-183
---------------------------
-|   | b | w ||   |   |   |
-|   |   | w ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   | b |   ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--0.3115264797507719
-962
 node fully expanded, choosing best child
 true
 false
@@ -37621,7 +37423,207 @@ num untried moves
 
 simulated
 root qsa:
--0.2074688796680429
+-1.15183246073298
+953
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+192
+--------------------------
+| b |   |   ||   | b | w |
+|   |   |   ||   |   | w |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-1.0460251046025062
+954
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+191
+--------------------------
+|   |   |   || b |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   | b | w ||   |   |   |
+|   |   | w ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.9404388714733499
+955
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+190
+--------------------------
+|   |   |   || b |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   | b | w |
+|   |   |   ||   |   | w |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.8350730688935238
+956
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+189
+--------------------------
+|   | b | w ||   |   |   |
+|   |   | w ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+| b |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.7299270072992657
+957
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+188
+--------------------------
+|   | b | w ||   |   |   |
+|   |   | w ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   || b |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.6249999999999957
+958
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+187
+--------------------------
+|   | b | w || b |   |   |
+|   |   | w ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.5202913631633672
+959
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+186
+--------------------------
+|   | b |   ||   | b | w |
+|   |   |   ||   |   | w |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.41580041580041155
+960
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+185
+--------------------------
+|   |   |   ||   | b |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   | b | w ||   |   |   |
+|   |   | w ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.3115264797507746
+961
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+184
+--------------------------
+|   |   |   ||   | b |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   |   |   ||   | b | w |
+|   |   |   ||   |   | w |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.20746887966804556
+962
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+183
+--------------------------
+|   | b | w ||   |   |   |
+|   |   | w ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   | b |   ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.10362694300517712
 963
 node fully expanded, choosing best child
 true
@@ -37641,7 +37643,7 @@ num untried moves
 
 simulated
 root qsa:
--0.10362694300517446
+4.218847493575595E-15
 964
 node fully expanded, choosing best child
 true
@@ -37661,7 +37663,7 @@ num untried moves
 
 simulated
 root qsa:
--0.2070393374741132
+-0.10341261633918916
 965
 node fully expanded, choosing best child
 true
@@ -37681,7 +37683,7 @@ num untried moves
 
 simulated
 root qsa:
--0.10341261633918651
+4.2049697057677804E-15
 966
 node fully expanded, choosing best child
 true
@@ -37701,7 +37703,7 @@ num untried moves
 
 simulated
 root qsa:
--0.20661157024792703
+-0.10319917440660054
 967
 node fully expanded, choosing best child
 true
@@ -37721,7 +37723,7 @@ num untried moves
 
 simulated
 root qsa:
--0.1031991744065979
+4.2049697057677804E-15
 968
 node fully expanded, choosing best child
 true
@@ -37741,7 +37743,7 @@ num untried moves
 
 simulated
 root qsa:
--0.20618556701030244
+-0.10298661174046954
 969
 node fully expanded, choosing best child
 true
@@ -37761,7 +37763,7 @@ num untried moves
 
 simulated
 root qsa:
--0.1029866117404669
+4.2049697057677804E-15
 970
 node fully expanded, choosing best child
 true
@@ -37781,7 +37783,7 @@ num untried moves
 
 simulated
 root qsa:
--0.20576131687242116
+-0.10277492291880361
 971
 node fully expanded, choosing best child
 true
@@ -37801,7 +37803,7 @@ num untried moves
 
 simulated
 root qsa:
--0.102774922918801
+4.191091917959966E-15
 972
 node fully expanded, choosing best child
 true
@@ -37821,7 +37823,7 @@ num untried moves
 
 simulated
 root qsa:
--0.20533880903490082
+-0.10256410256409837
 973
 node fully expanded, choosing best child
 true
@@ -37841,28 +37843,8 @@ num untried moves
 
 simulated
 root qsa:
--0.30769230769230094
+-0.20491803278688103
 974
-node fully expanded, choosing best child
-true
-false
-false
-num untried moves
-189
---------------------------
-|   | b | w ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-|   | b | w ||   |   |   |
-|   |   |   ||   |   |   |
-|   |   |   ||   |   |   |
---------------------------
-
-simulated
-root qsa:
--0.40983606557376373
-975
 node fully expanded, choosing best child
 true
 false
@@ -37881,8 +37863,8 @@ num untried moves
 
 simulated
 root qsa:
--0.5117707267144251
-976
+-0.30706243602865496
+975
 node fully expanded, choosing best child
 true
 false
@@ -37901,8 +37883,8 @@ num untried moves
 
 simulated
 root qsa:
--0.4089979550102182
-977
+-0.20449897750510826
+976
 node fully expanded, choosing best child
 true
 false
@@ -37921,7 +37903,27 @@ num untried moves
 
 simulated
 root qsa:
--0.5107252298263467
+-0.30643513789580784
+977
+node fully expanded, choosing best child
+true
+false
+false
+num untried moves
+189
+--------------------------
+|   | b | w ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+|   | b | w ||   |   |   |
+|   |   |   ||   |   |   |
+|   |   |   ||   |   |   |
+--------------------------
+
+simulated
+root qsa:
+-0.40816326530611824
 978
 node fully expanded, choosing best child
 true
@@ -37941,7 +37943,7 @@ num untried moves
 
 simulated
 root qsa:
--0.612244897959177
+-0.5096839959225239
 979
 node fully expanded, choosing best child
 true
@@ -37961,7 +37963,7 @@ num untried moves
 
 simulated
 root qsa:
--0.7135575942915326
+-0.610997963340118
 980
 node fully expanded, choosing best child
 true
@@ -37981,7 +37983,7 @@ num untried moves
 
 simulated
 root qsa:
--0.6109979633401156
+-0.5086469989827018
 981
 node fully expanded, choosing best child
 true
@@ -38001,7 +38003,7 @@ num untried moves
 
 simulated
 root qsa:
--0.7121057985757818
+-0.6097560975609715
 982
 node fully expanded, choosing best child
 true
@@ -38021,7 +38023,7 @@ num untried moves
 
 simulated
 root qsa:
--0.8130081300812942
+-0.7106598984771533
 983
 node fully expanded, choosing best child
 true
@@ -38041,7 +38043,7 @@ num untried moves
 
 simulated
 root qsa:
--0.9137055837563386
+-0.8113590263691642
 984
 node fully expanded, choosing best child
 true
@@ -38061,7 +38063,7 @@ num untried moves
 
 simulated
 root qsa:
--0.8113590263691618
+-0.7092198581560243
 985
 node fully expanded, choosing best child
 true
@@ -38081,7 +38083,7 @@ num untried moves
 
 simulated
 root qsa:
--0.7092198581560218
+-0.6072874493927085
 986
 node fully expanded, choosing best child
 true
@@ -38101,7 +38103,7 @@ num untried moves
 
 simulated
 root qsa:
--0.6072874493927061
+-0.505561172901917
 987
 node fully expanded, choosing best child
 true
@@ -38121,7 +38123,7 @@ num untried moves
 
 simulated
 root qsa:
--0.7077856420626831
+-0.606060606060602
 988
 node fully expanded, choosing best child
 true
@@ -38141,7 +38143,7 @@ num untried moves
 
 simulated
 root qsa:
--0.8080808080808016
+-0.7063572149344056
 989
 node fully expanded, choosing best child
 true
@@ -38161,7 +38163,7 @@ num untried moves
 
 simulated
 root qsa:
--0.9081735620585203
+-0.8064516129032218
 990
 node fully expanded, choosing best child
 true
@@ -38181,7 +38183,7 @@ num untried moves
 
 simulated
 root qsa:
--1.0080645161290258
+-0.9063444108761289
 991
 node fully expanded, choosing best child
 true
@@ -38201,7 +38203,7 @@ num untried moves
 
 simulated
 root qsa:
--0.9063444108761265
+-0.8048289738430544
 992
 node fully expanded, choosing best child
 true
@@ -38221,7 +38223,7 @@ num untried moves
 
 simulated
 root qsa:
--0.804828973843052
+-0.7035175879396945
 993
 node fully expanded, choosing best child
 true
@@ -38241,7 +38243,7 @@ num untried moves
 
 simulated
 root qsa:
--0.7035175879396921
+-0.6024096385542129
 994
 node fully expanded, choosing best child
 true
@@ -38261,7 +38263,7 @@ num untried moves
 
 simulated
 root qsa:
--0.8032128514056162
+-0.7021063189568667
 995
 node fully expanded, choosing best child
 true
@@ -38281,7 +38283,7 @@ num untried moves
 
 simulated
 root qsa:
--0.902708124373113
+-0.8016032064128218
 996
 node fully expanded, choosing best child
 true
@@ -38301,7 +38303,7 @@ num untried moves
 
 simulated
 root qsa:
--1.0020040080160257
+-0.900900900900897
 997
 node fully expanded, choosing best child
 true
@@ -38321,7 +38323,7 @@ num untried moves
 
 simulated
 root qsa:
--1.1011011011010947
+-0.9999999999999961
 998
 node fully expanded, choosing best child
 true
@@ -38341,7 +38343,7 @@ num untried moves
 
 simulated
 root qsa:
--0.9999999999999936
+-0.8991008991008952
 999
 cur board state
 --------------------------
@@ -38354,6 +38356,7 @@ cur board state
 |   |   |   ||   |   |   |
 --------------------------
 
+root children not empty
 num untried moves
 192
 --------------------------
@@ -57597,6 +57600,7 @@ cur board state
 |   |   |   ||   |   |   |
 --------------------------
 
+root children not empty
 num untried moves
 180
 --------------------------
@@ -76888,6 +76892,7 @@ cur board state
 | b |   |   ||   |   |   |
 --------------------------
 
+root children not empty
 num untried moves
 168
 --------------------------
@@ -96227,6 +96232,7 @@ cur board state
 |   | b |   ||   |   |   |
 --------------------------
 
+root children not empty
 num untried moves
 156
 --------------------------
@@ -115614,6 +115620,7 @@ cur board state
 |   | b |   || b |   |   |
 --------------------------
 
+root children not empty
 num untried moves
 144
 --------------------------
@@ -135049,6 +135056,7 @@ cur board state
 | b |   |   ||   |   |   |
 --------------------------
 
+root children not empty
 num untried moves
 132
 --------------------------

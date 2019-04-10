@@ -24,13 +24,13 @@ public class AlphaPentago {
 	private int numSims;
 	
 	public AlphaPentago (PentagoBoardState state, int playerTurn, int numSims) {
-		//mcts = new MCTS(new Node(state));
+		mcts = new MCTS(new Node(state));
 		this.playerTurn = playerTurn;
 		this.numSims = numSims;
 	}
 	
 	public PentagoMove chooseMove (PentagoBoardState state) {
-		mcts = new MCTS(new Node(state));
+		//mcts = new MCTS(new Node(state));
 		return mcts.chooseMove(state, numSims);
 	}
 	
@@ -52,6 +52,24 @@ public class AlphaPentago {
 			Node node, bestChild;
 			int winner;
 			
+			if (! root.children.isEmpty()) {
+				boolean stateFound = false;
+				
+				Utils.print("root children not empty");
+				for (Node c : root.children) {
+					if (Utils.areSameState(c.state, state)) {
+						root = c;
+						stateFound = true;
+						Utils.print("Same state found!");
+						break;
+					}
+				}
+				
+				if (! stateFound) {
+					root = new Node(state);
+				}
+			}
+			
 			for (int i = 0; i < numSims; i++) {
 				node = treePolicy();
 				winner = node.rollout();
@@ -65,7 +83,7 @@ public class AlphaPentago {
 			//setRoot(node);
 			//return node.a();
 			bestChild = root.bestChild(.0);
-			//setRoot(bestChild);
+			setRoot(bestChild);
 			return bestChild.a();
 		}
 		
