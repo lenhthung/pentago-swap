@@ -1,0 +1,10 @@
+# Server version 0.08 running on XPS15:8123
+# Game ID: 313
+# Board class: pentago_swap.PentagoBoard
+# Timeout: 2000
+# First Move Timeout: 30000
+# Date: Thu Apr 11 08:57:51 ICT 2019
+# Player 1: Player-0, 'time', running on localhost
+# Player 2: Player-1, '260793376', running on localhost
+START Player-0 time
+START Player-1 260793376
