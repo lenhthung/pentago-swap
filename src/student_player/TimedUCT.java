@@ -15,7 +15,7 @@ import pentago_swap.PentagoMove;
  * @author Le Nhat Hung
  *
  */
-public class UCT {
+public class TimedUCT {
 	
 	public static final int 
 		REWARD = 100,
@@ -26,7 +26,7 @@ public class UCT {
 	private MCTS mcts;
 	private int numSims;
 	
-	public UCT (int playerTurn, int numSims) {
+	public TimedUCT (int playerTurn, int numSims) {
 		
 		this.playerTurn = playerTurn;
 		this.numSims = numSims;
@@ -57,8 +57,8 @@ public class UCT {
 			long startTime = System.nanoTime();
 			long timeLimit = System.currentTimeMillis() + simTime;
 
-			for (int i = 0; i < numSims; i++) {
-			//while (System.currentTimeMillis() < timeLimit) {
+			//for (int i = 0; i < numSims; i++) {
+			while (System.currentTimeMillis() < timeLimit) {
 				node = treePolicy();
 				winner = node.rollout();
 				node.backpropagate(winner);
@@ -199,11 +199,11 @@ public class UCT {
 		}
 		
 		public void updateQsa (int winner) {
-			if (winner == UCT.playerTurn)
-				moveValue += (UCT.REWARD  - qsa()) / nsa();
+			if (winner == TimedUCT.playerTurn)
+				moveValue += (TimedUCT.REWARD  - qsa()) / nsa();
 			
 			else
-				moveValue += (UCT.PENALTY - qsa()) / nsa();
+				moveValue += (TimedUCT.PENALTY - qsa()) / nsa();
 		}
 		
 		public double qsa () { return moveValue; }
