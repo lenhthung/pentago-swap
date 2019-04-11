@@ -48,7 +48,7 @@ public class StudentPlayer2 extends PentagoPlayer {
     		//boardState.printBoard();
     		
             //Move myMove = boardState.getRandomMove();
-    		myMove = ai.chooseMove(boardState, 1300);
+    		myMove = ai.chooseMove(boardState, 1000);
     	}
     	
     	// Return your move to be processed by the server.
