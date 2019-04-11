@@ -12,7 +12,6 @@ public class StudentPlayer extends PentagoPlayer {
 		studentNumber = "260793376";
 	
 	private UCT ai;
-	private final int NUM_SIMS = 10000;
 	
     /**
      * You must modify this constructor to return your student number. This is
@@ -35,26 +34,15 @@ public class StudentPlayer extends PentagoPlayer {
  
     	Move myMove;
     	
-    	/*
     	if (ai == null) {
     		ai = new UCT(
-        		boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
-        		NUM_SIMS
-        	);
+            	boardState.getTurnPlayer() // Colour of player (BLACK or WHITE)
+            );
     		myMove = ai.chooseMove(boardState, 25000);
     	
     	} else {
-    		myMove = ai.chooseMove(boardState, 1700);
+    		myMove = ai.chooseMove(boardState, 1800);
     	}
-    	 */
-    	
-    	if (ai == null)
-    		ai = new UCT(
-        		boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
-        		NUM_SIMS
-        	);
-    	
-    	myMove = ai.chooseMove(boardState, 1700);
 		
         // Return your move to be processed by the server.
         return myMove;
