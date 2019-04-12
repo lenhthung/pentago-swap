@@ -10,7 +10,8 @@ import pentago_swap.PentagoBoardState;
 import pentago_swap.PentagoMove;
 
 /**
- * AlphaGo Zero for Pentago Swap
+ * Bootleg AlphaGo Zero (no neural network)
+ * for Pentago Swap
  * 
  * @author Le Nhat Hung
  *
@@ -51,15 +52,23 @@ public class UCT {
 		
 		public PentagoMove chooseMove (PentagoBoardState state, long simTime) {
 			Node node;
+			long timeLimit;
 			int winner;
-			long timeLimit = System.currentTimeMillis() + simTime;
+			
+			timeLimit = System.currentTimeMillis() + simTime;
 
 			while (System.currentTimeMillis() < timeLimit) {
+				
+				// Selection
 				node = treePolicy();
+				
+				// Simulation
 				winner = node.rollout();
+				
+				// Backpropagation
 				node.backpropagate(winner);
 			}
-			
+			// Selection
 			return root.bestChild(.0).a();
 		}
 		
@@ -96,7 +105,6 @@ public class UCT {
 		ArrayList<PentagoMove> untriedMoves;
 		
 		double moveValue; // Qsa
-		
 		int visitCount; // Nsa
 		
 		public Node (PentagoBoardState state) {
@@ -190,10 +198,12 @@ public class UCT {
 		
 		public void updateQsa (int winner) {
 			if (winner == UCT.playerTurn)
-				moveValue += (UCT.REWARD  - qsa()) / nsa();
+				moveValue += UCT.REWARD;
+				//moveValue += (UCT.REWARD  - qsa()) / nsa();
 			
 			else
-				moveValue += (UCT.PENALTY - qsa()) / nsa();
+				moveValue += UCT.PENALTY;
+				//moveValue += (UCT.PENALTY - qsa()) / nsa();
 		}
 		
 		public double qsa () { return moveValue; }

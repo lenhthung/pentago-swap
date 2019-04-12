@@ -13,6 +13,10 @@ public class StudentPlayer extends PentagoPlayer {
 	
 	private UCT ai;
 	
+	private final long
+		START_TIME_LIMIT  = 1900,
+		NORMAL_TIME_LIMIT = 1900;
+	
     /**
      * You must modify this constructor to return your student number. This is
      * important, because this is what the code that runs the competition uses to
@@ -34,14 +38,14 @@ public class StudentPlayer extends PentagoPlayer {
  
     	Move myMove;
     	
-    	if (ai == null) {
+    	if (ai == null) { // First move
     		ai = new UCT(
             	boardState.getTurnPlayer() // Colour of player (BLACK or WHITE)
             );
-    		myMove = ai.chooseMove(boardState, 25000);
+    		myMove = ai.chooseMove(boardState, START_TIME_LIMIT);
     	
-    	} else {
-    		myMove = ai.chooseMove(boardState, 1800);
+    	} else { // All subsequent moves
+    		myMove = ai.chooseMove(boardState, NORMAL_TIME_LIMIT);
     	}
 		
         // Return your move to be processed by the server.
