@@ -1,0 +1,21 @@
+# Server version 0.08 running on XPS15:8123
+# Game ID: 434
+# Board class: pentago_swap.PentagoBoard
+# Timeout: 2000
+# First Move Timeout: 30000
+# Date: Sat Apr 13 12:49:04 ICT 2019
+# Player 1: Player-0, 'exploit', running on localhost
+# Player 2: Player-1, '260793376', running on localhost
+START Player-0 exploit
+START Player-1 260793376
+0 2 BL BR 0
+1 4 TL TR 1
+1 5 TR BR 0
+4 1 TL BR 1
+5 2 TR BL 0
+4 2 TR BL 1
+4 2 TR BL 0
+2 2 TL BR 1
+0 5 TL BL 0
+GAMEOVER WINNER 0
+# Game ended: Sat Apr 13 12:49:21 ICT 2019

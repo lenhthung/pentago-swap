@@ -18,22 +18,22 @@ import pentago_swap.PentagoMove;
 public class PersistentUCT {
 	
 	public static final int
-		REWARD = 100,
+		REWARD = 1,
 		PENALTY = -100;
 	
-	private static int playerTurn;
-	
 	private MCTS mcts;
-	private int numSims;
+	private int playerTurn;
 	
-	public PersistentUCT (PentagoBoardState state, int playerTurn, int numSims) {
-		mcts = new MCTS(new Node(state));
+	public PersistentUCT (PentagoBoardState state, int playerTurn) {
+		mcts = new MCTS(new Node(
+			state,
+			1 - playerTurn
+		));
 		this.playerTurn = playerTurn;
-		this.numSims = numSims;
 	}
 	
 	public PentagoMove chooseMove (PentagoBoardState state, long simTime) {
-		return mcts.chooseMove(state, numSims, simTime);
+		return mcts.chooseMove(state, simTime);
 	}
 	
 	/**
@@ -42,13 +42,13 @@ public class PersistentUCT {
 	 * @author Le Nhat Hung
 	 *
 	 */
-	public class MCTS {
+	private class MCTS {
 		
 		private Node root;
 		
-		public MCTS (Node root) { this.root = root; }
+		private MCTS (Node root) { this.root = root; }
 		
-		public PentagoMove chooseMove (PentagoBoardState state, int numSims, long simTime) {
+		public PentagoMove chooseMove (PentagoBoardState state, long simTime) {
 			Node node, bestChild;
 			int winner;
 			long startTime = System.nanoTime();
@@ -68,17 +68,22 @@ public class PersistentUCT {
 				}
 				
 				if (! stateFound) {
-					root = new Node(state);
+					root = new Node(state, 1 - playerTurn);
 				}
 			}
 			
-			//for (int i = 0; i < numSims; i++) {
 			while (System.currentTimeMillis() < timeLimit) {
+				
+				// Expansion
 				node = treePolicy();
+				
+				// Simulation
 				winner = node.rollout();
+				
+				// Backpropagation
 				node.backpropagate(winner);
 			}
-			
+			// Selection
 			bestChild = root.bestChild(.0);
 			setRoot(bestChild);
 			
@@ -91,7 +96,7 @@ public class PersistentUCT {
 			return bestChild.a();
 		}
 		
-		public Node treePolicy () {
+		private Node treePolicy () {
 			Node curNode = root;
 			
 			while (! curNode.isTerminalNode()) {
@@ -104,7 +109,7 @@ public class PersistentUCT {
 			return curNode;
 		}
 		
-		public void setRoot (Node node) { root = node; }
+		private void setRoot (Node node) { root = node; }
 	}
 	
 	/**
@@ -113,7 +118,7 @@ public class PersistentUCT {
 	 * @author Le Nhat Hung
 	 *
 	 */
-	public class Node {
+	private class Node {
 
 		Node parent;
 		List<Node> children;
@@ -124,33 +129,41 @@ public class PersistentUCT {
 		ArrayList<PentagoMove> untriedMoves;
 		
 		double moveValue; // Qsa
-		int visitCount; // Nsa
 		
-		public Node (PentagoBoardState state) {
-			this.children = new ArrayList<Node>();
+		int visitCount, // Nsa
+			turn;
+		
+		public Node (PentagoBoardState state, int turn) {
 			this.state = state;
+			this.turn = turn;
+			
+			this.children = new ArrayList<Node>();
 			this.visitCount = 0;
 		}
 
-		public Node (PentagoBoardState state, PentagoMove move) {
-			this.children = new ArrayList<Node>();
+		public Node (Node parent, PentagoBoardState state, PentagoMove move, int turn) {
+			this.parent = parent;
 			this.state = state;
 			this.move = move;
+			this.turn = turn;
+			
+			this.children = new ArrayList<Node>();
 			this.visitCount = 0;
 		}
 		
-		public Node expand () {
-			PentagoMove move = untriedMoves().remove(0);
+		private Node expand () {
+			PentagoMove move = getUntriedMoves().remove(0);
 			PentagoBoardState curStateClone = s();
 			Node child;
 			
 			curStateClone.processMove(move);
 			
 			child = new Node(
+				this, // Parent
 				curStateClone, // State
-				move // Move/action
+				move, // Action
+				1 - turn // Opponent
 			);
-			child.setParent(this);
 			addChild(child);
 			
 			return child;
@@ -173,30 +186,29 @@ public class PersistentUCT {
 		}
 		
 		public void backpropagate (int winner) {
-			updateNsa();
-			updateQsa(winner);
+			updateUcb(winner);
 			
 			if ( hasParent() )
 				parent.backpropagate(winner);
 		}
 		
 		public Node bestChild(double cParam) {
-			double[] ucts = getUcts(this, cParam);
+			double[] ucbs = getUcbs(this, cParam);
 			
-			return children.get(Utils.argmax(ucts));
+			return children.get(Utils.argmax(ucbs));
 		}
 		
-		public double[] getUcts(Node curNode, double cParam) {
+		public double[] getUcbs(Node curNode, double cParam) {
 			int numChildren = curNode.children.size();
-			double[] ucts = new double[numChildren];
+			double[] ucbs = new double[numChildren];
 			Node child;
 			
 			for (int i = 0; i < numChildren; i++) {
 				child = curNode.children.get(i);
-				ucts[i] = child.qsa() / child.nsa()
-						+ cParam * Math.sqrt( curNode.nsa() / (child.nsa() + 1) );
+				ucbs[i] = child.qsa() / child.nsa()
+						+ cParam * Math.sqrt( curNode.nsa() / child.nsa() );
 			}
-			return ucts;
+			return ucbs;
 		}
 		
 		public boolean isTerminalNode () {
@@ -204,34 +216,39 @@ public class PersistentUCT {
 		}
 		
 		public boolean isFullyExpanded () {
-			return untriedMoves().isEmpty();
+			return getUntriedMoves().isEmpty();
 		}
 		
-		public ArrayList<PentagoMove> untriedMoves () {
+		public ArrayList<PentagoMove> getUntriedMoves () {
 			if (untriedMoves == null)
 				untriedMoves = state.getAllLegalMoves();
 			
 			return untriedMoves;
 		}
 		
+		private void updateUcb (int winner) {
+			updateNsa();
+			updateQsa(winner);
+		}
+		
 		public void updateQsa (int winner) {
-			if (winner == PersistentUCT.playerTurn)
+			if ( wonSimulation(winner) )
 				moveValue += (PersistentUCT.REWARD  - qsa()) / nsa();
 			else
 				moveValue += (PersistentUCT.PENALTY - qsa()) / nsa();
 		}
 		
-		public double qsa () { return moveValue; }
+		private boolean wonSimulation (int winner) { return winner == turn; }
 		
 		public void updateNsa () { visitCount++; }
+		
+		public double qsa () { return moveValue; }
 		
 		public int nsa () { return visitCount; }
 		
 		public PentagoBoardState s () { return (PentagoBoardState) state.clone(); }
 		
 		public PentagoMove a () { return move; }
-		
-		public void setParent (Node parent) { this.parent = parent; }
 		
 		public boolean hasParent () { return parent != null; }
 		
