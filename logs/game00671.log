@@ -1,0 +1,23 @@
+# Server version 0.08 running on XPS15:8123
+# Game ID: 671
+# Board class: pentago_swap.PentagoBoard
+# Timeout: 2000
+# First Move Timeout: 30000
+# Date: Sat Apr 13 15:33:54 ICT 2019
+# Player 1: Player-0, '260793376', running on localhost
+# Player 2: Player-1, 'penalty', running on localhost
+START Player-0 260793376
+START Player-1 penalty
+0 2 BL BR 0
+2 0 TL TR 1
+0 3 TR BR 0
+3 4 BL BR 1
+1 1 BL BR 0
+3 1 TL BR 1
+1 1 BL BR 0
+1 4 TL BR 1
+5 5 TL BL 0
+0 0 TR BL 1
+2 2 TR BL 0
+GAMEOVER WINNER 0
+# Game ended: Sat Apr 13 15:34:15 ICT 2019

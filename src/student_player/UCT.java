@@ -20,7 +20,7 @@ public class UCT {
 	
 	public static final int 
 		REWARD = 1,
-		PENALTY = -100;
+		PENALTY = -1;
 	
 	private MCTS mcts;
 	private int playerTurn;
@@ -86,7 +86,7 @@ public class UCT {
 					return curNode.expand();
 				
 				else
-					curNode = curNode.bestChild(1.4);
+					curNode = curNode.bestChild(.0);
 			}
 			return curNode;
 		}

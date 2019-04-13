@@ -9,12 +9,12 @@ import pentago_swap.PentagoBoardState;
 public class StudentPlayer2 extends PentagoPlayer {
 
 	private static String
-		studentNumber = "persistent";
+		studentNumber = "penalty";
 	
-	private PersistentUCT ai;
+	private ExploitUCT ai;
 	
 	private final long
-		START_TIME_LIMIT  = 10000,
+		START_TIME_LIMIT  = 1900,
 		NORMAL_TIME_LIMIT = 1900;
 	
     /**
@@ -39,8 +39,7 @@ public class StudentPlayer2 extends PentagoPlayer {
     	Move myMove;
     	
     	if (ai == null) { // First move
-    		ai = new PersistentUCT(
-    			boardState,
+    		ai = new ExploitUCT(
             	boardState.getTurnPlayer() // Colour of player (BLACK or WHITE)
             );
     		myMove = ai.chooseMove(boardState, START_TIME_LIMIT);
