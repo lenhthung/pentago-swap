@@ -19,17 +19,14 @@ import pentago_swap.PentagoMove;
 public class UCT {
 	
 	public static final int 
-		REWARD = 100,
+		REWARD = 1,
 		PENALTY = -100;
 	
 	private static int playerTurn;
 	
 	private MCTS mcts;
 	
-	public UCT (int playerTurn) {
-		
-		this.playerTurn = playerTurn;
-	}
+	public UCT (int playerTurn) { this.playerTurn = playerTurn; }
 	
 	public PentagoMove chooseMove (PentagoBoardState state, long simTime) {
 		
@@ -59,7 +56,7 @@ public class UCT {
 
 			while (System.currentTimeMillis() < timeLimit) {
 				
-				// Selection
+				// Expansion
 				node = treePolicy();
 				
 				// Simulation
@@ -175,8 +172,12 @@ public class UCT {
 			for (int i = 0; i < numChildren; i++) {
 				child = curNode.children.get(i);
 				
-				ucts[i] = child.qsa() / child.nsa()
-						+ cParam * Math.sqrt( curNode.nsa() / (child.nsa() + 1) );
+				//ucts[i] = child.qsa() / child.nsa()
+				//		+ cParam * Math.sqrt( curNode.nsa() / (child.nsa() + 1) );
+				
+				ucts[i] = child.qsa()
+						+ cParam
+						* Math.sqrt( curNode.nsa() ) / (child.nsa() + 1);
 			}
 			return ucts;
 		}
@@ -198,12 +199,12 @@ public class UCT {
 		
 		public void updateQsa (int winner) {
 			if (winner == UCT.playerTurn)
-				moveValue += UCT.REWARD;
-				//moveValue += (UCT.REWARD  - qsa()) / nsa();
+				//moveValue += UCT.REWARD;
+				moveValue += (UCT.REWARD  - qsa()) / nsa();
 			
 			else
-				moveValue += UCT.PENALTY;
-				//moveValue += (UCT.PENALTY - qsa()) / nsa();
+				//moveValue += UCT.PENALTY;
+				moveValue += (UCT.PENALTY - qsa()) / nsa();
 		}
 		
 		public double qsa () { return moveValue; }

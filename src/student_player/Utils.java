@@ -8,7 +8,7 @@ import pentago_swap.PentagoBoardState;
 public class Utils {
 
 	public static void print (Object o) {
-    	System.out.println(o);
+    	System.out.print(o);
     }
 	
 	public static int argmax (double[] elems) {
