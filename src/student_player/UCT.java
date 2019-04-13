@@ -1,4 +1,4 @@
-// File name: AlphaPentago
+// File name: UCT
 
 package student_player;
 
@@ -22,15 +22,17 @@ public class UCT {
 		REWARD = 1,
 		PENALTY = -100;
 	
-	private static int playerTurn;
-	
 	private MCTS mcts;
+	private int playerTurn;
 	
 	public UCT (int playerTurn) { this.playerTurn = playerTurn; }
 	
 	public PentagoMove chooseMove (PentagoBoardState state, long simTime) {
 		
-		mcts = new MCTS(new Node(state));
+		mcts = new MCTS(new Node(
+			state,
+			1 - playerTurn // The opponent made move at the root node
+		));
 		
 		return mcts.chooseMove(state, simTime);
 	}
@@ -41,13 +43,13 @@ public class UCT {
 	 * @author Le Nhat Hung
 	 *
 	 */
-	public class MCTS {
+	private class MCTS {
 		
 		private Node root;
 		
-		public MCTS (Node root) { this.root = root; }
+		private MCTS (Node root) { this.root = root; }
 		
-		public PentagoMove chooseMove (PentagoBoardState state, long simTime) {
+		private PentagoMove chooseMove (PentagoBoardState state, long simTime) {
 			Node node;
 			long timeLimit;
 			int winner;
@@ -69,7 +71,7 @@ public class UCT {
 			return root.bestChild(.0).a();
 		}
 		
-		public Node treePolicy () {
+		private Node treePolicy () {
 			Node curNode = root;
 			
 			while (! curNode.isTerminalNode()) {
@@ -81,8 +83,6 @@ public class UCT {
 			}
 			return curNode;
 		}
-		
-		public void setRoot (Node node) { root = node; }
 	}
 	
 	/**
@@ -91,7 +91,7 @@ public class UCT {
 	 * @author Le Nhat Hung
 	 *
 	 */
-	public class Node {
+	private class Node {
 
 		Node parent;
 		List<Node> children;
@@ -102,39 +102,47 @@ public class UCT {
 		ArrayList<PentagoMove> untriedMoves;
 		
 		double moveValue; // Qsa
-		int visitCount; // Nsa
 		
-		public Node (PentagoBoardState state) {
-			this.children = new ArrayList<Node>();
+		int visitCount, // Nsa
+			turn;
+		
+		public Node (PentagoBoardState state, int turn) {
 			this.state = state;
+			this.turn = turn;
+			
+			this.children = new ArrayList<Node>();
 			this.visitCount = 0;
 		}
 
-		public Node (PentagoBoardState state, PentagoMove move) {
-			this.children = new ArrayList<Node>();
+		public Node (Node parent, PentagoBoardState state, PentagoMove move, int turn) {
+			this.parent = parent;
 			this.state = state;
 			this.move = move;
+			this.turn = turn;
+			
+			this.children = new ArrayList<Node>();
 			this.visitCount = 0;
 		}
 		
-		public Node expand () {
-			PentagoMove move = untriedMoves().remove(0);
+		private Node expand () {
+			PentagoMove move = getUntriedMoves().remove(0);
 			PentagoBoardState curStateClone = s();
 			Node child;
 			
 			curStateClone.processMove(move);
 			
 			child = new Node(
+				this, // Parent
 				curStateClone, // State
-				move // Move
+				move, // Action
+				1 - turn // Opponent
 			);
-			child.setParent(this);
 			addChild(child);
 			
 			return child;
 		}
 		
-		public int rollout () {
+		private int rollout () {
 			PentagoBoardState curRolloutState = s();
 			PentagoMove move;
 			
@@ -146,81 +154,81 @@ public class UCT {
 			return curRolloutState.getWinner();
 		}
 		
-		public PentagoMove rolloutPolicy (PentagoBoardState state) {
+		private PentagoMove rolloutPolicy (PentagoBoardState state) {
 			return (PentagoMove) state.getRandomMove();
 		}
 		
-		public void backpropagate (int winner) {
-			updateNsa();
-			updateQsa(winner);
+		private void backpropagate (int winner) {
+			updateUcb(winner);
 			
 			if ( hasParent() )
 				parent.backpropagate(winner);
 		}
 		
-		public Node bestChild(double cParam) {
-			double[] ucts = getUcts(this, cParam);
+		private Node bestChild(double cParam) {
+			double[] ucbs = getUcbs(this, cParam);
 			
-			return children.get(Utils.argmax(ucts));
+			return children.get(Utils.argmax(ucbs));
 		}
 		
-		public double[] getUcts(Node curNode, double cParam) {
+		private double[] getUcbs(Node curNode, double cParam) {
 			int numChildren = curNode.children.size();
-			double[] ucts = new double[numChildren];
+			double[] ucbs = new double[numChildren];
 			Node child;
 			
 			for (int i = 0; i < numChildren; i++) {
 				child = curNode.children.get(i);
 				
-				//ucts[i] = child.qsa() / child.nsa()
-				//		+ cParam * Math.sqrt( curNode.nsa() / (child.nsa() + 1) );
-				
-				ucts[i] = child.qsa()
+				ucbs[i] = child.qsa()
 						+ cParam
-						* Math.sqrt( curNode.nsa() ) / (child.nsa() + 1);
+						* Math.sqrt( curNode.nsa() / child.nsa() );
 			}
-			return ucts;
+			return ucbs;
 		}
 		
-		public boolean isTerminalNode () {
+		private boolean isTerminalNode () {
 			return state.gameOver();
 		}
 		
-		public boolean isFullyExpanded () {
-			return untriedMoves().isEmpty();
+		private boolean isFullyExpanded () {
+			return getUntriedMoves().isEmpty();
 		}
 		
-		public ArrayList<PentagoMove> untriedMoves () {
+		private ArrayList<PentagoMove> getUntriedMoves () {
 			if (untriedMoves == null)
 				untriedMoves = state.getAllLegalMoves();
 			
 			return untriedMoves;
 		}
 		
-		public void updateQsa (int winner) {
-			if (winner == UCT.playerTurn)
-				//moveValue += UCT.REWARD;
+		private void updateUcb (int winner) {
+			updateNsa();
+			updateQsa(winner);
+		}
+		
+		private void updateQsa (int winner) {
+			if ( wonSimulation(winner) )
 				moveValue += (UCT.REWARD  - qsa()) / nsa();
 			
 			else
-				//moveValue += UCT.PENALTY;
 				moveValue += (UCT.PENALTY - qsa()) / nsa();
 		}
 		
-		public double qsa () { return moveValue; }
+		private boolean wonSimulation (int winner) { return winner == turn; } 
 		
-		public void updateNsa () { visitCount++; }
+		private void updateNsa () { visitCount++; }
 		
-		public int nsa () { return visitCount; }
+		private double qsa () { return moveValue; }
 		
-		public PentagoBoardState s () { return (PentagoBoardState) state.clone(); }
+		private int nsa () { return visitCount; }
 		
-		public PentagoMove a () { return move; }
+		private PentagoBoardState s () { return (PentagoBoardState) state.clone(); }
 		
-		public void setParent (Node parent) { this.parent = parent; }
+		private PentagoMove a () { return move; }
 		
-		public void addChild (Node child) { children.add(child); }
+		private void addChild (Node child) { children.add(child); }
 		
-		public boolean hasParent () { return parent != null; }
+		private boolean hasParent () { return parent != null; }
+		
 	}
 }
