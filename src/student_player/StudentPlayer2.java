@@ -9,10 +9,13 @@ import pentago_swap.PentagoBoardState;
 public class StudentPlayer2 extends PentagoPlayer {
 
 	private static String
-		studentNumber = "time";
+		studentNumber = "explorer";
 	
-	private TimedUCT ai;
-	private final int NUM_SIMS = 10000;
+	private ExploitUCT ai;
+	
+	private final long
+		START_TIME_LIMIT  = 1900,
+		NORMAL_TIME_LIMIT = 1900;
 	
     /**
      * You must modify this constructor to return your student number. This is
@@ -35,20 +38,14 @@ public class StudentPlayer2 extends PentagoPlayer {
  
     	Move myMove;
     	
-    	if (ai == null) {
-    		ai = new TimedUCT(
-        		//boardState,
-        		boardState.getTurnPlayer(), // Colour of player (BLACK or WHITE)
-        		NUM_SIMS
-        	);
-    		myMove = ai.chooseMove(boardState, 25000);
+    	if (ai == null) { // First move
+    		ai = new ExploitUCT(
+            	boardState.getTurnPlayer() // Colour of player (BLACK or WHITE)
+            );
+    		myMove = ai.chooseMove(boardState, START_TIME_LIMIT);
     	
-    	} else {
-    		//Utils.print("cur board state");
-    		//boardState.printBoard();
-    		
-            //Move myMove = boardState.getRandomMove();
-    		myMove = ai.chooseMove(boardState, 1700);
+    	} else { // All subsequent moves
+    		myMove = ai.chooseMove(boardState, NORMAL_TIME_LIMIT);
     	}
     	
     	// Return your move to be processed by the server.
