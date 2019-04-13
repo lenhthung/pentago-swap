@@ -57,12 +57,12 @@ public class PersistentUCT {
 			if ( root.hasChildren() ) {
 				boolean stateFound = false;
 				
-				Utils.print("root children not empty");
+				Utils.print("root children not empty\n");
 				for (Node c : root.children) {
 					if (Utils.areSameState(c.state, state)) {
 						setRoot(c);
 						stateFound = true;
-						Utils.print("Same state found!");
+						Utils.print("Same state found!\n");
 						break;
 					}
 				}
@@ -71,6 +71,8 @@ public class PersistentUCT {
 					root = new Node(state, 1 - playerTurn);
 				}
 			}
+			
+			int simCount = 0;
 			
 			while (System.currentTimeMillis() < timeLimit) {
 				
@@ -82,6 +84,8 @@ public class PersistentUCT {
 				
 				// Backpropagation
 				node.backpropagate(winner);
+				
+				simCount++;
 			}
 			// Selection
 			bestChild = root.bestChild(.0);
@@ -90,8 +94,9 @@ public class PersistentUCT {
 			long endTime = System.nanoTime();
 			long timeElapsed = endTime - startTime;
 			
-			Utils.print("Elapsed time (ms):");
-			Utils.print(timeElapsed / 1000000);
+			Utils.print("persistent sims: " + simCount + "\n");
+			Utils.print("Elapsed time (ms):\n");
+			Utils.print(timeElapsed / 1000000 + "\n");
 			
 			return bestChild.a();
 		}
@@ -205,8 +210,9 @@ public class PersistentUCT {
 			
 			for (int i = 0; i < numChildren; i++) {
 				child = curNode.children.get(i);
-				ucbs[i] = child.qsa() / child.nsa()
-						+ cParam * Math.sqrt( curNode.nsa() / child.nsa() );
+				ucbs[i] = child.qsa()
+						+ cParam
+						* Math.sqrt( curNode.nsa() / child.nsa() );
 			}
 			return ucbs;
 		}

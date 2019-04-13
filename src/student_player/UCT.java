@@ -56,6 +56,8 @@ public class UCT {
 			
 			timeLimit = System.currentTimeMillis() + simTime;
 
+			int simCount = 0;
+			
 			while (System.currentTimeMillis() < timeLimit) {
 				
 				// Expansion
@@ -66,7 +68,12 @@ public class UCT {
 				
 				// Backpropagation
 				node.backpropagate(winner);
+			
+				simCount++;
 			}
+			
+			Utils.print("normal sims: " + simCount + "\n");
+			
 			// Selection
 			return root.bestChild(.0).a();
 		}

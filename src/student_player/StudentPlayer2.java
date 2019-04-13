@@ -14,7 +14,7 @@ public class StudentPlayer2 extends PentagoPlayer {
 	private PersistentUCT ai;
 	
 	private final long
-		START_TIME_LIMIT  = 25000,
+		START_TIME_LIMIT  = 10000,
 		NORMAL_TIME_LIMIT = 1900;
 	
     /**
