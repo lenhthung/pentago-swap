@@ -9,7 +9,7 @@ import pentago_swap.PentagoBoardState;
 public class StudentPlayer2 extends PentagoPlayer {
 
 	private static String
-		studentNumber = "penalty";
+		studentNumber = "hundo";
 	
 	private ExploitUCT ai;
 	
